@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     outDir: '../build', // Ensure this points to your desired output directory
     rollupOptions: {
-      input: '/src/main.jsx', // Ensure this matches your entry file
+      input: './src/main.jsx', // Ensure this matches your entry file
     },
   },
 });
