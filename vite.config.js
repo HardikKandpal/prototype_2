@@ -5,7 +5,7 @@ export default defineConfig({
   plugins: [react()],
   root: './src', // Ensure this points to your source directory
   build: {
-    outDir: '../build', // Ensure this points to your desired output directory
+    outDir: './build', // Ensure this points to your desired output directory
     rollupOptions: {
       input: './src/main.jsx', // Ensure this matches your entry file
     },
