@@ -124,31 +124,6 @@ const Home = () => {
     }
   ];
 
-  // Add features data
-  const features = [
-    {
-      title: "First-Time Buyer's Guide",
-      description: "Everything you need to know about buying your first property",
-      icon: "📚"
-    },
-    {
-      title: "Investment Strategy",
-      description: "Learn how to build a profitable real estate portfolio",
-      icon: "📈"
-    },
-    {
-      title: "Legal Documentation",
-      description: "Understanding property documentation and legal requirements",
-      icon: "📋"
-    }
-  ].map(guide => (
-    <div key={guide.title} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow cursor-pointer">
-      <div className="text-3xl mb-4">{guide.icon}</div>
-      <h3 className="text-lg font-semibold text-gray-900 mb-2">{guide.title}</h3>
-      <p className="text-gray-600 text-sm">{guide.description}</p>
-    </div>
-  ))}
-
   return (
     <div className="relative">
       {/* Hero Section */}
@@ -183,56 +158,9 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Market Trends</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-gray-50 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4">Price Trends</h3>
-            <div className="h-64 bg-gray-200 rounded-lg">
-              {/* Add your price trend chart component here */}
-            </div>
-          </div>
-          <div className="bg-gray-50 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4">Popular Localities</h3>
-            <div className="space-y-4">
-              {['Dwarka', 'Noida Sector 62', 'Vasant Kunj'].map(locality => (
-                <div key={locality} className="flex justify-between items-center p-3 bg-white rounded-lg">
-                  <span className="text-gray-700">{locality}</span>
-                  <span className="text-green-600">↑ 12%</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
 
-
-      {/* Quick Search Section */}
-      <div className="relative -mt-12 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl font-bold text-gray-900 mb-8">Market Trends</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="bg-gray-50 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4">Price Trends</h3>
-            <div className="h-64 bg-gray-200 rounded-lg">
-              {/* Add your price trend chart component here */}
-            </div>
-          </div>
-          <div className="bg-gray-50 rounded-xl p-6">
-            <h3 className="text-lg font-semibold mb-4">Popular Localities</h3>
-            <div className="space-y-4">
-              {['Dwarka', 'Noida Sector 62', 'Vasant Kunj'].map(locality => (
-                <div key={locality} className="flex justify-between items-center p-3 bg-white rounded-lg">
-                  <span className="text-gray-700">{locality}</span>
-                  <span className="text-green-600">↑ 12%</span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Features Section */}
-      <div className="py-24 bg-white">
+      {/* Market Trends Section */}
+      <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Market Trends</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -257,8 +185,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Stats Section */}
-      <div className="bg-gradient-to-r from-indigo-500 to-purple-600 py-16">
+      {/* Properties Around You Section */}
+      <div className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
             <div>
@@ -343,34 +271,8 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Market Trends Section */}
-      <div className="py-16 bg-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-8">Market Trends</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold mb-4">Price Trends</h3>
-              <div className="h-64 bg-gray-200 rounded-lg">
-                {/* Add your price trend chart component here */}
-              </div>
-            </div>
-            <div className="bg-gray-50 rounded-xl p-6">
-              <h3 className="text-lg font-semibold mb-4">Popular Localities</h3>
-              <div className="space-y-4">
-                {['Dwarka', 'Noida Sector 62', 'Vasant Kunj'].map(locality => (
-                  <div key={locality} className="flex justify-between items-center p-3 bg-white rounded-lg">
-                    <span className="text-gray-700">{locality}</span>
-                    <span className="text-green-600">↑ 12%</span>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Property Guides Section */}
-      <div className="py-16 bg-gray-50">
+      <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-8">Property Guides</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -402,7 +304,7 @@ const Home = () => {
       </div>
 
       {/* Testimonials Section */}
-      <div className="py-24 bg-white">
+      <div className="py-24 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-16">
             What Our Users Say
@@ -434,7 +336,7 @@ const Home = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gray-50 py-16">
+      <div className="bg-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-gray-900 mb-8">
             Ready to Find Your Perfect Property?
@@ -448,7 +350,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  ); // This closing parenthesis was already here
-}; // Add this closing curly brace
+  );
+};
 
 export default Home;
