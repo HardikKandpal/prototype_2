@@ -67,7 +67,7 @@ app.add_middleware(
     allow_origins=[
         "http://localhost:5173",
         "https://prototype-2-kappa.vercel.app/",
-        "https://hardik8588-real-estate.hf.space",  # Your Hugging Face Space URL
+        "https://huggingface.co/spaces/hardik8588/real_estate",  # Your Hugging Face Space URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
