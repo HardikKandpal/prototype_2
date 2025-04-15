@@ -256,6 +256,131 @@ export const getHomePageStats = async () => {
   }
 };
 
+// Add these functions if they're not already defined
+
+// Get featured properties
+export const getFeaturedProperties = async () => {
+  try {
+    console.log('API call: getFeaturedProperties');
+    
+    // Try to fetch from the backend first
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/featured-properties`);
+      
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Featured properties response:', data);
+        return data;
+      }
+    } catch (fetchError) {
+      console.warn('Could not fetch featured properties from API, using fallback data', fetchError);
+    }
+    
+    // Fallback data if API call fails
+    return [
+      {
+        id: "PROP-0001",
+        title: "Luxury Villa in Vasant Kunj",
+        price: "2.5 Cr",
+        image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        beds: 4,
+        baths: 3,
+        area: 3500,
+        tag: "Premium",
+        amenities: ["Swimming Pool", "Gym", "Security"]
+      },
+      {
+        id: "PROP-0002",
+        title: "Modern Apartment in Saket",
+        price: "1.8 Cr",
+        image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        beds: 3,
+        baths: 2,
+        area: 2200,
+        tag: "New Launch",
+        amenities: ["Power Backup", "Lift", "Parking"]
+      },
+      {
+        id: "PROP-0003",
+        title: "Penthouse in Greater Kailash",
+        price: "3.2 Cr",
+        image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        beds: 5,
+        baths: 4,
+        area: 4100,
+        tag: "Featured",
+        amenities: ["Clubhouse", "Garden", "24/7 Water Supply"]
+      }
+    ];
+  } catch (error) {
+    console.error('Error getting featured properties:', error);
+    return [];
+  }
+};
+
+// Get nearby properties
+export const getNearbyProperties = async (coordinates) => {
+  try {
+    console.log('API call: getNearbyProperties', coordinates);
+    
+    // Try to fetch from the backend first
+    try {
+      const response = await fetch(`${API_BASE_URL}/api/nearby-properties`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(coordinates),
+      });
+      
+      if (response.ok) {
+        const data = await response.json();
+        console.log('Nearby properties response:', data);
+        return data;
+      }
+    } catch (fetchError) {
+      console.warn('Could not fetch nearby properties from API, using fallback data', fetchError);
+    }
+    
+    // Fallback data if API call fails
+    return [
+      {
+        id: 1,
+        title: "3 BHK Apartment",
+        location: "Sector 45, Noida",
+        distance: "1.2 km away",
+        price: "85 Lac",
+        image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        type: "Apartment",
+        possession: "Ready to Move"
+      },
+      {
+        id: 2,
+        title: "4 BHK Villa",
+        location: "Vasant Kunj, Delhi",
+        distance: "2.5 km away",
+        price: "1.9 Cr",
+        image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        type: "Villa",
+        possession: "Ready to Move"
+      },
+      {
+        id: 3,
+        title: "2 BHK Apartment",
+        location: "Sector 62, Noida",
+        distance: "3.1 km away",
+        price: "65 Lac",
+        image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+        type: "Apartment",
+        possession: "Under Construction"
+      }
+    ];
+  } catch (error) {
+    console.error('Error getting nearby properties:', error);
+    return [];
+  }
+};
+
 // Make sure getHomeStats is also exported (might be used elsewhere)
 export const getHomeStats = getHomePageStats;
 

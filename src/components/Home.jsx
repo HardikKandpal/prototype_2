@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { getHomePageStats, getFeaturedProperties, getNearbyProperties } from '../api';
+import { getHomePageStats, getFeaturedProperties, getNearbyProperties } from '../lib/api';
 
 const Home = () => {
   // State for data
