@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
 import PropertyValuation from './components/PropertyValuation'; // Updated import path
-import PropertySearchPage from './components/PropertySearchPage';
+import PropertySearchPage from './components/PropertySearch'; // Updated path
 import MarketAnalysisPage from './components/MarketAnalysisPage';
 
 function App() {

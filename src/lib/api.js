@@ -166,45 +166,37 @@ export const getAmenities = async () => {
 // Add this function to your existing api.js file
 // Add or update the getMarketAnalysis function
 // Update the getMarketAnalysis function to use the actual API
-export const getMarketAnalysis = async (params) => {
+export const getMarketAnalysis = async (location, months = 12) => {
   try {
-    console.log('Sending market analysis request:', params);
+    console.log('Sending market analysis request:', { location, months });
     
-    const response = await fetch('http://localhost:8000/api/market-analysis', {
+    // Ensure months is a valid number
+    const parsedMonths = parseInt(months) || 12;
+    
+    const response = await fetch(`${API_BASE_URL}/api/market-analysis`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(params)
+      body: JSON.stringify({
+        location: location || null,
+        months: parsedMonths
+      })
     });
     
     if (!response.ok) {
       const errorText = await response.text();
-      console.error('Market analysis API error:', errorText);
+      console.error('Market analysis API error:', response.status, errorText);
       throw new Error(`HTTP error! Status: ${response.status}`);
     }
     
     const data = await response.json();
     console.log('Market analysis response:', data);
     
-    // Check if the data has the expected structure
-    if (!data.success || !data.data || !data.data.summary) {
-      console.error('Unexpected API response structure:', data);
-      return {
-        success: false,
-        error: 'Invalid response format from server',
-        data: null
-      };
-    }
-    
     return data;
   } catch (error) {
     console.error('Error fetching market analysis:', error);
-    return {
-      success: false,
-      error: error.message || 'An unknown error occurred',
-      data: null
-    };
+    throw error;
   }
 };
 

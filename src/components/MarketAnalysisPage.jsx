@@ -51,53 +51,32 @@ const MarketAnalysisPage = () => {
     setMonths(parseInt(e.target.value));
   };
 
+  // In the handleSubmit function
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
     setError(null);
-
+    
     try {
-      const response = await getMarketAnalysis({
-        location: selectedLocation || null,
-        months: months
-      });
+      console.log(`Submitting analysis request for location: "${selectedLocation}", months: ${months}`);
       
-      // Check if the response has the expected structure
-      if (response.status === 'success') {
-        setAnalysisData(response.data);
-      } else if (response.fallback_data) {
-        // Use fallback data if provided
-        setAnalysisData(response.fallback_data);
-        setError('Using fallback data: ' + (response.error || 'API returned no data'));
+      // Ensure we're sending valid data
+      const locationToSend = selectedLocation || null;
+      const monthsToSend = parseInt(months) || 12;
+      
+      const data = await getMarketAnalysis(locationToSend, monthsToSend);
+      
+      // Check if we have valid data
+      if (data && (data.data || data.marketTrends || data.status === "success")) {
+        console.log("Successfully received market analysis data:", data);
+        setAnalysisData(data.data || data);
       } else {
-        setError('Failed to fetch market analysis data: ' + (response.error || 'Unknown error'));
+        console.error("Received invalid market analysis data:", data);
+        setError("Received invalid data from the server. Please try again.");
       }
     } catch (err) {
+      console.error('Failed to fetch market analysis:', err);
       setError('Failed to fetch market analysis. Please try again later.');
-      console.error(err);
-      
-      // Set fallback data for development/testing
-      setAnalysisData({
-        marketTrends: [
-          { metric: 'Median Home Price', value: 12500000, change: '5.2', isPositive: true },
-          { metric: 'Number of Sales', value: 245, change: '-2.8', isPositive: false },
-          { metric: 'Days on Market', value: 32, change: '-15.8', isPositive: true },
-          { metric: 'Price per Square Foot', value: 9800, change: '3.5', isPositive: true },
-          { metric: 'Inventory Levels', value: 320, change: '8.2', isPositive: false },
-          { metric: 'Year-over-Year Price Change', value: 5.2, change: '5.2', isPositive: true }
-        ],
-        hotNeighborhoods: [
-          { name: 'Vasant Kunj', growth: '8.5%', medianPrice: 15800000, pricePerSqFt: 12500 },
-          { name: 'Greater Kailash', growth: '7.2%', medianPrice: 18500000, pricePerSqFt: 14200 },
-          { name: 'Dwarka', growth: '6.8%', medianPrice: 9800000, pricePerSqFt: 8500 }
-        ],
-        insights: [
-          'The Delhi real estate market has shown strong resilience with a 5.2% increase in median home prices.',
-          'Luxury properties in South Delhi continue to appreciate faster than other segments.',
-          'Inventory levels have increased by 8.2%, indicating a potential shift towards a buyer\'s market.',
-          'Properties in Vasant Kunj are selling 15% faster than the market average.'
-        ]
-      });
     } finally {
       setLoading(false);
     }

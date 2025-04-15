@@ -79,13 +79,7 @@ app.add_middleware(
 # Modify the file paths to use relative paths that will work in deployment
 # Instead of hardcoded absolute paths
 
-# At the end of the file, update the run command for production
-if __name__ == "__main__":
-    import uvicorn
-    # Use environment variables for port if available (for cloud deployment)
-    import os
-    port = int(os.environ.get("PORT", 8000))
-    uvicorn.run(app, host="0.0.0.0", port=port)
+
 
 # Add a root endpoint
 @app.get("/")
@@ -125,6 +119,12 @@ class PropertyValuationRequest(BaseModel):
 class MarketAnalysisRequest(BaseModel):
     location: Optional[str] = None
     months: int = 12
+    
+    class Config:
+        # This will validate and convert the input types
+        validate_assignment = True
+        # Allow extra fields to be ignored
+        extra = "ignore"
 
 class PropertyRecommendationRequest(BaseModel):
     budget: float
@@ -221,6 +221,12 @@ async def get_market_analysis(request: MarketAnalysisRequest):
     try:
         print(f"Starting market analysis for location: {request.location}, months: {request.months}")
         
+        # Validate months parameter
+        months = request.months
+        if not isinstance(months, int) or months <= 0:
+            months = 12
+            print(f"Invalid months value: {request.months}, using default: 12")
+        
         if market_analysis_model is None:
             raise ValueError("Market analysis model not initialized")
         
@@ -234,7 +240,7 @@ async def get_market_analysis(request: MarketAnalysisRequest):
         try:
             trends_data = market_analysis_model.get_market_trends(
                 location=normalized_location, 
-                months=request.months
+                months=months
             )
             print(f"Successfully retrieved trends data for {normalized_location}")
         except Exception as trend_error:
@@ -722,8 +728,22 @@ async def get_nearby_properties(request: LocationCoordinates):
                 "possession": "Under Construction"
             }
         ]
+@app.get("/api/ping")
+async def ping():
+    """Simple endpoint to test API connectivity"""
+    from datetime import datetime
+    return {
+        "status": "success",
+        "message": "API is running",
+        "timestamp": datetime.now().isoformat(),
+        "server": "FastAPI Backend"
+    }
 
+# At the end of the file, update the run command for production
 if __name__ == "__main__":
     import uvicorn
-    port = int(os.environ.get("PORT", 7860))
+    # Use environment variables for port if available (for cloud deployment)
+    import os
+    port = int(os.environ.get("PORT", 8000))
     uvicorn.run(app, host="0.0.0.0", port=port)
+

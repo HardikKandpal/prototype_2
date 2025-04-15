@@ -1,10 +1,7 @@
 // API integration for the application
 
-// Create a base URL that changes based on environment
 // API configuration for connecting to the backend
-const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://hardik8588-real-estate.hf.space' // Hugging Face Space URL
-  : 'http://localhost:8000';
+const API_BASE_URL = 'http://localhost:8000';
 
 // Property Valuation API
 export const getPropertyValuation = async (propertyData) => {
@@ -88,48 +85,80 @@ export const getLocations = async () => {
   }
 };
 
+// Get Home Stats for the homepage
+export const getHomePageStats = async () => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/home-stats`);
+    
+    if (!response.ok) {
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.detail || `HTTP error! Status: ${response.status}`);
+    }
+    
+    return await response.json();
+  } catch (error) {
+    console.error('Home stats request failed:', error);
+    throw error;
+  }
+};
+
 // Get Featured Properties
 export const getFeaturedProperties = async () => {
   try {
     const response = await fetch(`${API_BASE_URL}/api/featured-properties`);
     
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.detail || `HTTP error! Status: ${response.status}`);
     }
     
     return await response.json();
   } catch (error) {
-    console.error('Error getting featured properties:', error);
+    console.error('Featured properties request failed:', error);
     throw error;
   }
 };
 
-// Get Nearby Properties
+// Get Nearby Properties - supports both coordinate object and separate lat/lng parameters
 export const getNearbyProperties = async (coordinates) => {
   try {
+    // Handle both formats: {lat, lng} object or separate lat, lng parameters
+    let requestBody;
+    
+    if (typeof coordinates === 'object' && coordinates !== null) {
+      requestBody = coordinates;
+    } else if (arguments.length === 2) {
+      // Handle the case where lat and lng are passed as separate arguments
+      const [lat, lng] = arguments;
+      requestBody = { lat, lng };
+    } else {
+      throw new Error('Invalid coordinates format');
+    }
+    
     const response = await fetch(`${API_BASE_URL}/api/nearby-properties`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
-      body: JSON.stringify(coordinates),
+      body: JSON.stringify(requestBody),
     });
     
     if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
+      const errorData = await response.json().catch(() => ({}));
+      throw new Error(errorData.detail || `HTTP error! Status: ${response.status}`);
     }
     
     return await response.json();
   } catch (error) {
-    console.error('Error getting nearby properties:', error);
+    console.error('Nearby properties request failed:', error);
     throw error;
   }
 };
 
-// Get Home Stats
-export const getHomeStats = async () => {
+// Get property types
+export const getPropertyTypes = async () => {
   try {
-    const response = await fetch(`${API_BASE_URL}/api/home-stats`);
+    const response = await fetch(`${API_BASE_URL}/api/property-types`);
     
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -137,7 +166,34 @@ export const getHomeStats = async () => {
     
     return await response.json();
   } catch (error) {
-    console.error('Error getting home stats:', error);
-    throw error;
+    console.error('Error getting property types:', error);
+    // Fallback data
+    return {
+      success: true,
+      propertyTypes: ['Apartment', 'House', 'Villa', 'Condo']
+    };
+  }
+};
+
+// Get available amenities
+export const getAmenities = async () => {
+  try {
+    const response = await fetch(`${API_BASE_URL}/api/amenities`);
+    
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+    
+    return await response.json();
+  } catch (error) {
+    console.error('Error getting amenities:', error);
+    // Fallback data
+    return {
+      success: true,
+      amenities: [
+        'Power Backup', 'Gym', 'Security', 'Swimming Pool', 
+        'Clubhouse', '24/7 Water Supply', 'Lift', 'Garden', 'Parking'
+      ]
+    };
   }
 };
