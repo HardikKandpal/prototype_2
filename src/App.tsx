@@ -5,7 +5,7 @@ import Home from './components/Home';
 import PropertySearch from './components/PropertySearch';
 import PropertyValuation from './components/PropertyValuation';
 // Update the import to use any type
-import MarketAnalysisPage from './components/MarketAnalysisPage.jsx';
+import MarketAnalysisPage from './components/MarketAnalysisPage';
 
 const App: React.FC = () => {
   return (

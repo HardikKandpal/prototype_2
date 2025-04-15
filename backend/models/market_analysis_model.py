@@ -224,9 +224,7 @@ class MarketAnalysisModel:
                 current_metrics['ppsf_change'] = 0.0
                 current_metrics['inventory_change'] = 0.0
                 metrics_with_changes = current_metrics
-                
-                # Rest of the function remains the same
-                # ...
+
                 metrics_with_changes['price_change'] = ((metrics_with_changes['Median Home Price'] - 
                                                       metrics_with_changes['Median Home Price_prev']) / 
                                                      metrics_with_changes['Median Home Price_prev'] * 100)

@@ -66,9 +66,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://your-vercel-app.vercel.app",  # Replace with your actual Vercel domain
-        "https://ai-realest-estate.vercel.app",
-        "https://*.vercel.app",  # Allow all Vercel subdomains during development
+        "https://prototype-2-kappa.vercel.app/",
         "https://hardik8588-real-estate.hf.space",  # Your Hugging Face Space URL
     ],
     allow_credentials=True,
