@@ -11,5 +11,9 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     sourcemap: true
+  },
+  // Ensure we're using the correct entry point
+  rollupOptions: {
+    input: './src/main.tsx'
   }
 })
