@@ -2,7 +2,7 @@
 
 // Create a base URL that changes based on environment
 const API_BASE_URL = import.meta.env.PROD 
-  ? 'https://your-backend-url.onrender.com' // Replace with your actual deployed backend URL
+  ? 'https://hardik8588-real-estate.hf.space' // Replace with your actual deployed backend URL
   : 'http://localhost:8000';
 
 // Then use this base URL in all your fetch calls

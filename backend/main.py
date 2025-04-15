@@ -62,14 +62,14 @@ except Exception as e:
 app = FastAPI()
 
 # Configure CORS
-# Update CORS to allow requests from your deployed frontend
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "http://127.0.0.1:5173",
-        "https://ai-realest-estate.vercel.app",  # Add your Vercel domain here
-        "*"  # During development, you can use this and remove it later
+        "https://your-vercel-app.vercel.app",  # Replace with your actual Vercel domain
+        "https://ai-realest-estate.vercel.app",
+        "https://*.vercel.app",  # Allow all Vercel subdomains during development
+        "https://hardik8588-real-estate.hf.space",  # Your Hugging Face Space URL
     ],
     allow_credentials=True,
     allow_methods=["*"],
