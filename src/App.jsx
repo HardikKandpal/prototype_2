@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import HomePage from './components/HomePage';
-import PropertyValuationPage from './components/PropertyValuationPage';
+import PropertyValuation from './components/PropertyValuation'; // Updated import path
 import PropertySearchPage from './components/PropertySearchPage';
 import MarketAnalysisPage from './components/MarketAnalysisPage';
 
@@ -13,7 +13,7 @@ function App() {
         <main>
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/valuation" element={<PropertyValuationPage />} />
+            <Route path="/valuation" element={<PropertyValuation />} /> {/* Updated component name */}
             <Route path="/search" element={<PropertySearchPage />} />
             <Route path="/market-analysis" element={<MarketAnalysisPage />} />
           </Routes>
