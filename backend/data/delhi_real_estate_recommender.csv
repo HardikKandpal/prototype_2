@@ -1,0 +1,1001 @@
+Property ID,Property Type,Price (INR),Location,Bedrooms,Bathrooms,Square Footage,Amenities,Year Built,Property Description
+PROP-0001,Apartment,6996853,South Extension,2,3,1537,"Power Backup, Gym",2010,Spacious and well-lit with modern amenities.
+PROP-0002,House,145655151,Dwarka,3,2,3617,"Security, Power Backup, Swimming Pool, Gym",1995,Luxury property with top-notch features.
+PROP-0003,Villa,167907620,Karol Bagh,1,4,2667,"Clubhouse, Security, Swimming Pool, Gym",2006,Newly renovated with smart home features.
+PROP-0004,Apartment,180485475,Lajpat Nagar,1,2,2207,"Clubhouse, Power Backup",1982,Newly renovated with smart home features.
+PROP-0005,Apartment,149189374,Lajpat Nagar,6,3,3202,"Security, 24/7 Water Supply",2015,Newly renovated with smart home features.
+PROP-0006,Apartment,67850995,Rohini,6,3,3002,"Clubhouse, Garden, Gym, Lift, Parking",2014,Spacious and well-lit with modern amenities.
+PROP-0007,Apartment,28037707,Preet Vihar,4,4,4969,"Garden, Swimming Pool",2006,Spacious and well-lit with modern amenities.
+PROP-0008,Condo,88221554,Greater Kailash,3,4,4710,"Lift, Security, Parking, Garden",1999,Affordable yet stylish and comfortable.
+PROP-0009,Apartment,39126712,Rohini,4,3,1465,"Clubhouse, Gym, Security, Parking",1990,"Ideal for families, located in a prime area."
+PROP-0010,Condo,141434432,Rohini,4,4,563,"Power Backup, Clubhouse",2016,Luxury property with top-notch features.
+PROP-0011,Apartment,64418428,Vasant Kunj,4,4,2021,"Lift, Garden, 24/7 Water Supply",1997,A cozy home with a stunning view.
+PROP-0012,Villa,80749709,Dwarka,5,2,4978,"Garden, Lift, Gym",1997,"Ideal for families, located in a prime area."
+PROP-0013,House,77330664,Preet Vihar,3,3,3623,"Parking, Clubhouse, Security",2003,"Ideal for families, located in a prime area."
+PROP-0014,House,173053972,Karol Bagh,4,4,4197,"Garden, Power Backup",2021,Affordable yet stylish and comfortable.
+PROP-0015,Apartment,98762314,Chattarpur,1,1,4169,"Parking, Security, Power Backup, Gym, Garden",1988,"Ideal for families, located in a prime area."
+PROP-0016,Condo,119802314,Greater Kailash,4,3,2643,"Clubhouse, Garden, Swimming Pool, Power Backup, Gym",2008,"Ideal for families, located in a prime area."
+PROP-0017,Condo,57025799,Dwarka,1,1,2568,"Garden, Parking",2002,Spacious and well-lit with modern amenities.
+PROP-0018,Villa,187868882,Rohini,1,4,1985,"24/7 Water Supply, Clubhouse, Parking, Security, Gym",1981,Luxury property with top-notch features.
+PROP-0019,Villa,40230806,Connaught Place,2,2,4644,"Gym, Lift, Clubhouse",1999,A cozy home with a stunning view.
+PROP-0020,Villa,57911766,Dwarka,3,1,1733,"Parking, Security, Power Backup, Garden, Swimming Pool",2011,"Ideal for families, located in a prime area."
+PROP-0021,House,16691306,Vasant Kunj,1,4,4813,"Security, 24/7 Water Supply",1999,"Ideal for families, located in a prime area."
+PROP-0022,Villa,10363336,Lajpat Nagar,6,2,3091,"Garden, Security, Lift, 24/7 Water Supply",2000,Affordable yet stylish and comfortable.
+PROP-0023,Apartment,32236463,Vasant Kunj,5,1,2659,"Power Backup, Garden, Security, 24/7 Water Supply, Clubhouse",2009,A cozy home with a stunning view.
+PROP-0024,Villa,162178082,Karol Bagh,4,3,1366,"24/7 Water Supply, Parking, Garden",2013,A cozy home with a stunning view.
+PROP-0025,House,128743506,Chattarpur,4,2,2188,"Lift, Security, Clubhouse, 24/7 Water Supply, Swimming Pool",2010,A cozy home with a stunning view.
+PROP-0026,Apartment,95203286,South Extension,4,2,3710,"Swimming Pool, Parking, Garden, Lift, Gym",2010,Luxury property with top-notch features.
+PROP-0027,Villa,135563376,Karol Bagh,5,3,4904,"Clubhouse, 24/7 Water Supply",2008,A cozy home with a stunning view.
+PROP-0028,House,169123130,Chattarpur,6,2,3003,"Parking, Lift, Gym",2001,Affordable yet stylish and comfortable.
+PROP-0029,Villa,171305593,Vasant Kunj,2,2,2176,"Power Backup, Garden, Clubhouse",1990,Spacious and well-lit with modern amenities.
+PROP-0030,House,15853260,Rohini,6,4,2191,"Gym, Garden, Power Backup, Lift",2000,Affordable yet stylish and comfortable.
+PROP-0031,House,142812988,Saket,5,2,2344,"24/7 Water Supply, Lift",2017,A cozy home with a stunning view.
+PROP-0032,Condo,65878951,Rohini,4,3,3326,"Gym, 24/7 Water Supply, Clubhouse",1995,A cozy home with a stunning view.
+PROP-0033,Apartment,161610232,Karol Bagh,2,4,4628,"Power Backup, Garden, Gym",2005,Affordable yet stylish and comfortable.
+PROP-0034,Villa,5936593,Karol Bagh,3,3,1050,"Clubhouse, Swimming Pool, 24/7 Water Supply, Lift",2021,Spacious and well-lit with modern amenities.
+PROP-0035,Condo,16880100,Connaught Place,2,2,700,"Power Backup, Swimming Pool, Lift",1983,A cozy home with a stunning view.
+PROP-0036,Apartment,191265272,Vasant Kunj,6,4,4317,"Parking, Clubhouse, Swimming Pool, Garden",2001,Luxury property with top-notch features.
+PROP-0037,House,90015502,Vasant Kunj,3,1,2292,"Clubhouse, 24/7 Water Supply, Garden",1991,Affordable yet stylish and comfortable.
+PROP-0038,Apartment,195705971,Greater Kailash,2,1,2050,"Clubhouse, 24/7 Water Supply",1999,Spacious and well-lit with modern amenities.
+PROP-0039,Apartment,39510070,Lajpat Nagar,4,2,4577,"Clubhouse, Lift, Power Backup, Garden, Gym",2020,Spacious and well-lit with modern amenities.
+PROP-0040,Villa,45161930,Chattarpur,6,1,4253,"Clubhouse, Security",1982,A cozy home with a stunning view.
+PROP-0041,Villa,87810619,Chattarpur,4,1,4162,"Power Backup, Gym, 24/7 Water Supply, Security, Garden",2013,A cozy home with a stunning view.
+PROP-0042,Apartment,87519834,Karol Bagh,5,1,3424,"Clubhouse, Security",1982,A cozy home with a stunning view.
+PROP-0043,Condo,119358785,Vasant Kunj,6,3,2368,"Lift, Parking",1982,Luxury property with top-notch features.
+PROP-0044,House,153507646,South Extension,2,2,1884,"Swimming Pool, Power Backup, Security, Clubhouse",1991,Affordable yet stylish and comfortable.
+PROP-0045,Condo,84562437,Lajpat Nagar,5,3,3124,"Power Backup, Gym",2014,Affordable yet stylish and comfortable.
+PROP-0046,Villa,32079937,Saket,5,1,2082,"Parking, Clubhouse, Security, 24/7 Water Supply",1996,Luxury property with top-notch features.
+PROP-0047,Apartment,46104539,Chattarpur,2,2,2793,"Lift, Garden, Power Backup, Security, Gym",2009,Spacious and well-lit with modern amenities.
+PROP-0048,Condo,48167255,Vasant Kunj,1,3,4103,"Garden, 24/7 Water Supply",2003,Affordable yet stylish and comfortable.
+PROP-0049,Villa,26325778,Dwarka,6,1,3547,"Parking, Power Backup, Garden, 24/7 Water Supply, Gym",2017,Affordable yet stylish and comfortable.
+PROP-0050,Condo,75310385,Karol Bagh,2,2,3850,"Clubhouse, Parking, Garden",1988,Affordable yet stylish and comfortable.
+PROP-0051,House,156669665,Rohini,2,4,2732,"24/7 Water Supply, Gym",2010,Spacious and well-lit with modern amenities.
+PROP-0052,Condo,22255979,Saket,1,3,1243,"Lift, Clubhouse",2017,"Ideal for families, located in a prime area."
+PROP-0053,Apartment,40173115,Connaught Place,2,4,1319,"24/7 Water Supply, Garden, Parking, Gym, Power Backup",2000,A cozy home with a stunning view.
+PROP-0054,Apartment,11589888,Dwarka,5,3,556,"Swimming Pool, Security, Parking",2016,Newly renovated with smart home features.
+PROP-0055,Apartment,78749598,Rohini,2,3,2455,"Swimming Pool, Garden",1987,"Ideal for families, located in a prime area."
+PROP-0056,Apartment,39010545,Karol Bagh,4,4,2052,"Power Backup, Gym, 24/7 Water Supply",2019,Newly renovated with smart home features.
+PROP-0057,Condo,126307756,South Extension,6,4,1254,"Power Backup, Garden",2005,A cozy home with a stunning view.
+PROP-0058,Villa,72069709,Greater Kailash,1,2,2524,"Clubhouse, Security, 24/7 Water Supply, Swimming Pool, Parking",2016,Luxury property with top-notch features.
+PROP-0059,House,13502334,South Extension,3,4,3232,"Power Backup, Gym, Garden, 24/7 Water Supply, Security",1980,"Ideal for families, located in a prime area."
+PROP-0060,House,52082183,Preet Vihar,2,1,4722,"Lift, Gym, Parking",2020,Affordable yet stylish and comfortable.
+PROP-0061,House,153531607,Vasant Kunj,6,3,2636,"24/7 Water Supply, Security",2016,A cozy home with a stunning view.
+PROP-0062,Apartment,107830072,Connaught Place,2,1,4357,"Clubhouse, Security",2000,Newly renovated with smart home features.
+PROP-0063,Condo,73579381,Dwarka,1,3,4494,"Swimming Pool, Garden",1991,Luxury property with top-notch features.
+PROP-0064,Condo,128808412,Rohini,6,3,893,"Gym, Security",1983,Luxury property with top-notch features.
+PROP-0065,House,54471084,Preet Vihar,3,3,1940,"Garden, Clubhouse",2003,Newly renovated with smart home features.
+PROP-0066,Villa,154348158,Vasant Kunj,6,3,2171,"Power Backup, Lift, Swimming Pool, Security, Garden",2006,Luxury property with top-notch features.
+PROP-0067,Condo,122208746,Saket,4,2,793,"Lift, 24/7 Water Supply",1982,Newly renovated with smart home features.
+PROP-0068,Condo,114466768,Saket,5,2,613,"Clubhouse, Power Backup",1992,Newly renovated with smart home features.
+PROP-0069,Apartment,154650508,Lajpat Nagar,1,2,4497,"Lift, Clubhouse, Gym, Swimming Pool, Parking",2014,Spacious and well-lit with modern amenities.
+PROP-0070,Villa,167784648,Karol Bagh,5,1,3519,"Parking, Lift, Security, Swimming Pool, Clubhouse",2020,Spacious and well-lit with modern amenities.
+PROP-0071,House,24666800,Lajpat Nagar,3,4,1185,"24/7 Water Supply, Power Backup, Clubhouse, Garden",2010,Newly renovated with smart home features.
+PROP-0072,Villa,144735774,Lajpat Nagar,1,2,4656,"Clubhouse, Power Backup, 24/7 Water Supply",2016,"Ideal for families, located in a prime area."
+PROP-0073,Apartment,199598539,Dwarka,4,1,4156,"Security, Swimming Pool, Lift",1999,"Ideal for families, located in a prime area."
+PROP-0074,Condo,156559084,Rohini,4,1,4329,"Swimming Pool, Garden, Gym, Security, 24/7 Water Supply",1983,Luxury property with top-notch features.
+PROP-0075,Apartment,40751880,Rohini,2,1,3037,"24/7 Water Supply, Parking",1997,Luxury property with top-notch features.
+PROP-0076,Villa,193119200,Saket,3,3,580,"Security, Clubhouse, Garden, Power Backup",2005,Luxury property with top-notch features.
+PROP-0077,House,109671264,South Extension,4,3,835,"24/7 Water Supply, Garden, Lift, Power Backup",2003,Spacious and well-lit with modern amenities.
+PROP-0078,Apartment,167780447,Pitampura,4,3,2388,"24/7 Water Supply, Security, Power Backup",1998,Affordable yet stylish and comfortable.
+PROP-0079,Villa,168966716,Karol Bagh,5,1,4742,"Security, 24/7 Water Supply, Gym, Lift",1995,Affordable yet stylish and comfortable.
+PROP-0080,House,167186138,Connaught Place,3,1,2262,"24/7 Water Supply, Gym, Garden",1993,Luxury property with top-notch features.
+PROP-0081,Condo,183681260,Dwarka,5,3,4183,"Gym, 24/7 Water Supply, Swimming Pool, Garden, Lift",2006,"Ideal for families, located in a prime area."
+PROP-0082,Condo,31734621,Chattarpur,2,3,1499,"Parking, Swimming Pool, Clubhouse, Garden, Security",2021,Affordable yet stylish and comfortable.
+PROP-0083,Condo,103547989,Pitampura,5,2,4116,"Power Backup, 24/7 Water Supply, Lift, Gym, Clubhouse",1996,Newly renovated with smart home features.
+PROP-0084,Villa,94370086,Rohini,3,1,4949,"Lift, Gym, Security, Swimming Pool, Garden",2006,A cozy home with a stunning view.
+PROP-0085,Condo,129172189,Connaught Place,4,1,2822,"Security, 24/7 Water Supply, Garden",1994,Newly renovated with smart home features.
+PROP-0086,Apartment,165482868,Saket,2,1,1965,"Power Backup, Swimming Pool, Garden",1998,A cozy home with a stunning view.
+PROP-0087,House,151797465,Saket,4,4,943,"Garden, Power Backup",2000,Spacious and well-lit with modern amenities.
+PROP-0088,Condo,13272218,Rohini,6,3,2806,"Power Backup, Parking, 24/7 Water Supply",1991,Luxury property with top-notch features.
+PROP-0089,Condo,142533022,Chattarpur,3,1,1531,"Security, Garden",1983,A cozy home with a stunning view.
+PROP-0090,House,131867841,Greater Kailash,1,3,1256,"24/7 Water Supply, Security, Swimming Pool, Lift",1995,"Ideal for families, located in a prime area."
+PROP-0091,Condo,102619432,Greater Kailash,6,3,3108,"24/7 Water Supply, Parking, Gym, Lift, Power Backup",2004,A cozy home with a stunning view.
+PROP-0092,Condo,115408200,South Extension,6,4,3551,"Garden, Swimming Pool",1997,Spacious and well-lit with modern amenities.
+PROP-0093,Villa,78440844,Vasant Kunj,6,1,3547,"24/7 Water Supply, Swimming Pool, Gym, Clubhouse, Power Backup",2006,Spacious and well-lit with modern amenities.
+PROP-0094,Condo,62690788,Karol Bagh,6,4,1901,"Power Backup, Lift",1985,Luxury property with top-notch features.
+PROP-0095,Villa,157425447,Connaught Place,2,2,3004,"Clubhouse, Swimming Pool, 24/7 Water Supply",1980,A cozy home with a stunning view.
+PROP-0096,House,194815887,Rohini,1,1,1149,"Parking, Gym, Security",1985,Affordable yet stylish and comfortable.
+PROP-0097,House,25808943,Lajpat Nagar,2,4,3271,"Clubhouse, Parking, Garden",2015,Affordable yet stylish and comfortable.
+PROP-0098,House,133691304,South Extension,4,2,4038,"Security, Gym, Swimming Pool",2012,Affordable yet stylish and comfortable.
+PROP-0099,Villa,180178052,Rohini,4,3,1192,"Parking, Power Backup, 24/7 Water Supply",1998,Newly renovated with smart home features.
+PROP-0100,Villa,69975234,South Extension,1,4,2782,"Clubhouse, Security, 24/7 Water Supply, Parking, Swimming Pool",2010,Spacious and well-lit with modern amenities.
+PROP-0101,Condo,165001288,Karol Bagh,6,4,2308,"Swimming Pool, Lift, Gym",1980,Newly renovated with smart home features.
+PROP-0102,House,156172378,South Extension,1,1,1626,"Power Backup, Garden",2006,Spacious and well-lit with modern amenities.
+PROP-0103,Villa,124317626,South Extension,5,4,3313,"Security, Power Backup, Clubhouse",1998,Affordable yet stylish and comfortable.
+PROP-0104,Villa,172792119,Lajpat Nagar,4,1,1298,"Security, Gym, Lift",1997,Spacious and well-lit with modern amenities.
+PROP-0105,Villa,105882948,South Extension,1,3,3090,"Garden, Clubhouse, 24/7 Water Supply",2004,A cozy home with a stunning view.
+PROP-0106,Condo,138714279,Greater Kailash,4,3,710,"Garden, Power Backup, 24/7 Water Supply, Gym, Clubhouse",2002,Luxury property with top-notch features.
+PROP-0107,House,57677712,Dwarka,1,1,1367,"24/7 Water Supply, Parking, Swimming Pool",2001,"Ideal for families, located in a prime area."
+PROP-0108,Villa,75703359,Vasant Kunj,2,1,4772,"Garden, Swimming Pool, Power Backup, 24/7 Water Supply, Security",2016,"Ideal for families, located in a prime area."
+PROP-0109,Villa,190938133,Dwarka,6,3,3442,"Parking, Clubhouse, Garden, 24/7 Water Supply",2011,Newly renovated with smart home features.
+PROP-0110,House,152418258,Karol Bagh,6,3,4347,"Swimming Pool, Security",1983,Newly renovated with smart home features.
+PROP-0111,Apartment,8379944,Karol Bagh,2,1,3274,"Lift, Gym",2017,Spacious and well-lit with modern amenities.
+PROP-0112,Apartment,33658987,Greater Kailash,4,3,2862,"Parking, Clubhouse, Garden",2012,A cozy home with a stunning view.
+PROP-0113,Apartment,197906933,Vasant Kunj,1,1,3833,"24/7 Water Supply, Clubhouse",1984,Newly renovated with smart home features.
+PROP-0114,Villa,127164115,Dwarka,5,3,4177,"Security, Lift, Swimming Pool, Clubhouse, Gym",1997,Affordable yet stylish and comfortable.
+PROP-0115,House,166003760,Dwarka,5,3,1959,"Security, Power Backup, Swimming Pool, Gym, Lift",1993,Newly renovated with smart home features.
+PROP-0116,House,143036434,Lajpat Nagar,1,4,2694,"Parking, Gym",2023,Affordable yet stylish and comfortable.
+PROP-0117,Villa,106828508,Greater Kailash,4,4,2198,"Lift, Swimming Pool, Power Backup, 24/7 Water Supply",2001,A cozy home with a stunning view.
+PROP-0118,Apartment,38389222,Karol Bagh,5,1,1453,"24/7 Water Supply, Power Backup, Parking, Lift",2009,Luxury property with top-notch features.
+PROP-0119,Condo,32254820,Pitampura,6,2,3833,"Parking, Lift, Swimming Pool",2016,Newly renovated with smart home features.
+PROP-0120,House,190484576,Preet Vihar,3,1,1288,"Parking, Swimming Pool, Clubhouse",2022,A cozy home with a stunning view.
+PROP-0121,House,183255468,Greater Kailash,5,3,1361,"Power Backup, Security, 24/7 Water Supply",2003,A cozy home with a stunning view.
+PROP-0122,Apartment,100298334,Preet Vihar,3,3,4266,"24/7 Water Supply, Security, Garden",2004,A cozy home with a stunning view.
+PROP-0123,Villa,4554389,Connaught Place,1,4,3324,"24/7 Water Supply, Clubhouse, Gym, Swimming Pool, Security",1998,A cozy home with a stunning view.
+PROP-0124,House,12893394,Rohini,3,4,3853,"24/7 Water Supply, Gym, Power Backup, Garden, Security",2005,Newly renovated with smart home features.
+PROP-0125,Villa,23469839,South Extension,4,3,4564,"Security, Clubhouse",2001,Newly renovated with smart home features.
+PROP-0126,Condo,25457816,Rohini,4,1,3975,"Gym, 24/7 Water Supply",1995,Affordable yet stylish and comfortable.
+PROP-0127,Condo,74437215,Dwarka,6,3,3159,"Parking, Garden",2007,Newly renovated with smart home features.
+PROP-0128,Condo,166840739,Dwarka,5,1,4374,"Parking, Gym, 24/7 Water Supply",1993,Spacious and well-lit with modern amenities.
+PROP-0129,Condo,26330673,Chattarpur,6,3,2188,"Security, Gym, Garden, Parking",1990,Affordable yet stylish and comfortable.
+PROP-0130,Villa,159057658,Greater Kailash,5,1,2124,"Security, Power Backup",1990,Affordable yet stylish and comfortable.
+PROP-0131,Apartment,57119405,Preet Vihar,1,3,3163,"Parking, Lift, Garden",1988,Luxury property with top-notch features.
+PROP-0132,Condo,81770845,Preet Vihar,5,1,2867,"Security, 24/7 Water Supply, Parking, Clubhouse",2003,Spacious and well-lit with modern amenities.
+PROP-0133,Apartment,84939052,Rohini,3,2,3418,"Gym, Clubhouse",1993,Affordable yet stylish and comfortable.
+PROP-0134,Apartment,166403140,Pitampura,5,4,905,"Security, Swimming Pool, Gym",2001,Spacious and well-lit with modern amenities.
+PROP-0135,Condo,124680075,Karol Bagh,2,2,3694,"Lift, Clubhouse, Swimming Pool",1989,Affordable yet stylish and comfortable.
+PROP-0136,Condo,184648733,Connaught Place,5,2,905,"Parking, Gym, Swimming Pool",2014,Luxury property with top-notch features.
+PROP-0137,Condo,49155343,Karol Bagh,5,4,4304,"Lift, 24/7 Water Supply",2005,Luxury property with top-notch features.
+PROP-0138,Apartment,7764906,Preet Vihar,6,3,2686,"Security, Power Backup",1993,Newly renovated with smart home features.
+PROP-0139,Villa,160085538,Dwarka,1,2,3957,"Security, Clubhouse, Lift, Power Backup",2000,Newly renovated with smart home features.
+PROP-0140,Villa,23665094,Greater Kailash,6,3,848,"Swimming Pool, Security, Lift, 24/7 Water Supply",2023,Affordable yet stylish and comfortable.
+PROP-0141,Condo,135308128,Vasant Kunj,1,1,3068,"24/7 Water Supply, Security",1983,Newly renovated with smart home features.
+PROP-0142,Apartment,181064730,Vasant Kunj,5,2,2476,"Power Backup, Parking, Security, Swimming Pool, 24/7 Water Supply",2016,Affordable yet stylish and comfortable.
+PROP-0143,House,171281236,Saket,6,2,1391,"Garden, Power Backup",2002,"Ideal for families, located in a prime area."
+PROP-0144,Villa,157280025,Greater Kailash,1,1,1836,"Swimming Pool, Parking, Clubhouse, Garden",2019,Luxury property with top-notch features.
+PROP-0145,Condo,170680886,Chattarpur,3,3,2124,"Security, Swimming Pool, 24/7 Water Supply",2002,Affordable yet stylish and comfortable.
+PROP-0146,House,198372443,Connaught Place,6,1,2406,"Gym, Power Backup, Lift, Clubhouse, Garden",2014,Affordable yet stylish and comfortable.
+PROP-0147,Condo,62744637,Connaught Place,3,3,3223,"Clubhouse, Gym, Parking",1994,Newly renovated with smart home features.
+PROP-0148,House,10083773,South Extension,6,2,517,"Swimming Pool, Power Backup, Garden",2023,Newly renovated with smart home features.
+PROP-0149,House,143126798,Saket,1,4,3400,"Lift, Clubhouse, 24/7 Water Supply, Swimming Pool, Garden",2013,A cozy home with a stunning view.
+PROP-0150,Condo,154810840,Preet Vihar,6,1,558,"Parking, Security, Lift, Swimming Pool, 24/7 Water Supply",2006,Newly renovated with smart home features.
+PROP-0151,House,128897517,Chattarpur,4,3,1849,"Parking, Power Backup, Garden, 24/7 Water Supply",2012,Luxury property with top-notch features.
+PROP-0152,House,170927249,South Extension,2,2,3967,"Lift, Security, Swimming Pool",2013,Affordable yet stylish and comfortable.
+PROP-0153,Condo,82774978,Karol Bagh,3,4,4991,"Gym, Clubhouse",1990,A cozy home with a stunning view.
+PROP-0154,Apartment,46237322,Pitampura,6,2,2416,"Clubhouse, Parking",2000,"Ideal for families, located in a prime area."
+PROP-0155,House,122926728,Vasant Kunj,3,3,2311,"24/7 Water Supply, Security",1989,Affordable yet stylish and comfortable.
+PROP-0156,Villa,194258101,Saket,2,3,2953,"24/7 Water Supply, Lift",2004,Newly renovated with smart home features.
+PROP-0157,Apartment,162363224,Greater Kailash,6,1,4535,"Garden, 24/7 Water Supply",1987,Luxury property with top-notch features.
+PROP-0158,Villa,68634165,Preet Vihar,4,3,2395,"Gym, Swimming Pool",1995,A cozy home with a stunning view.
+PROP-0159,Condo,21746135,Rohini,1,4,3377,"24/7 Water Supply, Garden, Clubhouse",1998,Spacious and well-lit with modern amenities.
+PROP-0160,Villa,70314500,Greater Kailash,4,4,4639,"Gym, Lift, Swimming Pool, Garden, Security",1996,Affordable yet stylish and comfortable.
+PROP-0161,Apartment,176631729,Dwarka,3,2,1366,"Clubhouse, Security, Power Backup",2020,Spacious and well-lit with modern amenities.
+PROP-0162,Condo,110439625,Dwarka,6,3,1097,"Garden, Parking, Power Backup",1988,Affordable yet stylish and comfortable.
+PROP-0163,Villa,104083776,Pitampura,2,3,3768,"Power Backup, 24/7 Water Supply",2019,A cozy home with a stunning view.
+PROP-0164,Apartment,158528561,Karol Bagh,1,1,2366,"24/7 Water Supply, Garden, Lift, Parking, Swimming Pool",2013,A cozy home with a stunning view.
+PROP-0165,House,40393351,Karol Bagh,1,3,956,"Security, Garden, Swimming Pool",1990,"Ideal for families, located in a prime area."
+PROP-0166,Villa,84075576,South Extension,6,1,3144,"Garden, 24/7 Water Supply, Parking, Security, Swimming Pool",2010,"Ideal for families, located in a prime area."
+PROP-0167,Villa,45882561,Karol Bagh,4,1,2088,"Garden, Swimming Pool, Security, Parking, 24/7 Water Supply",2007,"Ideal for families, located in a prime area."
+PROP-0168,Apartment,54273934,Saket,6,3,2053,"Garden, Swimming Pool, Parking",2003,Spacious and well-lit with modern amenities.
+PROP-0169,Villa,122757917,Saket,4,4,4271,"Parking, Security, Garden, Gym",1994,Spacious and well-lit with modern amenities.
+PROP-0170,Villa,124222688,Greater Kailash,4,1,3241,"Security, Clubhouse, Garden, Parking",2009,Luxury property with top-notch features.
+PROP-0171,Villa,71646053,Greater Kailash,4,4,1360,"Security, 24/7 Water Supply, Lift",1989,Newly renovated with smart home features.
+PROP-0172,Condo,22087910,Preet Vihar,4,4,1637,"24/7 Water Supply, Gym, Lift",2023,Newly renovated with smart home features.
+PROP-0173,House,40151951,Lajpat Nagar,1,4,3384,"Gym, 24/7 Water Supply, Swimming Pool",1999,Spacious and well-lit with modern amenities.
+PROP-0174,Apartment,121446736,Preet Vihar,5,1,1327,"Security, Lift, Parking, Swimming Pool, Power Backup",2001,Luxury property with top-notch features.
+PROP-0175,Apartment,155592904,Rohini,2,1,4456,"24/7 Water Supply, Gym, Power Backup, Swimming Pool, Garden",1992,Affordable yet stylish and comfortable.
+PROP-0176,Apartment,56462899,Lajpat Nagar,6,2,1487,"Power Backup, Parking, Lift, Security",2007,Newly renovated with smart home features.
+PROP-0177,House,95764329,Saket,5,3,3060,"Parking, Power Backup, Security, Garden",2010,Newly renovated with smart home features.
+PROP-0178,House,46037571,Connaught Place,1,2,3408,"Garden, Parking, 24/7 Water Supply, Swimming Pool",2004,Luxury property with top-notch features.
+PROP-0179,House,132793018,Greater Kailash,1,3,2596,"Lift, Power Backup, Security, Swimming Pool, Parking",1989,Spacious and well-lit with modern amenities.
+PROP-0180,Condo,47604236,Karol Bagh,6,4,2704,"Gym, Parking",2011,Affordable yet stylish and comfortable.
+PROP-0181,Apartment,65104699,Preet Vihar,4,4,1180,"Parking, Lift",1991,A cozy home with a stunning view.
+PROP-0182,Villa,8315971,Connaught Place,2,2,614,"Swimming Pool, Parking, Lift, Security",2000,Newly renovated with smart home features.
+PROP-0183,Villa,65032018,Chattarpur,3,1,3512,"Swimming Pool, Parking, Lift, Power Backup, Gym",1986,Luxury property with top-notch features.
+PROP-0184,Apartment,4323325,Lajpat Nagar,3,3,4378,"Clubhouse, Power Backup, Parking",1993,Affordable yet stylish and comfortable.
+PROP-0185,Villa,90779368,Dwarka,4,2,4988,"Power Backup, 24/7 Water Supply, Security, Clubhouse, Parking",2005,Newly renovated with smart home features.
+PROP-0186,Apartment,96144164,South Extension,4,4,3233,"Swimming Pool, Garden, Security, Gym, Clubhouse",1982,Affordable yet stylish and comfortable.
+PROP-0187,House,194083471,Karol Bagh,1,3,1335,"Clubhouse, Gym",1983,A cozy home with a stunning view.
+PROP-0188,Villa,42969765,Connaught Place,4,4,1085,"Lift, Garden",1988,Affordable yet stylish and comfortable.
+PROP-0189,House,12026038,Greater Kailash,1,4,4274,"Lift, Gym, Parking, 24/7 Water Supply, Swimming Pool",1986,A cozy home with a stunning view.
+PROP-0190,Villa,6863587,Preet Vihar,6,4,4866,"Lift, Swimming Pool, Garden, Clubhouse",1985,Spacious and well-lit with modern amenities.
+PROP-0191,Villa,133703475,Greater Kailash,6,4,1010,"Swimming Pool, 24/7 Water Supply, Parking, Clubhouse, Garden",1992,Newly renovated with smart home features.
+PROP-0192,Apartment,126571278,Dwarka,1,1,3645,"Security, Parking, 24/7 Water Supply, Swimming Pool, Lift",1982,Newly renovated with smart home features.
+PROP-0193,Villa,66226406,Vasant Kunj,6,4,3362,"Security, Gym, Clubhouse, Swimming Pool",2023,A cozy home with a stunning view.
+PROP-0194,House,144177303,Karol Bagh,3,3,1639,"24/7 Water Supply, Gym, Garden, Lift",2007,Newly renovated with smart home features.
+PROP-0195,Villa,21659995,South Extension,2,1,861,"24/7 Water Supply, Parking, Garden",2003,Newly renovated with smart home features.
+PROP-0196,Condo,101842059,Chattarpur,3,2,4216,"Garden, Gym, Power Backup, 24/7 Water Supply, Lift",1980,Affordable yet stylish and comfortable.
+PROP-0197,Condo,152791913,Rohini,4,4,2739,"Swimming Pool, Clubhouse",1998,A cozy home with a stunning view.
+PROP-0198,House,92891113,South Extension,2,4,597,"Gym, Swimming Pool, Garden, Clubhouse",1995,A cozy home with a stunning view.
+PROP-0199,Villa,79608494,Lajpat Nagar,2,1,1858,"Clubhouse, Lift, Parking, 24/7 Water Supply, Garden",1988,Spacious and well-lit with modern amenities.
+PROP-0200,Villa,62991636,Dwarka,3,2,4682,"Parking, 24/7 Water Supply, Gym, Power Backup, Garden",2006,"Ideal for families, located in a prime area."
+PROP-0201,Apartment,174345077,Saket,3,4,3416,"24/7 Water Supply, Parking",2005,Spacious and well-lit with modern amenities.
+PROP-0202,House,134154285,Karol Bagh,5,1,3502,"Garden, Gym, Swimming Pool",2007,Luxury property with top-notch features.
+PROP-0203,Villa,21518233,Chattarpur,3,3,3228,"Gym, Power Backup, Clubhouse, Parking",1992,Luxury property with top-notch features.
+PROP-0204,Condo,97343632,Vasant Kunj,3,2,853,"Power Backup, Lift",2013,Affordable yet stylish and comfortable.
+PROP-0205,Villa,24388387,Dwarka,2,1,1791,"Lift, Parking, Clubhouse",2006,Luxury property with top-notch features.
+PROP-0206,Villa,77253058,Lajpat Nagar,5,4,819,"Lift, Clubhouse, Power Backup, Security",1989,"Ideal for families, located in a prime area."
+PROP-0207,Apartment,116961983,Saket,2,4,2197,"Lift, 24/7 Water Supply",2009,A cozy home with a stunning view.
+PROP-0208,Apartment,110494880,Pitampura,6,3,4633,"Garden, Clubhouse, Parking",2005,Newly renovated with smart home features.
+PROP-0209,Condo,62487760,South Extension,1,3,4267,"24/7 Water Supply, Garden",1985,Affordable yet stylish and comfortable.
+PROP-0210,Villa,143646981,Lajpat Nagar,5,3,4789,"Garden, Power Backup, Lift",1994,A cozy home with a stunning view.
+PROP-0211,Apartment,95618451,South Extension,1,3,550,"Power Backup, Garden",2016,Newly renovated with smart home features.
+PROP-0212,Condo,127435013,Chattarpur,6,4,4845,"24/7 Water Supply, Swimming Pool, Security",1995,Spacious and well-lit with modern amenities.
+PROP-0213,Villa,62840945,Chattarpur,1,4,4991,"Security, Parking",2003,Spacious and well-lit with modern amenities.
+PROP-0214,Villa,138929518,Dwarka,5,3,994,"Parking, Gym, Power Backup",1998,Luxury property with top-notch features.
+PROP-0215,House,193320943,Greater Kailash,1,1,3091,"Gym, Clubhouse",2017,Luxury property with top-notch features.
+PROP-0216,Apartment,132652831,Rohini,5,4,734,"Swimming Pool, Power Backup, Garden, Parking",2003,A cozy home with a stunning view.
+PROP-0217,Condo,31928686,Pitampura,5,3,2647,"Swimming Pool, Clubhouse, Gym, 24/7 Water Supply",1993,Spacious and well-lit with modern amenities.
+PROP-0218,Condo,187908715,Karol Bagh,6,2,833,"Lift, 24/7 Water Supply, Clubhouse",1991,Affordable yet stylish and comfortable.
+PROP-0219,Condo,48932040,Rohini,4,4,3911,"Gym, Swimming Pool",2007,Luxury property with top-notch features.
+PROP-0220,House,15543498,Rohini,2,3,2356,"24/7 Water Supply, Garden, Gym, Clubhouse, Lift",1991,Luxury property with top-notch features.
+PROP-0221,Condo,132534282,Preet Vihar,3,2,3282,"Security, 24/7 Water Supply, Swimming Pool",2007,Luxury property with top-notch features.
+PROP-0222,Apartment,48173395,Lajpat Nagar,4,1,4350,"Lift, Swimming Pool",2003,Luxury property with top-notch features.
+PROP-0223,Villa,111261786,Vasant Kunj,4,1,4560,"Gym, Parking, 24/7 Water Supply, Swimming Pool, Lift",2001,A cozy home with a stunning view.
+PROP-0224,House,170685280,Vasant Kunj,6,1,1506,"Clubhouse, Power Backup, Lift",2013,Newly renovated with smart home features.
+PROP-0225,Apartment,168050993,Preet Vihar,5,4,1394,"Clubhouse, 24/7 Water Supply",1984,Spacious and well-lit with modern amenities.
+PROP-0226,Villa,78425340,South Extension,2,2,3460,"Gym, Clubhouse, Swimming Pool, Security",2017,Newly renovated with smart home features.
+PROP-0227,Apartment,192004963,South Extension,3,2,4801,"24/7 Water Supply, Swimming Pool, Clubhouse",1988,Newly renovated with smart home features.
+PROP-0228,Villa,73339712,Lajpat Nagar,3,4,1233,"Gym, Swimming Pool, 24/7 Water Supply, Power Backup, Lift",1996,A cozy home with a stunning view.
+PROP-0229,Apartment,47693296,Dwarka,4,4,3689,"Clubhouse, Parking",2012,"Ideal for families, located in a prime area."
+PROP-0230,House,37815972,Chattarpur,1,4,2928,"Lift, Security, Clubhouse, Swimming Pool",2019,Luxury property with top-notch features.
+PROP-0231,House,54859804,South Extension,1,4,3568,"Garden, Clubhouse, Parking, Swimming Pool, Gym",1996,Newly renovated with smart home features.
+PROP-0232,Villa,130521003,Vasant Kunj,3,3,4845,"Swimming Pool, Security, Power Backup",2022,Spacious and well-lit with modern amenities.
+PROP-0233,Condo,161685801,Chattarpur,2,2,1793,"Parking, Lift, Swimming Pool",2022,Affordable yet stylish and comfortable.
+PROP-0234,Apartment,108435270,Lajpat Nagar,2,4,4738,"Clubhouse, Parking, 24/7 Water Supply, Swimming Pool",1986,"Ideal for families, located in a prime area."
+PROP-0235,House,133932292,Vasant Kunj,2,2,4488,"Swimming Pool, Security, Garden, Parking, Power Backup",1998,Spacious and well-lit with modern amenities.
+PROP-0236,Apartment,100960479,Rohini,2,3,2736,"Parking, Lift, Gym, Power Backup",1982,Luxury property with top-notch features.
+PROP-0237,Villa,16059262,Vasant Kunj,3,3,3552,"Swimming Pool, Parking",2000,Spacious and well-lit with modern amenities.
+PROP-0238,Condo,157035572,Rohini,5,2,2399,"24/7 Water Supply, Swimming Pool, Gym",2015,Luxury property with top-notch features.
+PROP-0239,House,17562213,Lajpat Nagar,4,3,4043,"Swimming Pool, Power Backup, 24/7 Water Supply, Lift, Parking",2002,A cozy home with a stunning view.
+PROP-0240,Condo,29161678,Greater Kailash,1,2,3240,"Lift, Parking, 24/7 Water Supply, Swimming Pool, Clubhouse",1983,"Ideal for families, located in a prime area."
+PROP-0241,House,172605629,Pitampura,6,4,975,"Gym, 24/7 Water Supply, Lift, Security",1986,Newly renovated with smart home features.
+PROP-0242,Apartment,185518226,Pitampura,6,1,2364,"Lift, Clubhouse, Gym",1988,Luxury property with top-notch features.
+PROP-0243,Villa,27443180,Rohini,3,3,640,"Swimming Pool, Security, Lift, Power Backup",2007,Luxury property with top-notch features.
+PROP-0244,Villa,155561696,Lajpat Nagar,3,2,2816,"Clubhouse, Swimming Pool, Gym, Parking",1984,Newly renovated with smart home features.
+PROP-0245,Apartment,120848190,Dwarka,3,4,883,"Gym, Garden, Security, Parking",1994,A cozy home with a stunning view.
+PROP-0246,Villa,167581796,Chattarpur,5,2,2586,"Garden, Gym, Clubhouse",2022,"Ideal for families, located in a prime area."
+PROP-0247,House,190386055,Pitampura,1,3,4929,"Lift, 24/7 Water Supply, Garden, Swimming Pool",2015,A cozy home with a stunning view.
+PROP-0248,Villa,152122443,Saket,6,2,4250,"24/7 Water Supply, Parking",2010,Spacious and well-lit with modern amenities.
+PROP-0249,Condo,128788525,Preet Vihar,2,2,4716,"Garden, Lift",1987,"Ideal for families, located in a prime area."
+PROP-0250,Condo,92046264,Greater Kailash,3,1,3538,"24/7 Water Supply, Security, Lift, Gym",2000,Luxury property with top-notch features.
+PROP-0251,Condo,96253941,Karol Bagh,6,2,3703,"Lift, Garden",2000,Spacious and well-lit with modern amenities.
+PROP-0252,Villa,17907597,Preet Vihar,2,3,1482,"Gym, Lift",2016,Spacious and well-lit with modern amenities.
+PROP-0253,Villa,56434033,Vasant Kunj,4,2,752,"24/7 Water Supply, Lift",1989,A cozy home with a stunning view.
+PROP-0254,House,128086445,Preet Vihar,4,1,1074,"Clubhouse, 24/7 Water Supply",1993,Spacious and well-lit with modern amenities.
+PROP-0255,Apartment,76040655,Connaught Place,5,2,2029,"24/7 Water Supply, Parking, Clubhouse",1996,Affordable yet stylish and comfortable.
+PROP-0256,Apartment,90951622,Greater Kailash,5,1,2705,"Gym, Clubhouse, 24/7 Water Supply",2004,"Ideal for families, located in a prime area."
+PROP-0257,Apartment,99732594,Saket,5,1,2726,"Lift, Swimming Pool, 24/7 Water Supply",2009,Spacious and well-lit with modern amenities.
+PROP-0258,House,179001505,Dwarka,3,2,4172,"Gym, Garden, Parking, 24/7 Water Supply",2022,A cozy home with a stunning view.
+PROP-0259,Apartment,73030252,Lajpat Nagar,1,1,4343,"Garden, Security, Gym",1996,Newly renovated with smart home features.
+PROP-0260,Condo,114346470,South Extension,4,1,2818,"Lift, Clubhouse, 24/7 Water Supply",2002,A cozy home with a stunning view.
+PROP-0261,Apartment,116608139,South Extension,5,3,4558,"Lift, Clubhouse, Swimming Pool, Parking",1982,Affordable yet stylish and comfortable.
+PROP-0262,Condo,34212789,Chattarpur,5,3,3673,"Gym, Parking, Lift, Security",1989,Affordable yet stylish and comfortable.
+PROP-0263,Condo,90021464,Pitampura,1,3,4731,"Lift, Gym, Swimming Pool, Power Backup, Parking",2000,Affordable yet stylish and comfortable.
+PROP-0264,House,25398243,Rohini,2,1,4896,"Lift, Security, Parking, Clubhouse",1999,"Ideal for families, located in a prime area."
+PROP-0265,Villa,49394760,Rohini,2,2,4953,"Power Backup, Garden, Swimming Pool, Clubhouse, Gym",1995,Affordable yet stylish and comfortable.
+PROP-0266,Villa,105646977,Pitampura,5,3,547,"Swimming Pool, 24/7 Water Supply, Lift, Gym, Parking",2022,"Ideal for families, located in a prime area."
+PROP-0267,Villa,33149492,Pitampura,3,1,2869,"Security, Clubhouse, Gym",2003,Luxury property with top-notch features.
+PROP-0268,House,58507861,South Extension,1,2,4078,"24/7 Water Supply, Garden, Parking",1990,Spacious and well-lit with modern amenities.
+PROP-0269,Villa,123016401,Pitampura,3,1,2736,"Security, Clubhouse, 24/7 Water Supply, Garden",1997,Affordable yet stylish and comfortable.
+PROP-0270,Villa,144789048,Pitampura,1,2,4329,"Power Backup, Lift",1995,Affordable yet stylish and comfortable.
+PROP-0271,Apartment,66115754,Saket,4,2,3164,"Swimming Pool, Power Backup, Garden",2018,Newly renovated with smart home features.
+PROP-0272,Apartment,114686024,Preet Vihar,3,2,1033,"Lift, Swimming Pool, Power Backup, Parking, Garden",2006,A cozy home with a stunning view.
+PROP-0273,Condo,60179161,Connaught Place,6,1,4838,"Power Backup, Security, Clubhouse",2001,Affordable yet stylish and comfortable.
+PROP-0274,House,49634798,Connaught Place,2,3,2336,"Swimming Pool, Clubhouse, Security, Lift, Gym",2006,Affordable yet stylish and comfortable.
+PROP-0275,Villa,193764871,Lajpat Nagar,5,1,2207,"Swimming Pool, Clubhouse, Gym, Lift, Garden",2020,Affordable yet stylish and comfortable.
+PROP-0276,Apartment,136600888,Preet Vihar,2,3,3626,"Swimming Pool, Security, Gym, Lift, Parking",1997,Spacious and well-lit with modern amenities.
+PROP-0277,House,48136509,Chattarpur,4,1,629,"Security, Clubhouse",2015,Luxury property with top-notch features.
+PROP-0278,Villa,27924074,Connaught Place,2,2,3674,"Gym, Power Backup, Security",1994,A cozy home with a stunning view.
+PROP-0279,House,132098030,Rohini,2,2,3478,"Lift, 24/7 Water Supply, Power Backup, Security, Clubhouse",2003,Newly renovated with smart home features.
+PROP-0280,Villa,120961458,Connaught Place,1,4,2138,"Gym, Garden, Parking, 24/7 Water Supply",1991,"Ideal for families, located in a prime area."
+PROP-0281,Condo,199696811,Lajpat Nagar,2,3,1775,"Security, Gym, Power Backup",1982,A cozy home with a stunning view.
+PROP-0282,Apartment,172578806,Karol Bagh,3,2,3568,"Parking, Garden, Clubhouse, Swimming Pool, Security",2016,A cozy home with a stunning view.
+PROP-0283,Condo,25762561,Vasant Kunj,1,2,1423,"Garden, Gym, Lift",1997,"Ideal for families, located in a prime area."
+PROP-0284,Condo,27562987,Preet Vihar,5,2,4014,"Power Backup, Clubhouse, Gym",1988,Newly renovated with smart home features.
+PROP-0285,House,165056711,Saket,6,1,796,"Lift, Swimming Pool, Gym, Garden",2004,Newly renovated with smart home features.
+PROP-0286,Apartment,192230939,Dwarka,3,1,3608,"Gym, 24/7 Water Supply, Garden, Security, Power Backup",2006,A cozy home with a stunning view.
+PROP-0287,House,148467939,South Extension,5,2,1973,"Garden, Power Backup",1996,"Ideal for families, located in a prime area."
+PROP-0288,Villa,124131346,Preet Vihar,6,4,585,"Gym, 24/7 Water Supply, Power Backup, Garden, Parking",2018,"Ideal for families, located in a prime area."
+PROP-0289,House,162182642,Chattarpur,2,2,3327,"Garden, Lift, Gym, 24/7 Water Supply",2011,Spacious and well-lit with modern amenities.
+PROP-0290,House,126884436,Vasant Kunj,1,3,566,"Clubhouse, 24/7 Water Supply, Garden, Gym, Lift",2010,Affordable yet stylish and comfortable.
+PROP-0291,Villa,93941027,Rohini,6,4,2015,"Garden, Gym, Clubhouse",1994,Luxury property with top-notch features.
+PROP-0292,Villa,36705796,Rohini,4,2,1926,"Security, Power Backup",2015,Luxury property with top-notch features.
+PROP-0293,Villa,96485182,Rohini,2,1,4029,"Clubhouse, Power Backup, Gym",1987,Luxury property with top-notch features.
+PROP-0294,House,132707522,Connaught Place,2,2,2783,"Lift, 24/7 Water Supply, Swimming Pool, Gym, Power Backup",2023,Newly renovated with smart home features.
+PROP-0295,Villa,92409848,South Extension,3,3,1570,"Lift, Swimming Pool, Power Backup, Garden, Gym",1997,Spacious and well-lit with modern amenities.
+PROP-0296,House,156209288,Dwarka,4,4,2528,"Parking, Swimming Pool, Gym, Garden",1990,Affordable yet stylish and comfortable.
+PROP-0297,Apartment,37994542,Dwarka,1,3,4151,"Power Backup, Swimming Pool, Garden",2009,A cozy home with a stunning view.
+PROP-0298,Villa,4033917,Karol Bagh,5,3,3627,"Swimming Pool, Parking, Clubhouse, Gym",1998,Spacious and well-lit with modern amenities.
+PROP-0299,House,149590788,South Extension,2,1,2940,"Clubhouse, 24/7 Water Supply, Security",2014,Spacious and well-lit with modern amenities.
+PROP-0300,Villa,73458095,Karol Bagh,6,4,4647,"Security, Garden, 24/7 Water Supply, Swimming Pool, Clubhouse",2021,Luxury property with top-notch features.
+PROP-0301,House,58738780,South Extension,4,3,700,"Swimming Pool, 24/7 Water Supply",1987,Spacious and well-lit with modern amenities.
+PROP-0302,Apartment,170091487,Rohini,3,1,3225,"24/7 Water Supply, Gym",1994,Affordable yet stylish and comfortable.
+PROP-0303,House,172495180,Chattarpur,6,1,2121,"Clubhouse, Security, Parking, 24/7 Water Supply",1990,Affordable yet stylish and comfortable.
+PROP-0304,House,59273678,Pitampura,1,2,1119,"Security, Power Backup, Swimming Pool, Lift, Parking",1995,"Ideal for families, located in a prime area."
+PROP-0305,Condo,18827138,Greater Kailash,2,3,4259,"24/7 Water Supply, Lift",1983,Affordable yet stylish and comfortable.
+PROP-0306,House,135004589,Saket,2,2,1043,"Parking, Garden",2020,"Ideal for families, located in a prime area."
+PROP-0307,House,62103163,Saket,4,1,1088,"Swimming Pool, 24/7 Water Supply, Security, Lift, Clubhouse",1981,Newly renovated with smart home features.
+PROP-0308,Apartment,80407683,Pitampura,5,2,2633,"Gym, Power Backup, Lift, Parking, Swimming Pool",1994,Spacious and well-lit with modern amenities.
+PROP-0309,Villa,32064776,Greater Kailash,3,2,3912,"Lift, Garden, Parking, Security, Swimming Pool",1980,A cozy home with a stunning view.
+PROP-0310,Apartment,103631512,Chattarpur,6,3,2632,"Gym, Power Backup, Swimming Pool, Lift",2001,"Ideal for families, located in a prime area."
+PROP-0311,Apartment,161684131,Saket,2,4,736,"Security, Swimming Pool, 24/7 Water Supply, Garden",2006,"Ideal for families, located in a prime area."
+PROP-0312,Condo,195820649,Greater Kailash,2,2,3031,"Gym, 24/7 Water Supply, Parking",1981,Affordable yet stylish and comfortable.
+PROP-0313,Villa,104545876,Dwarka,3,3,2897,"Swimming Pool, Garden, Parking, Security, Gym",1996,Luxury property with top-notch features.
+PROP-0314,House,6271171,Chattarpur,6,2,946,"Power Backup, Security, Swimming Pool, Parking",2001,Spacious and well-lit with modern amenities.
+PROP-0315,Villa,146178842,Chattarpur,4,4,3214,"24/7 Water Supply, Swimming Pool, Security, Power Backup, Lift",1995,Luxury property with top-notch features.
+PROP-0316,Apartment,170763337,Rohini,1,3,835,"Gym, 24/7 Water Supply, Security",2015,"Ideal for families, located in a prime area."
+PROP-0317,Apartment,92976230,Pitampura,4,1,3127,"Parking, 24/7 Water Supply",2008,Newly renovated with smart home features.
+PROP-0318,House,116234961,Karol Bagh,5,2,916,"Swimming Pool, Security, Parking",2020,Luxury property with top-notch features.
+PROP-0319,Condo,96645866,South Extension,4,2,4809,"Security, Power Backup, Clubhouse, Garden",1996,"Ideal for families, located in a prime area."
+PROP-0320,House,120178873,Preet Vihar,5,2,2615,"Swimming Pool, 24/7 Water Supply",1981,Newly renovated with smart home features.
+PROP-0321,Villa,71366415,Preet Vihar,3,1,3750,"Swimming Pool, Security",1984,Affordable yet stylish and comfortable.
+PROP-0322,House,106157990,Dwarka,5,3,3242,"24/7 Water Supply, Lift, Clubhouse",2004,A cozy home with a stunning view.
+PROP-0323,Apartment,31816168,Rohini,6,1,4316,"24/7 Water Supply, Parking, Lift",2007,Affordable yet stylish and comfortable.
+PROP-0324,House,134549074,Karol Bagh,1,3,527,"Swimming Pool, Gym, 24/7 Water Supply, Clubhouse",2021,Luxury property with top-notch features.
+PROP-0325,House,140203106,Rohini,1,3,978,"Security, 24/7 Water Supply, Parking, Clubhouse",2019,"Ideal for families, located in a prime area."
+PROP-0326,House,164093602,Rohini,5,2,4176,"24/7 Water Supply, Security",1991,Spacious and well-lit with modern amenities.
+PROP-0327,Condo,9629898,Chattarpur,1,4,4220,"24/7 Water Supply, Parking, Garden",1987,Spacious and well-lit with modern amenities.
+PROP-0328,Villa,106697574,Vasant Kunj,2,2,2798,"Clubhouse, Swimming Pool, Gym",2000,A cozy home with a stunning view.
+PROP-0329,Apartment,157231191,Preet Vihar,5,2,3577,"Parking, Security, Power Backup, Swimming Pool",2002,Newly renovated with smart home features.
+PROP-0330,Apartment,39795750,Preet Vihar,3,3,2722,"Clubhouse, Swimming Pool",2014,"Ideal for families, located in a prime area."
+PROP-0331,House,113567485,Vasant Kunj,6,2,1291,"Parking, 24/7 Water Supply",2023,A cozy home with a stunning view.
+PROP-0332,Condo,98426666,Karol Bagh,4,4,3246,"Clubhouse, Gym, Security, Parking",2002,A cozy home with a stunning view.
+PROP-0333,House,67111747,Lajpat Nagar,3,4,4278,"Gym, 24/7 Water Supply, Lift",2022,Luxury property with top-notch features.
+PROP-0334,Condo,28815052,Rohini,2,1,797,"Lift, Security, Swimming Pool, Clubhouse, Parking",2001,"Ideal for families, located in a prime area."
+PROP-0335,Villa,131720274,Pitampura,4,4,934,"Power Backup, Swimming Pool, Garden, 24/7 Water Supply",2005,A cozy home with a stunning view.
+PROP-0336,Apartment,87760812,Pitampura,5,1,3938,"Clubhouse, Garden, 24/7 Water Supply",1998,Newly renovated with smart home features.
+PROP-0337,House,39480348,Connaught Place,1,1,4337,"Clubhouse, Swimming Pool, Gym",1981,Spacious and well-lit with modern amenities.
+PROP-0338,House,174112444,Connaught Place,4,3,4839,"Garden, Security, Clubhouse, 24/7 Water Supply",1992,Newly renovated with smart home features.
+PROP-0339,Apartment,131153547,Preet Vihar,6,1,1874,"Clubhouse, Garden",2010,Spacious and well-lit with modern amenities.
+PROP-0340,Villa,129840630,Lajpat Nagar,5,1,1563,"Parking, 24/7 Water Supply",2008,Luxury property with top-notch features.
+PROP-0341,Apartment,46929314,Chattarpur,1,3,803,"Power Backup, 24/7 Water Supply",1982,Newly renovated with smart home features.
+PROP-0342,Villa,21790770,Connaught Place,5,1,3610,"Clubhouse, Gym, Swimming Pool",2003,Luxury property with top-notch features.
+PROP-0343,Villa,53544233,Preet Vihar,5,1,842,"Clubhouse, 24/7 Water Supply, Lift, Gym",2014,Luxury property with top-notch features.
+PROP-0344,Condo,147749418,Pitampura,6,3,4731,"Power Backup, Garden, Gym",2010,A cozy home with a stunning view.
+PROP-0345,Condo,173679023,Vasant Kunj,5,2,1662,"Power Backup, Garden, Parking",1986,A cozy home with a stunning view.
+PROP-0346,Apartment,99766498,Lajpat Nagar,2,4,2620,"Security, Lift",1981,"Ideal for families, located in a prime area."
+PROP-0347,House,106558669,Dwarka,1,1,4933,"24/7 Water Supply, Swimming Pool",2012,"Ideal for families, located in a prime area."
+PROP-0348,Condo,171571689,Saket,6,3,628,"Lift, Parking, Power Backup, Security, Swimming Pool",1980,"Ideal for families, located in a prime area."
+PROP-0349,Condo,136961016,Saket,5,3,1605,"Power Backup, Garden, Lift",1996,Luxury property with top-notch features.
+PROP-0350,House,32179730,Greater Kailash,5,1,639,"24/7 Water Supply, Clubhouse",1984,"Ideal for families, located in a prime area."
+PROP-0351,Condo,65799097,Preet Vihar,4,3,3082,"Parking, Garden, Clubhouse, 24/7 Water Supply, Gym",2006,"Ideal for families, located in a prime area."
+PROP-0352,Condo,5077890,Saket,6,1,1867,"Garden, Parking, Clubhouse",1983,Luxury property with top-notch features.
+PROP-0353,Condo,82303565,Dwarka,3,3,2310,"Power Backup, Lift, Swimming Pool",1996,Spacious and well-lit with modern amenities.
+PROP-0354,Condo,121165568,South Extension,1,3,3313,"Garden, 24/7 Water Supply, Gym, Parking, Lift",1990,"Ideal for families, located in a prime area."
+PROP-0355,House,8297915,Chattarpur,6,1,1360,"Clubhouse, Security, Lift, Garden, Swimming Pool",2014,Luxury property with top-notch features.
+PROP-0356,Apartment,26555587,Connaught Place,6,1,4906,"Security, 24/7 Water Supply",2011,Spacious and well-lit with modern amenities.
+PROP-0357,Apartment,62746498,Dwarka,3,1,4306,"24/7 Water Supply, Lift",1984,Luxury property with top-notch features.
+PROP-0358,Condo,117592652,Dwarka,5,3,1482,"Clubhouse, Security, Garden",2018,Affordable yet stylish and comfortable.
+PROP-0359,Villa,49620921,Chattarpur,1,1,3608,"Security, Lift, Parking, Clubhouse, Power Backup",1990,Newly renovated with smart home features.
+PROP-0360,Condo,113361450,Vasant Kunj,5,3,4178,"Garden, Power Backup, Swimming Pool",2001,"Ideal for families, located in a prime area."
+PROP-0361,Apartment,70931749,Vasant Kunj,2,4,1575,"Swimming Pool, Security, Clubhouse, Parking, 24/7 Water Supply",1997,"Ideal for families, located in a prime area."
+PROP-0362,Villa,48886487,Saket,3,3,4211,"Parking, Gym, Lift, Security, Power Backup",2010,Affordable yet stylish and comfortable.
+PROP-0363,Apartment,156152714,Lajpat Nagar,6,3,2815,"Gym, Security, Power Backup, Parking",2009,Spacious and well-lit with modern amenities.
+PROP-0364,Condo,52154552,Chattarpur,6,2,1233,"Garden, Power Backup, Security",1988,A cozy home with a stunning view.
+PROP-0365,House,126204427,Saket,3,4,4845,"Gym, Lift, Swimming Pool, Power Backup, Garden",1994,Spacious and well-lit with modern amenities.
+PROP-0366,House,112927140,Connaught Place,5,1,1011,"Lift, Parking",2007,Spacious and well-lit with modern amenities.
+PROP-0367,Villa,100986821,Karol Bagh,3,4,2225,"Clubhouse, Swimming Pool",2016,A cozy home with a stunning view.
+PROP-0368,Villa,139213252,Greater Kailash,6,4,3223,"Parking, Gym, Clubhouse, Swimming Pool",1980,"Ideal for families, located in a prime area."
+PROP-0369,Villa,36156544,Greater Kailash,2,1,4462,"Power Backup, Security",1985,Newly renovated with smart home features.
+PROP-0370,Condo,171940998,Karol Bagh,6,1,1234,"Power Backup, Parking, Swimming Pool, Gym, Security",2021,"Ideal for families, located in a prime area."
+PROP-0371,Apartment,136583560,Pitampura,3,1,2219,"24/7 Water Supply, Swimming Pool, Security, Power Backup",2019,A cozy home with a stunning view.
+PROP-0372,House,152417917,Pitampura,5,1,3687,"Gym, Garden",2015,A cozy home with a stunning view.
+PROP-0373,Apartment,150267784,Lajpat Nagar,6,1,2853,"24/7 Water Supply, Lift",1984,A cozy home with a stunning view.
+PROP-0374,Villa,128001977,Greater Kailash,4,4,4010,"Parking, Garden, Clubhouse",1991,Affordable yet stylish and comfortable.
+PROP-0375,Condo,7941700,Greater Kailash,1,1,3238,"Security, Swimming Pool, Lift, Power Backup, Clubhouse",2012,Newly renovated with smart home features.
+PROP-0376,Condo,144414313,Dwarka,3,2,958,"Swimming Pool, Gym",1996,Newly renovated with smart home features.
+PROP-0377,House,189292928,South Extension,1,2,1910,"Swimming Pool, Parking, 24/7 Water Supply, Garden",2004,Spacious and well-lit with modern amenities.
+PROP-0378,Apartment,107481208,South Extension,4,3,1684,"Clubhouse, 24/7 Water Supply, Power Backup, Lift",1996,A cozy home with a stunning view.
+PROP-0379,House,176109603,Karol Bagh,5,3,4018,"Garden, Clubhouse",1998,"Ideal for families, located in a prime area."
+PROP-0380,Villa,12633574,Lajpat Nagar,5,2,730,"Power Backup, Garden, Parking, Security, Lift",2014,Spacious and well-lit with modern amenities.
+PROP-0381,Apartment,136691859,Karol Bagh,4,3,3450,"Gym, Swimming Pool, 24/7 Water Supply",1989,Luxury property with top-notch features.
+PROP-0382,Villa,199759380,Pitampura,5,2,1225,"Parking, Security, Lift, 24/7 Water Supply",2014,Spacious and well-lit with modern amenities.
+PROP-0383,Condo,78324736,Connaught Place,4,1,4500,"Security, Clubhouse, Swimming Pool, Power Backup",2021,Newly renovated with smart home features.
+PROP-0384,House,48847037,South Extension,2,3,4263,"Swimming Pool, Security, Parking",1984,Spacious and well-lit with modern amenities.
+PROP-0385,House,13662302,Chattarpur,3,4,3091,"Security, Gym, Clubhouse, Swimming Pool",1982,Spacious and well-lit with modern amenities.
+PROP-0386,Apartment,14785528,Vasant Kunj,3,4,1860,"Clubhouse, Power Backup, Gym",1995,Luxury property with top-notch features.
+PROP-0387,Villa,54878008,Rohini,5,2,797,"Gym, Security",1993,A cozy home with a stunning view.
+PROP-0388,Apartment,109883055,Greater Kailash,5,2,2382,"Parking, Clubhouse",2017,"Ideal for families, located in a prime area."
+PROP-0389,House,67583562,Dwarka,3,4,4868,"Security, Swimming Pool, Power Backup, 24/7 Water Supply",2007,"Ideal for families, located in a prime area."
+PROP-0390,Villa,144961499,Chattarpur,6,2,3822,"Security, Gym",2015,"Ideal for families, located in a prime area."
+PROP-0391,House,37154590,Connaught Place,2,1,655,"Swimming Pool, Clubhouse, 24/7 Water Supply, Security",2006,"Ideal for families, located in a prime area."
+PROP-0392,Villa,73262969,Saket,5,2,2459,"Clubhouse, Swimming Pool, Lift, Parking",1990,A cozy home with a stunning view.
+PROP-0393,House,149297261,Saket,3,2,2171,"24/7 Water Supply, Clubhouse, Lift, Garden, Gym",1987,A cozy home with a stunning view.
+PROP-0394,House,18617939,Greater Kailash,1,4,2433,"Gym, 24/7 Water Supply, Clubhouse, Parking, Lift",1997,"Ideal for families, located in a prime area."
+PROP-0395,House,119891427,Vasant Kunj,1,3,1243,"24/7 Water Supply, Garden, Clubhouse, Swimming Pool, Gym",2016,Affordable yet stylish and comfortable.
+PROP-0396,Condo,172593741,Karol Bagh,1,3,3389,"Power Backup, Lift, Security, Parking",2003,Spacious and well-lit with modern amenities.
+PROP-0397,Condo,85918719,Chattarpur,6,3,4678,"Swimming Pool, Security, 24/7 Water Supply, Garden",1981,"Ideal for families, located in a prime area."
+PROP-0398,Condo,154069104,Dwarka,4,1,1498,"Parking, Swimming Pool, Lift, Garden, 24/7 Water Supply",2014,A cozy home with a stunning view.
+PROP-0399,Condo,79277051,Pitampura,1,2,4677,"Garden, Swimming Pool, Clubhouse, Security",2000,"Ideal for families, located in a prime area."
+PROP-0400,Villa,29695648,Connaught Place,4,3,1539,"Swimming Pool, Security, Power Backup",2010,Spacious and well-lit with modern amenities.
+PROP-0401,Villa,99819713,Rohini,5,2,4968,"Garden, Swimming Pool, Parking, Clubhouse, Power Backup",1988,Affordable yet stylish and comfortable.
+PROP-0402,Apartment,3715251,Lajpat Nagar,5,4,4819,"Parking, Lift, Swimming Pool",2019,"Ideal for families, located in a prime area."
+PROP-0403,Villa,149712070,Lajpat Nagar,1,3,3462,"Security, 24/7 Water Supply, Swimming Pool",1995,Luxury property with top-notch features.
+PROP-0404,Villa,106682065,Karol Bagh,6,2,4788,"Clubhouse, 24/7 Water Supply, Swimming Pool, Parking",2019,"Ideal for families, located in a prime area."
+PROP-0405,Villa,83122800,Rohini,5,2,2309,"24/7 Water Supply, Lift, Swimming Pool, Garden",2020,Luxury property with top-notch features.
+PROP-0406,Villa,96790701,Connaught Place,3,4,1546,"Swimming Pool, Gym, Parking, Clubhouse",1991,"Ideal for families, located in a prime area."
+PROP-0407,Apartment,82134126,South Extension,4,2,2039,"Gym, Swimming Pool, Power Backup",1998,Newly renovated with smart home features.
+PROP-0408,Villa,140904900,Pitampura,2,3,4298,"Parking, 24/7 Water Supply, Power Backup, Swimming Pool",2000,Spacious and well-lit with modern amenities.
+PROP-0409,Villa,74098601,Rohini,6,3,4464,"Parking, Security, 24/7 Water Supply",2015,A cozy home with a stunning view.
+PROP-0410,Condo,94212532,Lajpat Nagar,3,2,523,"Lift, Swimming Pool",2015,Newly renovated with smart home features.
+PROP-0411,Apartment,153727552,Pitampura,3,2,883,"24/7 Water Supply, Swimming Pool, Lift, Parking, Security",1987,"Ideal for families, located in a prime area."
+PROP-0412,Apartment,37430415,Preet Vihar,5,2,1236,"Gym, Power Backup, Parking, Lift",1998,Newly renovated with smart home features.
+PROP-0413,Condo,187302304,Preet Vihar,1,4,3913,"Clubhouse, Power Backup, Swimming Pool",1992,Luxury property with top-notch features.
+PROP-0414,Villa,45946281,Preet Vihar,4,1,3312,"Clubhouse, Power Backup",1983,Affordable yet stylish and comfortable.
+PROP-0415,Apartment,44175865,Lajpat Nagar,5,4,2101,"Garden, Parking, Security, Clubhouse",1995,"Ideal for families, located in a prime area."
+PROP-0416,Villa,78801820,Pitampura,3,4,2042,"Parking, 24/7 Water Supply, Security",2017,Spacious and well-lit with modern amenities.
+PROP-0417,Condo,164565085,Greater Kailash,6,2,3631,"Clubhouse, Security",2007,"Ideal for families, located in a prime area."
+PROP-0418,Condo,110221441,South Extension,1,2,3988,"Garden, Security, 24/7 Water Supply, Swimming Pool, Clubhouse",1996,"Ideal for families, located in a prime area."
+PROP-0419,House,126005828,Chattarpur,6,1,1285,"Security, Gym, Lift, Power Backup",2003,Luxury property with top-notch features.
+PROP-0420,Villa,72423896,Pitampura,4,1,4105,"Gym, Parking, Security, Garden, Lift",1983,Spacious and well-lit with modern amenities.
+PROP-0421,Villa,87397912,Karol Bagh,5,3,3773,"Power Backup, Garden, Security, 24/7 Water Supply",1997,Affordable yet stylish and comfortable.
+PROP-0422,House,180161206,Preet Vihar,1,1,3520,"Security, Parking",2006,Affordable yet stylish and comfortable.
+PROP-0423,Apartment,175292469,Karol Bagh,3,3,3369,"Clubhouse, Gym, Parking",1991,Affordable yet stylish and comfortable.
+PROP-0424,Condo,10617027,Connaught Place,6,2,3137,"Lift, Gym, Parking",2015,Affordable yet stylish and comfortable.
+PROP-0425,Villa,197821704,Saket,1,3,3351,"Swimming Pool, Parking, Lift",2023,"Ideal for families, located in a prime area."
+PROP-0426,Villa,136479110,Karol Bagh,2,1,1934,"Clubhouse, Parking, Power Backup, Swimming Pool, 24/7 Water Supply",2002,Spacious and well-lit with modern amenities.
+PROP-0427,Condo,108230042,Preet Vihar,3,3,1824,"Swimming Pool, Gym, 24/7 Water Supply, Parking",1991,Newly renovated with smart home features.
+PROP-0428,House,60055436,Lajpat Nagar,2,3,1866,"Clubhouse, Gym, Parking",2022,Affordable yet stylish and comfortable.
+PROP-0429,Apartment,55335283,South Extension,3,3,866,"Parking, Security, 24/7 Water Supply, Power Backup",2008,Luxury property with top-notch features.
+PROP-0430,Villa,62312279,Karol Bagh,5,3,2668,"Gym, Garden, Swimming Pool, Security, 24/7 Water Supply",2017,Luxury property with top-notch features.
+PROP-0431,Apartment,199064926,Connaught Place,4,4,3188,"Power Backup, Lift",2005,"Ideal for families, located in a prime area."
+PROP-0432,House,103245133,Vasant Kunj,4,2,1648,"Clubhouse, Lift, Garden",1980,Newly renovated with smart home features.
+PROP-0433,House,94663826,Lajpat Nagar,1,2,1988,"Security, Gym, Lift",1991,"Ideal for families, located in a prime area."
+PROP-0434,Condo,6236448,Rohini,1,1,2289,"Gym, Garden, Lift, Security",2019,A cozy home with a stunning view.
+PROP-0435,House,119065154,Connaught Place,1,2,3402,"Parking, Gym, Lift, Swimming Pool, Power Backup",2018,Newly renovated with smart home features.
+PROP-0436,Condo,184779536,Rohini,4,2,1482,"Swimming Pool, Lift",2020,Affordable yet stylish and comfortable.
+PROP-0437,House,132027164,Lajpat Nagar,1,3,2005,"Garden, Lift, Power Backup, Parking, Swimming Pool",1985,"Ideal for families, located in a prime area."
+PROP-0438,Villa,161150860,Greater Kailash,3,1,2463,"Clubhouse, Power Backup, Swimming Pool, 24/7 Water Supply",1980,Luxury property with top-notch features.
+PROP-0439,House,90317477,Karol Bagh,1,1,1368,"Lift, Power Backup, Clubhouse",2005,Newly renovated with smart home features.
+PROP-0440,House,164325578,Saket,4,1,1239,"Garden, Power Backup, Clubhouse, Lift, Security",1990,Newly renovated with smart home features.
+PROP-0441,Condo,111947138,Dwarka,2,4,1273,"Power Backup, Garden, Swimming Pool",1989,Newly renovated with smart home features.
+PROP-0442,Condo,145124524,Preet Vihar,3,1,2320,"Garden, Swimming Pool, Power Backup, Clubhouse, Security",2005,"Ideal for families, located in a prime area."
+PROP-0443,Apartment,4773627,South Extension,6,2,1414,"Lift, Garden, Clubhouse, Power Backup",2008,Newly renovated with smart home features.
+PROP-0444,House,157850283,Dwarka,4,4,1475,"Garden, 24/7 Water Supply, Gym, Parking, Security",2004,Newly renovated with smart home features.
+PROP-0445,Villa,9876816,Saket,2,2,896,"24/7 Water Supply, Gym",2017,"Ideal for families, located in a prime area."
+PROP-0446,Condo,27411359,Greater Kailash,5,4,3410,"Security, Lift, Swimming Pool, Power Backup, Garden",1984,Affordable yet stylish and comfortable.
+PROP-0447,Villa,198431051,Vasant Kunj,4,4,4669,"Security, Parking, Swimming Pool",1992,"Ideal for families, located in a prime area."
+PROP-0448,Apartment,157817604,Karol Bagh,4,1,1741,"Clubhouse, 24/7 Water Supply, Power Backup, Lift, Parking",2012,A cozy home with a stunning view.
+PROP-0449,Condo,31553834,Preet Vihar,4,3,597,"Power Backup, Security",2017,Newly renovated with smart home features.
+PROP-0450,Condo,59968982,Greater Kailash,3,3,2659,"Clubhouse, Security, Swimming Pool",1996,Newly renovated with smart home features.
+PROP-0451,House,157066524,Greater Kailash,4,2,3510,"Lift, Garden, Clubhouse, Gym",2023,Luxury property with top-notch features.
+PROP-0452,House,89056852,Vasant Kunj,3,2,4029,"Garden, Gym, Parking",2006,Luxury property with top-notch features.
+PROP-0453,Apartment,132472608,South Extension,4,2,1573,"Security, Parking",1980,Newly renovated with smart home features.
+PROP-0454,Apartment,132197417,Greater Kailash,5,2,513,"Clubhouse, Security",1983,"Ideal for families, located in a prime area."
+PROP-0455,Apartment,93125133,South Extension,6,2,1275,"Swimming Pool, Power Backup, Security, 24/7 Water Supply",2015,Newly renovated with smart home features.
+PROP-0456,Apartment,176012756,Pitampura,3,2,4801,"Clubhouse, Lift",2003,Spacious and well-lit with modern amenities.
+PROP-0457,Apartment,77644410,Connaught Place,2,3,1012,"Security, Power Backup, 24/7 Water Supply",1980,Affordable yet stylish and comfortable.
+PROP-0458,Apartment,164626690,Chattarpur,6,2,1500,"Garden, Gym, Swimming Pool, Lift, 24/7 Water Supply",2014,Affordable yet stylish and comfortable.
+PROP-0459,Apartment,39712176,Dwarka,5,3,1066,"Garden, Power Backup, Lift",1990,Spacious and well-lit with modern amenities.
+PROP-0460,Apartment,7606291,Chattarpur,5,1,1636,"Power Backup, 24/7 Water Supply, Security, Swimming Pool, Clubhouse",2017,Luxury property with top-notch features.
+PROP-0461,Apartment,101825041,Preet Vihar,1,2,3460,"Clubhouse, Power Backup, Security",2022,Luxury property with top-notch features.
+PROP-0462,Condo,197568903,Karol Bagh,1,1,1247,"Power Backup, Parking, Lift, Security, Swimming Pool",2014,"Ideal for families, located in a prime area."
+PROP-0463,Villa,81460279,Connaught Place,4,1,4039,"Power Backup, Parking, Gym",1980,Luxury property with top-notch features.
+PROP-0464,Villa,117793062,Saket,1,3,806,"Gym, Parking, Clubhouse, Power Backup",1998,"Ideal for families, located in a prime area."
+PROP-0465,Condo,194768687,Vasant Kunj,4,3,3323,"Lift, Swimming Pool, Garden, Parking, Clubhouse",2004,Newly renovated with smart home features.
+PROP-0466,Condo,92649007,Preet Vihar,5,3,3373,"Gym, Clubhouse, 24/7 Water Supply",2008,A cozy home with a stunning view.
+PROP-0467,House,93223691,Preet Vihar,2,2,3849,"Power Backup, Clubhouse",2016,Spacious and well-lit with modern amenities.
+PROP-0468,House,37943969,Saket,3,1,3555,"Garden, Power Backup, Lift",1984,Affordable yet stylish and comfortable.
+PROP-0469,Villa,77670391,Preet Vihar,3,4,4913,"24/7 Water Supply, Clubhouse, Garden, Security",2020,Affordable yet stylish and comfortable.
+PROP-0470,Condo,138430594,Pitampura,1,3,1399,"Gym, Security, Power Backup, Parking, Swimming Pool",2004,Luxury property with top-notch features.
+PROP-0471,Apartment,104597602,Dwarka,3,2,1504,"Gym, Garden, Security, Power Backup",2012,Newly renovated with smart home features.
+PROP-0472,Villa,168329578,Rohini,2,1,3771,"24/7 Water Supply, Lift, Swimming Pool",2000,A cozy home with a stunning view.
+PROP-0473,House,108354659,Vasant Kunj,3,2,1594,"Lift, Security, Gym, 24/7 Water Supply, Garden",1989,Spacious and well-lit with modern amenities.
+PROP-0474,Apartment,87354052,Vasant Kunj,1,3,3123,"Lift, Power Backup",1980,"Ideal for families, located in a prime area."
+PROP-0475,Apartment,197293677,Lajpat Nagar,2,3,4177,"24/7 Water Supply, Power Backup",1995,Newly renovated with smart home features.
+PROP-0476,Condo,180229605,Pitampura,5,3,3602,"Gym, Parking, Swimming Pool, Power Backup",2008,A cozy home with a stunning view.
+PROP-0477,Apartment,184787716,Rohini,4,1,4173,"24/7 Water Supply, Power Backup",2020,Affordable yet stylish and comfortable.
+PROP-0478,House,84463828,Saket,1,1,2569,"Garden, Clubhouse, Power Backup, Lift, Parking",1982,A cozy home with a stunning view.
+PROP-0479,House,72003538,Karol Bagh,2,2,1023,"Gym, Swimming Pool",1993,"Ideal for families, located in a prime area."
+PROP-0480,Villa,174984165,Lajpat Nagar,3,3,4417,"Swimming Pool, Power Backup, Clubhouse, 24/7 Water Supply",1994,Newly renovated with smart home features.
+PROP-0481,House,103345896,Lajpat Nagar,4,1,510,"Parking, Lift, Garden, Clubhouse, 24/7 Water Supply",2013,Affordable yet stylish and comfortable.
+PROP-0482,Villa,125508752,Rohini,5,4,4335,"Parking, Garden, Clubhouse, Lift, Swimming Pool",2013,Newly renovated with smart home features.
+PROP-0483,Apartment,164402945,Greater Kailash,2,4,1922,"Security, Power Backup, 24/7 Water Supply",1981,A cozy home with a stunning view.
+PROP-0484,Apartment,134908698,Preet Vihar,4,2,1523,"Gym, Lift, Swimming Pool, Power Backup, Garden",2012,Spacious and well-lit with modern amenities.
+PROP-0485,Condo,76627347,Rohini,5,3,4706,"Swimming Pool, Parking, Security, Clubhouse",1988,Affordable yet stylish and comfortable.
+PROP-0486,Condo,172360226,Karol Bagh,4,3,1832,"Parking, Power Backup",2012,Affordable yet stylish and comfortable.
+PROP-0487,House,55493972,Greater Kailash,3,4,2893,"24/7 Water Supply, Parking, Lift, Clubhouse, Power Backup",2002,"Ideal for families, located in a prime area."
+PROP-0488,Villa,59244572,South Extension,6,3,3170,"Garden, Clubhouse, Power Backup, Security",2018,A cozy home with a stunning view.
+PROP-0489,Villa,171991215,South Extension,5,2,676,"Swimming Pool, Parking",2002,Newly renovated with smart home features.
+PROP-0490,Apartment,44951525,Lajpat Nagar,1,1,1497,"Power Backup, Garden, Lift, 24/7 Water Supply, Swimming Pool",1996,Affordable yet stylish and comfortable.
+PROP-0491,Apartment,80555635,Rohini,3,4,2145,"Parking, Security, Power Backup, Clubhouse, Garden",2013,Newly renovated with smart home features.
+PROP-0492,Condo,59728938,Lajpat Nagar,3,3,569,"Security, Garden, Lift",1980,Affordable yet stylish and comfortable.
+PROP-0493,Villa,49882508,Pitampura,5,4,1143,"Lift, Power Backup, Parking, Swimming Pool",2020,"Ideal for families, located in a prime area."
+PROP-0494,House,199017692,Greater Kailash,5,1,3796,"Power Backup, 24/7 Water Supply",1998,"Ideal for families, located in a prime area."
+PROP-0495,Condo,32292822,Karol Bagh,2,2,4398,"24/7 Water Supply, Gym, Power Backup",2012,Newly renovated with smart home features.
+PROP-0496,Apartment,43499976,Preet Vihar,5,4,4735,"Lift, Garden, 24/7 Water Supply, Security",1993,Luxury property with top-notch features.
+PROP-0497,Apartment,9039100,Connaught Place,2,2,912,"Garden, Swimming Pool, 24/7 Water Supply",1990,Newly renovated with smart home features.
+PROP-0498,Villa,191420815,Preet Vihar,5,4,3094,"Security, Gym",2018,Luxury property with top-notch features.
+PROP-0499,Apartment,71076035,Rohini,3,4,2931,"Swimming Pool, Lift",2012,Spacious and well-lit with modern amenities.
+PROP-0500,Condo,100038133,Rohini,6,4,1573,"Gym, Lift, Clubhouse",1985,Luxury property with top-notch features.
+PROP-0501,House,190885059,South Extension,3,2,1592,"Security, Power Backup, 24/7 Water Supply",2018,Newly renovated with smart home features.
+PROP-0502,Villa,67332437,Dwarka,2,2,3617,"Swimming Pool, Power Backup, Gym",2005,Newly renovated with smart home features.
+PROP-0503,House,7064093,Connaught Place,1,3,4335,"Gym, 24/7 Water Supply, Parking",2020,Spacious and well-lit with modern amenities.
+PROP-0504,Apartment,16429935,Karol Bagh,6,2,3482,"Gym, Power Backup, Parking",2020,"Ideal for families, located in a prime area."
+PROP-0505,Apartment,106014000,Vasant Kunj,1,2,3692,"Lift, Power Backup, Gym",2013,Luxury property with top-notch features.
+PROP-0506,House,72581774,Preet Vihar,6,2,4761,"Swimming Pool, Clubhouse, Gym",1985,Newly renovated with smart home features.
+PROP-0507,Condo,186759304,Karol Bagh,1,3,2220,"Lift, Power Backup",1982,Newly renovated with smart home features.
+PROP-0508,Villa,175174657,Pitampura,2,2,1748,"Gym, Lift, Parking, Swimming Pool",1995,Luxury property with top-notch features.
+PROP-0509,Villa,151008808,Chattarpur,4,3,4378,"24/7 Water Supply, Gym, Garden",2012,Newly renovated with smart home features.
+PROP-0510,Villa,58442703,Karol Bagh,5,4,572,"Swimming Pool, 24/7 Water Supply, Gym, Power Backup",2012,"Ideal for families, located in a prime area."
+PROP-0511,Condo,77666299,Saket,2,2,1225,"Lift, Garden, Parking, Security",1989,Newly renovated with smart home features.
+PROP-0512,House,41648750,Pitampura,3,3,824,"Power Backup, Garden, 24/7 Water Supply, Gym",1994,Spacious and well-lit with modern amenities.
+PROP-0513,Condo,61371673,Chattarpur,4,4,1325,"24/7 Water Supply, Parking, Swimming Pool, Gym, Security",2012,Newly renovated with smart home features.
+PROP-0514,Condo,55712947,Pitampura,2,3,3781,"Swimming Pool, 24/7 Water Supply, Power Backup, Parking",2004,Newly renovated with smart home features.
+PROP-0515,Condo,76547207,Connaught Place,4,4,625,"Gym, Power Backup",2005,Affordable yet stylish and comfortable.
+PROP-0516,Villa,173564131,Lajpat Nagar,5,4,2548,"Power Backup, Garden, Swimming Pool, Clubhouse, Security",1992,Luxury property with top-notch features.
+PROP-0517,House,179275782,Connaught Place,1,4,4615,"Gym, Security",2012,A cozy home with a stunning view.
+PROP-0518,Apartment,183227729,Dwarka,6,3,3874,"Swimming Pool, Gym, Parking, Lift",1987,"Ideal for families, located in a prime area."
+PROP-0519,Apartment,101176247,Lajpat Nagar,5,1,4927,"Swimming Pool, Gym, 24/7 Water Supply",1993,Newly renovated with smart home features.
+PROP-0520,Apartment,42920253,Pitampura,4,2,2928,"Garden, Parking, Power Backup, Lift",1993,A cozy home with a stunning view.
+PROP-0521,Apartment,114749350,Preet Vihar,1,2,3753,"24/7 Water Supply, Swimming Pool, Gym, Garden, Lift",2006,Luxury property with top-notch features.
+PROP-0522,Apartment,85461200,Lajpat Nagar,3,2,4851,"Lift, 24/7 Water Supply, Parking, Clubhouse, Swimming Pool",2018,"Ideal for families, located in a prime area."
+PROP-0523,House,75403811,Lajpat Nagar,6,4,3948,"24/7 Water Supply, Gym",2019,"Ideal for families, located in a prime area."
+PROP-0524,Condo,123303812,Greater Kailash,5,1,817,"24/7 Water Supply, Power Backup, Lift, Gym",1995,A cozy home with a stunning view.
+PROP-0525,Villa,129368399,Karol Bagh,5,4,620,"Garden, Power Backup, Clubhouse, 24/7 Water Supply, Security",2007,Newly renovated with smart home features.
+PROP-0526,Apartment,89344304,Karol Bagh,4,3,3261,"24/7 Water Supply, Lift, Swimming Pool",1991,Affordable yet stylish and comfortable.
+PROP-0527,House,71112106,Vasant Kunj,4,4,4693,"Garden, Clubhouse, 24/7 Water Supply, Parking, Security",2002,Affordable yet stylish and comfortable.
+PROP-0528,House,103990044,Preet Vihar,5,2,2614,"Gym, Garden, Clubhouse, Parking, Power Backup",2012,Luxury property with top-notch features.
+PROP-0529,House,12651433,Connaught Place,2,3,3656,"Lift, Gym",2009,Newly renovated with smart home features.
+PROP-0530,House,122233932,Preet Vihar,5,1,4709,"Lift, Swimming Pool, 24/7 Water Supply, Garden",2022,Newly renovated with smart home features.
+PROP-0531,Villa,143058034,Rohini,4,2,693,"Garden, Security, Clubhouse, Swimming Pool, Power Backup",1982,Newly renovated with smart home features.
+PROP-0532,Condo,41760226,Preet Vihar,6,2,2870,"Swimming Pool, Lift, Power Backup, Parking",1997,Spacious and well-lit with modern amenities.
+PROP-0533,House,174351496,Dwarka,3,3,3733,"Lift, Garden, Gym, 24/7 Water Supply, Security",2006,Luxury property with top-notch features.
+PROP-0534,House,30102359,Preet Vihar,2,3,4400,"Clubhouse, Swimming Pool, 24/7 Water Supply",2019,Newly renovated with smart home features.
+PROP-0535,Condo,196142093,Chattarpur,1,3,2159,"Security, 24/7 Water Supply, Clubhouse",1992,A cozy home with a stunning view.
+PROP-0536,House,41329334,Dwarka,5,2,1723,"Gym, Lift, Parking",2012,A cozy home with a stunning view.
+PROP-0537,Villa,127243232,South Extension,2,3,962,"Swimming Pool, Parking, Lift, Clubhouse, Power Backup",1998,Affordable yet stylish and comfortable.
+PROP-0538,Condo,149631287,Greater Kailash,4,4,3089,"Swimming Pool, Parking, Security",1981,Spacious and well-lit with modern amenities.
+PROP-0539,House,68708020,Rohini,6,3,3909,"Clubhouse, Parking, Gym, Lift",1984,Affordable yet stylish and comfortable.
+PROP-0540,Condo,182957060,Rohini,5,1,2709,"Power Backup, Swimming Pool, Security, Lift, Garden",1983,A cozy home with a stunning view.
+PROP-0541,Apartment,99566765,South Extension,5,2,4370,"Parking, Security, Lift",1990,A cozy home with a stunning view.
+PROP-0542,House,122686800,Preet Vihar,6,3,4543,"Security, Clubhouse, Lift, Gym",1988,A cozy home with a stunning view.
+PROP-0543,Condo,57517105,Greater Kailash,2,2,1982,"Lift, Gym, 24/7 Water Supply, Power Backup",2010,Affordable yet stylish and comfortable.
+PROP-0544,House,28019142,Lajpat Nagar,6,1,1570,"Lift, Garden, Clubhouse, Parking, 24/7 Water Supply",2014,Spacious and well-lit with modern amenities.
+PROP-0545,Villa,48705538,Connaught Place,2,4,2498,"Power Backup, Garden, Security, Clubhouse",2007,Affordable yet stylish and comfortable.
+PROP-0546,House,73519335,Connaught Place,5,4,3031,"Clubhouse, 24/7 Water Supply, Gym",2007,A cozy home with a stunning view.
+PROP-0547,Condo,173730806,Dwarka,1,4,3990,"Parking, Clubhouse",2021,Newly renovated with smart home features.
+PROP-0548,Condo,175797178,Dwarka,2,4,2619,"Swimming Pool, Clubhouse",1995,Newly renovated with smart home features.
+PROP-0549,Villa,62788463,South Extension,1,4,3885,"Lift, Clubhouse",2008,"Ideal for families, located in a prime area."
+PROP-0550,Condo,48524166,South Extension,5,3,3442,"Garden, Security, Swimming Pool, Clubhouse",1999,A cozy home with a stunning view.
+PROP-0551,Condo,118956631,South Extension,3,2,3913,"Clubhouse, Gym",2000,"Ideal for families, located in a prime area."
+PROP-0552,Condo,118407543,Dwarka,5,1,2526,"Lift, Security, Power Backup",1992,Spacious and well-lit with modern amenities.
+PROP-0553,House,171294928,Lajpat Nagar,2,2,4969,"Parking, Swimming Pool",1998,Newly renovated with smart home features.
+PROP-0554,House,176315658,Rohini,6,1,691,"Power Backup, Lift, 24/7 Water Supply, Swimming Pool",1991,A cozy home with a stunning view.
+PROP-0555,House,128940529,Chattarpur,5,2,3764,"Power Backup, Security, 24/7 Water Supply, Garden",1991,Spacious and well-lit with modern amenities.
+PROP-0556,Condo,143901124,Greater Kailash,1,1,1609,"Power Backup, Security, Swimming Pool, Gym",2002,A cozy home with a stunning view.
+PROP-0557,Condo,91523694,Preet Vihar,1,2,1885,"Garden, Swimming Pool",1981,"Ideal for families, located in a prime area."
+PROP-0558,Condo,164023610,Dwarka,1,1,2562,"Power Backup, 24/7 Water Supply, Clubhouse",2007,Luxury property with top-notch features.
+PROP-0559,House,90785264,Chattarpur,4,2,2304,"Power Backup, 24/7 Water Supply, Garden",2007,Spacious and well-lit with modern amenities.
+PROP-0560,Condo,7012375,Vasant Kunj,6,2,3304,"Security, Parking",2010,Luxury property with top-notch features.
+PROP-0561,House,166260470,Preet Vihar,6,4,537,"Swimming Pool, 24/7 Water Supply, Security, Clubhouse",2018,A cozy home with a stunning view.
+PROP-0562,House,104461689,Vasant Kunj,4,2,3327,"Gym, Clubhouse",2019,Affordable yet stylish and comfortable.
+PROP-0563,Villa,106871523,South Extension,6,4,690,"Lift, Garden, Power Backup, 24/7 Water Supply",2013,Spacious and well-lit with modern amenities.
+PROP-0564,Condo,72093379,Vasant Kunj,1,2,3305,"Parking, 24/7 Water Supply",2015,"Ideal for families, located in a prime area."
+PROP-0565,Apartment,140587723,Rohini,1,1,3935,"Gym, 24/7 Water Supply, Clubhouse, Security, Lift",2006,Newly renovated with smart home features.
+PROP-0566,Apartment,77776448,Greater Kailash,4,4,630,"Lift, Gym",2016,Luxury property with top-notch features.
+PROP-0567,Condo,93263700,Pitampura,5,2,4707,"Parking, Gym, Lift, 24/7 Water Supply, Swimming Pool",2000,Luxury property with top-notch features.
+PROP-0568,Villa,143582883,South Extension,4,2,4720,"Swimming Pool, Garden, Lift, Power Backup",1980,Affordable yet stylish and comfortable.
+PROP-0569,Condo,115418870,Pitampura,3,4,1370,"Gym, 24/7 Water Supply, Clubhouse",1992,"Ideal for families, located in a prime area."
+PROP-0570,Apartment,167242020,South Extension,4,2,2298,"Garden, Clubhouse",2018,Affordable yet stylish and comfortable.
+PROP-0571,Condo,179251225,Dwarka,6,3,3819,"Clubhouse, Security, 24/7 Water Supply, Lift",1983,A cozy home with a stunning view.
+PROP-0572,Apartment,26081262,Dwarka,6,2,3816,"Lift, Security, Clubhouse, Swimming Pool, 24/7 Water Supply",2020,Newly renovated with smart home features.
+PROP-0573,House,83930542,Saket,3,4,2652,"Clubhouse, Parking, Power Backup, Gym",2000,Luxury property with top-notch features.
+PROP-0574,House,27659606,Connaught Place,4,3,2457,"Parking, Swimming Pool, Security, Clubhouse, Garden",2011,"Ideal for families, located in a prime area."
+PROP-0575,Apartment,37322569,Saket,3,4,2932,"Parking, Security",2000,A cozy home with a stunning view.
+PROP-0576,Apartment,72694039,Preet Vihar,1,2,4772,"Security, Garden, Parking",1998,"Ideal for families, located in a prime area."
+PROP-0577,Apartment,104537045,Pitampura,4,2,2293,"Security, Power Backup, Swimming Pool, Parking",2020,Newly renovated with smart home features.
+PROP-0578,Villa,183710403,Vasant Kunj,3,3,2165,"Parking, 24/7 Water Supply, Swimming Pool, Clubhouse, Garden",2013,Affordable yet stylish and comfortable.
+PROP-0579,Villa,87911836,Chattarpur,3,4,2049,"Parking, Security",1981,Affordable yet stylish and comfortable.
+PROP-0580,Apartment,19155976,Rohini,4,3,1281,"Parking, Lift, Swimming Pool, Garden, Power Backup",1998,Spacious and well-lit with modern amenities.
+PROP-0581,House,114863488,Rohini,3,1,3848,"Gym, Clubhouse, 24/7 Water Supply, Lift, Swimming Pool",2000,Newly renovated with smart home features.
+PROP-0582,House,126055487,South Extension,1,1,1808,"Clubhouse, Garden, Swimming Pool, Gym",2000,Newly renovated with smart home features.
+PROP-0583,Condo,132712651,Vasant Kunj,6,4,4031,"Power Backup, Clubhouse, Garden, Security, Lift",2008,Affordable yet stylish and comfortable.
+PROP-0584,House,183807784,Connaught Place,6,3,3444,"24/7 Water Supply, Gym, Clubhouse, Lift",1986,A cozy home with a stunning view.
+PROP-0585,House,179108294,Saket,4,2,2371,"Gym, Swimming Pool",1996,Spacious and well-lit with modern amenities.
+PROP-0586,Condo,184811713,Rohini,1,1,1233,"Garden, Security, Lift",1984,"Ideal for families, located in a prime area."
+PROP-0587,Condo,148429642,Greater Kailash,6,3,3071,"Lift, Swimming Pool, Gym",1988,Luxury property with top-notch features.
+PROP-0588,Villa,7184769,Vasant Kunj,1,3,4977,"Swimming Pool, Gym, Power Backup, Lift, Security",2014,Spacious and well-lit with modern amenities.
+PROP-0589,House,91195326,Lajpat Nagar,5,1,2208,"Parking, Swimming Pool, 24/7 Water Supply, Power Backup, Security",2000,"Ideal for families, located in a prime area."
+PROP-0590,Condo,142748999,Saket,1,4,4546,"Garden, Swimming Pool, Power Backup, 24/7 Water Supply, Lift",1984,Affordable yet stylish and comfortable.
+PROP-0591,Villa,23813006,Preet Vihar,5,2,2193,"Security, Gym, Garden, Swimming Pool",1997,Newly renovated with smart home features.
+PROP-0592,Condo,119165929,Dwarka,3,2,2785,"Power Backup, Lift",1986,Affordable yet stylish and comfortable.
+PROP-0593,Apartment,81397377,Rohini,2,4,1999,"24/7 Water Supply, Gym, Lift, Swimming Pool",2013,Affordable yet stylish and comfortable.
+PROP-0594,Apartment,147497461,Pitampura,4,2,3542,"Garden, Power Backup, Gym",1992,Newly renovated with smart home features.
+PROP-0595,Apartment,31778274,Greater Kailash,5,3,3005,"Garden, Swimming Pool",2003,Affordable yet stylish and comfortable.
+PROP-0596,Apartment,133102159,Preet Vihar,1,1,3520,"Garden, Power Backup",1986,Luxury property with top-notch features.
+PROP-0597,House,72795139,Chattarpur,6,1,1152,"Lift, Clubhouse",1982,"Ideal for families, located in a prime area."
+PROP-0598,House,25858882,Rohini,6,4,1512,"Garden, Swimming Pool, Lift, 24/7 Water Supply, Clubhouse",1994,"Ideal for families, located in a prime area."
+PROP-0599,House,99667707,Greater Kailash,1,1,748,"Garden, 24/7 Water Supply",2015,Luxury property with top-notch features.
+PROP-0600,Apartment,62069083,Pitampura,3,2,651,"Security, Parking, Gym",2018,Affordable yet stylish and comfortable.
+PROP-0601,Condo,80724863,Greater Kailash,5,2,1315,"Lift, Parking, Power Backup, Garden, Swimming Pool",1993,Spacious and well-lit with modern amenities.
+PROP-0602,House,66450439,Dwarka,1,2,1395,"Security, Lift, Garden, Parking",2001,Spacious and well-lit with modern amenities.
+PROP-0603,Apartment,125771689,Karol Bagh,2,4,4471,"Security, Swimming Pool, Power Backup",1980,"Ideal for families, located in a prime area."
+PROP-0604,Apartment,11426900,South Extension,1,2,778,"Power Backup, Gym, Clubhouse, Swimming Pool",1991,A cozy home with a stunning view.
+PROP-0605,Condo,83599191,Connaught Place,1,2,1554,"Lift, Parking, Power Backup, 24/7 Water Supply, Swimming Pool",1984,Luxury property with top-notch features.
+PROP-0606,House,145132925,Vasant Kunj,3,2,1193,"Power Backup, Lift, Gym",1981,Affordable yet stylish and comfortable.
+PROP-0607,Apartment,132609065,Pitampura,4,2,2393,"Clubhouse, Power Backup, Swimming Pool, Garden",1981,"Ideal for families, located in a prime area."
+PROP-0608,House,86549693,Preet Vihar,1,4,2684,"Security, Garden, Clubhouse, 24/7 Water Supply",2010,"Ideal for families, located in a prime area."
+PROP-0609,Apartment,113747268,Chattarpur,1,3,2580,"24/7 Water Supply, Parking, Power Backup",1998,A cozy home with a stunning view.
+PROP-0610,Villa,80019006,South Extension,3,2,1620,"Lift, Swimming Pool",2009,Affordable yet stylish and comfortable.
+PROP-0611,Condo,59371579,Saket,5,2,2729,"Security, Swimming Pool, Parking",2015,Luxury property with top-notch features.
+PROP-0612,Villa,18704733,Dwarka,3,1,1124,"Gym, 24/7 Water Supply",2008,Luxury property with top-notch features.
+PROP-0613,Apartment,57988119,Connaught Place,1,1,2243,"Swimming Pool, Parking, Clubhouse, Gym",2019,Spacious and well-lit with modern amenities.
+PROP-0614,Condo,146353882,Dwarka,6,4,1646,"Gym, Parking, Security, Swimming Pool",2016,Spacious and well-lit with modern amenities.
+PROP-0615,Apartment,28353476,Karol Bagh,5,1,3920,"Parking, 24/7 Water Supply, Clubhouse, Security, Swimming Pool",2008,Affordable yet stylish and comfortable.
+PROP-0616,Villa,28010715,Karol Bagh,1,1,598,"Lift, Clubhouse, Garden, Security",1998,Luxury property with top-notch features.
+PROP-0617,Apartment,37825054,Karol Bagh,5,4,720,"Power Backup, Parking, Security, Gym, Clubhouse",1985,A cozy home with a stunning view.
+PROP-0618,Condo,5211070,Preet Vihar,1,2,897,"Lift, Gym, Power Backup, Swimming Pool, Parking",1980,Spacious and well-lit with modern amenities.
+PROP-0619,Villa,73519506,Lajpat Nagar,2,3,4500,"Power Backup, 24/7 Water Supply",2016,"Ideal for families, located in a prime area."
+PROP-0620,House,145115416,Saket,5,4,3221,"Gym, Parking, Power Backup",1997,"Ideal for families, located in a prime area."
+PROP-0621,Apartment,131794138,Chattarpur,5,2,4655,"Clubhouse, Lift",1983,Spacious and well-lit with modern amenities.
+PROP-0622,Villa,105482269,Preet Vihar,6,4,2752,"Security, Gym, Clubhouse, 24/7 Water Supply",1985,A cozy home with a stunning view.
+PROP-0623,Villa,120866340,South Extension,1,3,2640,"Garden, 24/7 Water Supply, Security",2019,"Ideal for families, located in a prime area."
+PROP-0624,Condo,52576750,Chattarpur,4,3,3243,"Swimming Pool, Power Backup, Garden, Parking, Security",2012,A cozy home with a stunning view.
+PROP-0625,House,170275940,Vasant Kunj,4,3,1757,"Gym, Lift, Power Backup",2017,A cozy home with a stunning view.
+PROP-0626,Apartment,167127350,Karol Bagh,4,4,4513,"Gym, 24/7 Water Supply, Garden, Parking",1981,Newly renovated with smart home features.
+PROP-0627,Condo,108266212,Vasant Kunj,5,2,1885,"Security, Swimming Pool, Lift",1985,Affordable yet stylish and comfortable.
+PROP-0628,House,124963405,Connaught Place,1,2,3149,"Security, Garden, 24/7 Water Supply, Lift, Gym",2002,A cozy home with a stunning view.
+PROP-0629,House,52057783,Greater Kailash,3,4,928,"Gym, Power Backup, Clubhouse, 24/7 Water Supply, Swimming Pool",1988,Affordable yet stylish and comfortable.
+PROP-0630,House,4810306,Rohini,2,3,4229,"Security, Lift, Parking",1995,Spacious and well-lit with modern amenities.
+PROP-0631,Villa,56697332,Vasant Kunj,3,4,3984,"Parking, Lift",2015,A cozy home with a stunning view.
+PROP-0632,Villa,116312054,Karol Bagh,2,3,1525,"Security, Parking, 24/7 Water Supply, Lift",2023,Luxury property with top-notch features.
+PROP-0633,Condo,154911501,Greater Kailash,6,4,1585,"Gym, Clubhouse",2019,Affordable yet stylish and comfortable.
+PROP-0634,Villa,3368200,Greater Kailash,5,4,2339,"Security, Lift",1983,Affordable yet stylish and comfortable.
+PROP-0635,Villa,40132350,Saket,6,4,4478,"Power Backup, Security",1994,Spacious and well-lit with modern amenities.
+PROP-0636,Villa,54638959,Chattarpur,4,3,866,"Security, Power Backup, Clubhouse, Parking, Lift",2007,Affordable yet stylish and comfortable.
+PROP-0637,House,20141790,Saket,1,1,3197,"Swimming Pool, Lift, Clubhouse, Parking",2006,A cozy home with a stunning view.
+PROP-0638,Apartment,27137310,Chattarpur,5,1,3083,"Lift, Parking, Power Backup, Clubhouse, 24/7 Water Supply",2004,Spacious and well-lit with modern amenities.
+PROP-0639,Condo,20987251,South Extension,5,4,1238,"Security, Gym, Power Backup",2006,Luxury property with top-notch features.
+PROP-0640,Villa,123136509,Chattarpur,5,4,4645,"Gym, 24/7 Water Supply, Garden",2019,Newly renovated with smart home features.
+PROP-0641,House,122038000,Pitampura,5,1,730,"Lift, Garden, 24/7 Water Supply, Power Backup",2019,Affordable yet stylish and comfortable.
+PROP-0642,Apartment,189015066,Karol Bagh,6,4,1920,"Security, Clubhouse, Gym",2006,A cozy home with a stunning view.
+PROP-0643,Apartment,177248920,Karol Bagh,3,3,3066,"Garden, Gym",2016,Affordable yet stylish and comfortable.
+PROP-0644,Apartment,3824244,Karol Bagh,5,1,2998,"Gym, 24/7 Water Supply",1981,"Ideal for families, located in a prime area."
+PROP-0645,Apartment,115275900,Dwarka,6,1,2096,"Swimming Pool, Gym, 24/7 Water Supply, Lift, Parking",2009,Spacious and well-lit with modern amenities.
+PROP-0646,House,4811720,Karol Bagh,1,4,4451,"Clubhouse, Security, Power Backup, Parking",2001,Luxury property with top-notch features.
+PROP-0647,Villa,194746859,Greater Kailash,1,1,688,"24/7 Water Supply, Clubhouse",2023,"Ideal for families, located in a prime area."
+PROP-0648,Villa,146048212,Rohini,4,3,2675,"Clubhouse, 24/7 Water Supply",1983,Spacious and well-lit with modern amenities.
+PROP-0649,Condo,51809567,Karol Bagh,3,4,4264,"Garden, Power Backup, Clubhouse",1998,Newly renovated with smart home features.
+PROP-0650,Villa,181047696,Greater Kailash,3,1,4161,"Garden, 24/7 Water Supply",1989,"Ideal for families, located in a prime area."
+PROP-0651,House,16360158,Preet Vihar,1,4,3882,"Gym, Parking, Swimming Pool",2001,Newly renovated with smart home features.
+PROP-0652,Villa,18636784,Vasant Kunj,2,1,1053,"Clubhouse, Garden, 24/7 Water Supply, Swimming Pool, Gym",1990,Affordable yet stylish and comfortable.
+PROP-0653,Apartment,17060459,Pitampura,6,4,2326,"Power Backup, Security",2011,Spacious and well-lit with modern amenities.
+PROP-0654,House,195885907,Lajpat Nagar,2,4,1600,"Security, Parking, Power Backup, 24/7 Water Supply, Swimming Pool",2011,Spacious and well-lit with modern amenities.
+PROP-0655,Apartment,121517414,Pitampura,2,4,2249,"Garden, Lift",1994,Newly renovated with smart home features.
+PROP-0656,Villa,158894081,Karol Bagh,5,4,3776,"Power Backup, Parking",2009,Newly renovated with smart home features.
+PROP-0657,Apartment,26484996,South Extension,4,2,3528,"24/7 Water Supply, Security",1993,Spacious and well-lit with modern amenities.
+PROP-0658,Apartment,45863001,Rohini,1,4,1174,"Parking, Clubhouse, Lift, Garden, Security",2003,Newly renovated with smart home features.
+PROP-0659,House,69312055,South Extension,5,1,771,"Security, Gym",2009,Affordable yet stylish and comfortable.
+PROP-0660,Apartment,191073009,Lajpat Nagar,2,2,3727,"24/7 Water Supply, Security, Clubhouse",1999,Luxury property with top-notch features.
+PROP-0661,House,43597151,Connaught Place,4,3,1429,"Garden, Clubhouse",2009,"Ideal for families, located in a prime area."
+PROP-0662,Villa,9074865,Pitampura,1,2,3478,"Parking, 24/7 Water Supply",1981,Luxury property with top-notch features.
+PROP-0663,Apartment,103154724,Saket,3,3,1720,"Garden, Gym, Swimming Pool, Parking",2008,Spacious and well-lit with modern amenities.
+PROP-0664,Villa,10530801,Dwarka,3,1,3102,"Clubhouse, Gym, Security, Parking, Swimming Pool",2006,Luxury property with top-notch features.
+PROP-0665,Villa,198926529,Pitampura,3,3,1375,"Clubhouse, Lift, 24/7 Water Supply, Swimming Pool",1991,Luxury property with top-notch features.
+PROP-0666,Condo,81663735,Karol Bagh,6,4,649,"Swimming Pool, Gym, Parking, Power Backup",1993,Affordable yet stylish and comfortable.
+PROP-0667,Villa,49836402,Saket,2,3,3243,"Parking, Power Backup, 24/7 Water Supply, Lift",1997,"Ideal for families, located in a prime area."
+PROP-0668,Condo,59699888,Karol Bagh,3,1,1570,"24/7 Water Supply, Lift",2013,Newly renovated with smart home features.
+PROP-0669,House,67137579,Pitampura,6,1,4549,"Swimming Pool, Clubhouse, Gym, Power Backup, Security",1988,Spacious and well-lit with modern amenities.
+PROP-0670,Villa,53050679,Dwarka,6,2,845,"Lift, Garden",1997,Luxury property with top-notch features.
+PROP-0671,House,118669322,Greater Kailash,4,4,2492,"24/7 Water Supply, Clubhouse",2017,Affordable yet stylish and comfortable.
+PROP-0672,House,179334285,Dwarka,3,1,1127,"Garden, Swimming Pool",2000,Affordable yet stylish and comfortable.
+PROP-0673,Villa,99630873,Dwarka,1,3,1866,"Garden, Swimming Pool",2017,"Ideal for families, located in a prime area."
+PROP-0674,Apartment,189128986,Preet Vihar,2,4,2012,"Security, Power Backup",2008,Luxury property with top-notch features.
+PROP-0675,Condo,161390621,Rohini,4,3,3358,"Garden, Parking, Power Backup, Gym, Clubhouse",2019,Luxury property with top-notch features.
+PROP-0676,Apartment,152686477,Chattarpur,4,4,1118,"Garden, 24/7 Water Supply, Gym",2020,Luxury property with top-notch features.
+PROP-0677,Villa,157428928,South Extension,3,1,4203,"Swimming Pool, Lift",1991,"Ideal for families, located in a prime area."
+PROP-0678,Condo,94267282,Chattarpur,6,3,3893,"Lift, Gym, Parking, Clubhouse, Security",1995,Luxury property with top-notch features.
+PROP-0679,Villa,20736739,Rohini,1,2,3756,"Clubhouse, Gym",1987,Newly renovated with smart home features.
+PROP-0680,Villa,169037681,Greater Kailash,1,3,4750,"Power Backup, 24/7 Water Supply, Garden, Gym, Security",1995,Newly renovated with smart home features.
+PROP-0681,Apartment,153259698,Rohini,1,4,3180,"Power Backup, Parking",2007,Newly renovated with smart home features.
+PROP-0682,Apartment,182010377,Pitampura,4,2,1251,"Power Backup, 24/7 Water Supply, Lift, Clubhouse, Security",2011,"Ideal for families, located in a prime area."
+PROP-0683,Condo,3482532,Chattarpur,5,4,1723,"Gym, Clubhouse, Garden, Power Backup",2015,"Ideal for families, located in a prime area."
+PROP-0684,Condo,142532814,Saket,3,2,1150,"Gym, Lift, 24/7 Water Supply, Swimming Pool, Power Backup",2022,Spacious and well-lit with modern amenities.
+PROP-0685,Condo,59784108,Dwarka,1,1,4578,"Power Backup, Lift, Parking",1982,Newly renovated with smart home features.
+PROP-0686,Condo,166211475,Vasant Kunj,2,3,4530,"Gym, Parking, Power Backup",1995,Affordable yet stylish and comfortable.
+PROP-0687,House,43746347,Pitampura,1,1,4472,"Gym, Parking, Power Backup, Swimming Pool",2012,"Ideal for families, located in a prime area."
+PROP-0688,House,57327412,Preet Vihar,1,4,2226,"Lift, Power Backup, Clubhouse, Security, Garden",2022,Affordable yet stylish and comfortable.
+PROP-0689,Villa,7164214,Pitampura,5,4,838,"Swimming Pool, Clubhouse, Security",1998,Luxury property with top-notch features.
+PROP-0690,Villa,64942559,South Extension,2,3,4610,"Gym, Garden, Power Backup",1980,Affordable yet stylish and comfortable.
+PROP-0691,Villa,64680408,Saket,1,4,3909,"Parking, Clubhouse, Swimming Pool, Garden, Power Backup",2004,A cozy home with a stunning view.
+PROP-0692,House,99469691,Connaught Place,4,2,2027,"Lift, Gym, Garden, 24/7 Water Supply, Power Backup",1993,"Ideal for families, located in a prime area."
+PROP-0693,Condo,98149723,South Extension,6,4,3338,"Clubhouse, Garden, Lift",1995,A cozy home with a stunning view.
+PROP-0694,House,21520821,Saket,4,4,1425,"24/7 Water Supply, Gym, Garden, Clubhouse",2016,"Ideal for families, located in a prime area."
+PROP-0695,Villa,48377136,Preet Vihar,1,2,2813,"Gym, Swimming Pool",2004,Affordable yet stylish and comfortable.
+PROP-0696,Condo,119377057,Chattarpur,1,2,2505,"Lift, Power Backup",2013,Spacious and well-lit with modern amenities.
+PROP-0697,Condo,137027898,Connaught Place,4,2,1699,"Parking, 24/7 Water Supply, Gym, Garden",1993,"Ideal for families, located in a prime area."
+PROP-0698,Condo,53158773,Dwarka,3,2,3984,"Parking, Security, Swimming Pool, Power Backup",2000,Affordable yet stylish and comfortable.
+PROP-0699,House,27675703,South Extension,1,1,1046,"Parking, Gym, Lift",2021,Affordable yet stylish and comfortable.
+PROP-0700,Condo,44271488,Vasant Kunj,3,3,618,"Power Backup, Garden",2011,Luxury property with top-notch features.
+PROP-0701,Condo,97002194,Vasant Kunj,4,3,4659,"Garden, Power Backup, 24/7 Water Supply",2016,Luxury property with top-notch features.
+PROP-0702,House,66195416,Dwarka,5,3,665,"Clubhouse, Power Backup, Garden, Parking",2014,Spacious and well-lit with modern amenities.
+PROP-0703,House,40638018,Saket,6,1,3091,"Clubhouse, 24/7 Water Supply, Swimming Pool, Power Backup",2018,Affordable yet stylish and comfortable.
+PROP-0704,House,133257993,Pitampura,1,4,3366,"Clubhouse, Security, Parking",1996,Affordable yet stylish and comfortable.
+PROP-0705,Apartment,38304015,Karol Bagh,6,4,2989,"Garden, Clubhouse, Security",2023,Spacious and well-lit with modern amenities.
+PROP-0706,Condo,57529998,Greater Kailash,1,1,2371,"24/7 Water Supply, Power Backup",2018,Spacious and well-lit with modern amenities.
+PROP-0707,Condo,175316185,Rohini,2,1,4587,"Lift, Power Backup",1985,Luxury property with top-notch features.
+PROP-0708,House,59890730,Rohini,1,1,1641,"Lift, Security, Swimming Pool",1986,Newly renovated with smart home features.
+PROP-0709,Villa,103865828,Rohini,1,4,1023,"Gym, Garden, Security",1984,"Ideal for families, located in a prime area."
+PROP-0710,Condo,77663162,Rohini,6,2,4133,"Clubhouse, Swimming Pool, Lift, Power Backup, Gym",2004,Affordable yet stylish and comfortable.
+PROP-0711,Villa,124491126,Chattarpur,6,2,4297,"Security, Parking, Swimming Pool, Garden",1991,Spacious and well-lit with modern amenities.
+PROP-0712,Apartment,88365398,Preet Vihar,6,4,2440,"Security, Swimming Pool, Parking, Power Backup, Lift",1986,Affordable yet stylish and comfortable.
+PROP-0713,House,12064981,Greater Kailash,3,4,4323,"Power Backup, Garden, Lift",1986,Affordable yet stylish and comfortable.
+PROP-0714,House,193305422,South Extension,5,2,737,"Swimming Pool, 24/7 Water Supply",2010,"Ideal for families, located in a prime area."
+PROP-0715,Villa,153601963,Dwarka,3,3,3583,"Lift, Power Backup, Swimming Pool, Garden, Parking",2010,Luxury property with top-notch features.
+PROP-0716,Villa,120843532,Saket,5,3,3353,"Power Backup, Gym, Clubhouse",1994,A cozy home with a stunning view.
+PROP-0717,Apartment,188039539,South Extension,6,2,4636,"Garden, Parking",2001,Newly renovated with smart home features.
+PROP-0718,Villa,6159437,Saket,3,1,1664,"Power Backup, Parking, Security, Swimming Pool",2011,Spacious and well-lit with modern amenities.
+PROP-0719,House,6513762,Lajpat Nagar,3,3,2910,"Power Backup, Swimming Pool",2023,A cozy home with a stunning view.
+PROP-0720,Condo,99172343,Rohini,4,3,866,"Gym, Security, Parking",2021,"Ideal for families, located in a prime area."
+PROP-0721,Villa,165371945,Dwarka,2,3,4218,"Garden, Lift, Gym, Swimming Pool",2000,Luxury property with top-notch features.
+PROP-0722,Condo,129084354,South Extension,1,4,2034,"Power Backup, Parking, Gym",1981,Luxury property with top-notch features.
+PROP-0723,Apartment,83528080,Rohini,4,4,4764,"24/7 Water Supply, Parking, Lift, Garden",1984,Affordable yet stylish and comfortable.
+PROP-0724,Condo,28893828,Karol Bagh,3,2,2387,"Lift, 24/7 Water Supply, Parking, Gym",1995,Spacious and well-lit with modern amenities.
+PROP-0725,Apartment,83897218,South Extension,1,1,2947,"Parking, Gym",1990,"Ideal for families, located in a prime area."
+PROP-0726,House,193433269,Karol Bagh,5,1,2747,"Parking, Swimming Pool",2023,Spacious and well-lit with modern amenities.
+PROP-0727,Villa,103255885,Dwarka,3,2,4053,"Power Backup, Garden",1985,Newly renovated with smart home features.
+PROP-0728,Apartment,112710654,Preet Vihar,1,4,2289,"Lift, Gym, Swimming Pool",2016,Affordable yet stylish and comfortable.
+PROP-0729,Apartment,146063622,South Extension,5,1,3371,"24/7 Water Supply, Security",1992,Luxury property with top-notch features.
+PROP-0730,Condo,119434090,Greater Kailash,5,3,3799,"Gym, Garden, 24/7 Water Supply, Power Backup",1985,Spacious and well-lit with modern amenities.
+PROP-0731,House,108587528,Lajpat Nagar,5,3,1452,"Gym, Lift, Power Backup, Security, Parking",2002,A cozy home with a stunning view.
+PROP-0732,Condo,141064140,Preet Vihar,1,2,866,"Power Backup, Security, Lift",1980,"Ideal for families, located in a prime area."
+PROP-0733,Apartment,141196817,Vasant Kunj,6,3,575,"Swimming Pool, Security, Gym, Power Backup",1997,A cozy home with a stunning view.
+PROP-0734,House,47127537,Lajpat Nagar,2,1,4092,"24/7 Water Supply, Security, Gym, Power Backup",1986,Newly renovated with smart home features.
+PROP-0735,Villa,10933149,South Extension,5,2,4359,"24/7 Water Supply, Lift, Parking, Clubhouse, Gym",2023,Luxury property with top-notch features.
+PROP-0736,House,30325466,Preet Vihar,5,2,3884,"Swimming Pool, 24/7 Water Supply, Parking",2010,Luxury property with top-notch features.
+PROP-0737,Villa,194526071,Lajpat Nagar,2,2,2166,"Clubhouse, 24/7 Water Supply, Gym, Garden, Swimming Pool",2010,Spacious and well-lit with modern amenities.
+PROP-0738,Apartment,150739553,Greater Kailash,6,4,1924,"Security, Parking",2023,Luxury property with top-notch features.
+PROP-0739,Villa,175734848,Karol Bagh,3,2,1065,"Clubhouse, Lift",1991,Spacious and well-lit with modern amenities.
+PROP-0740,Condo,111270345,Vasant Kunj,4,2,2544,"Clubhouse, Parking",1988,Newly renovated with smart home features.
+PROP-0741,House,186210660,South Extension,5,2,554,"Garden, Power Backup, Gym, Parking, Swimming Pool",2013,Spacious and well-lit with modern amenities.
+PROP-0742,Apartment,127083397,Preet Vihar,6,3,3318,"Security, 24/7 Water Supply",2012,Luxury property with top-notch features.
+PROP-0743,House,185558660,Greater Kailash,6,4,1519,"Power Backup, Swimming Pool, Lift, Clubhouse",2008,"Ideal for families, located in a prime area."
+PROP-0744,Condo,169838290,Karol Bagh,3,3,2471,"Parking, Gym, Lift, Swimming Pool, Security",2006,Affordable yet stylish and comfortable.
+PROP-0745,Villa,166199340,Saket,5,2,2526,"Swimming Pool, Parking, 24/7 Water Supply, Lift",2012,Luxury property with top-notch features.
+PROP-0746,Villa,39849156,Preet Vihar,4,2,3825,"Garden, Swimming Pool, Parking, Clubhouse",1988,Spacious and well-lit with modern amenities.
+PROP-0747,House,140463497,Connaught Place,4,2,4631,"Security, 24/7 Water Supply, Clubhouse, Gym",1989,Newly renovated with smart home features.
+PROP-0748,House,85409982,Dwarka,3,2,3207,"Garden, Lift",1991,A cozy home with a stunning view.
+PROP-0749,Villa,6970645,Karol Bagh,6,3,2835,"Garden, Power Backup, Swimming Pool, 24/7 Water Supply",2011,Affordable yet stylish and comfortable.
+PROP-0750,Apartment,61811161,Lajpat Nagar,4,2,3218,"24/7 Water Supply, Parking, Lift, Security",1985,"Ideal for families, located in a prime area."
+PROP-0751,House,164582290,Rohini,5,3,3397,"Clubhouse, Parking, 24/7 Water Supply, Garden, Security",1994,Luxury property with top-notch features.
+PROP-0752,House,57680333,Rohini,4,3,2540,"Parking, Gym, Lift, Power Backup",2022,Spacious and well-lit with modern amenities.
+PROP-0753,Apartment,49590832,South Extension,1,3,948,"Security, Gym, Lift",1996,"Ideal for families, located in a prime area."
+PROP-0754,Condo,68817217,Connaught Place,3,3,608,"Security, Gym",2016,Affordable yet stylish and comfortable.
+PROP-0755,House,53657966,Chattarpur,4,2,4796,"24/7 Water Supply, Garden",1980,Luxury property with top-notch features.
+PROP-0756,Condo,62629234,South Extension,5,1,533,"Clubhouse, Garden, Security",2006,Luxury property with top-notch features.
+PROP-0757,House,23524956,Vasant Kunj,2,2,2794,"Power Backup, 24/7 Water Supply, Security, Swimming Pool, Clubhouse",2013,A cozy home with a stunning view.
+PROP-0758,Villa,165185057,Preet Vihar,6,3,3937,"Power Backup, Gym, Swimming Pool",1984,Affordable yet stylish and comfortable.
+PROP-0759,Condo,189709189,Greater Kailash,6,2,4515,"Gym, Clubhouse",1986,Spacious and well-lit with modern amenities.
+PROP-0760,Villa,42017668,Dwarka,6,2,1470,"Gym, Swimming Pool",1981,"Ideal for families, located in a prime area."
+PROP-0761,House,72442755,Chattarpur,4,1,3421,"Security, Swimming Pool, Parking, Lift",2019,Spacious and well-lit with modern amenities.
+PROP-0762,Condo,24388079,Lajpat Nagar,5,3,1677,"Gym, Lift, Power Backup, Parking, 24/7 Water Supply",2022,A cozy home with a stunning view.
+PROP-0763,Apartment,128703243,Dwarka,1,1,2867,"Swimming Pool, Power Backup, Clubhouse, Garden",2010,Spacious and well-lit with modern amenities.
+PROP-0764,Villa,184160393,Chattarpur,3,3,1887,"Clubhouse, Parking, Swimming Pool, Security, Lift",1993,A cozy home with a stunning view.
+PROP-0765,Condo,33054293,Pitampura,3,2,4407,"Gym, Security, Power Backup, Garden",1988,Spacious and well-lit with modern amenities.
+PROP-0766,Apartment,98774043,Lajpat Nagar,6,1,4880,"Lift, Power Backup, Gym",2017,"Ideal for families, located in a prime area."
+PROP-0767,Villa,50338311,Lajpat Nagar,6,1,4252,"Clubhouse, Swimming Pool, 24/7 Water Supply",1992,"Ideal for families, located in a prime area."
+PROP-0768,Apartment,31983187,Greater Kailash,5,4,3637,"Clubhouse, Gym, Lift",1993,A cozy home with a stunning view.
+PROP-0769,Condo,39163239,Vasant Kunj,2,3,3618,"Lift, Security, Clubhouse, Swimming Pool",2005,Newly renovated with smart home features.
+PROP-0770,Apartment,175094924,Rohini,3,2,3118,"Gym, Swimming Pool, Lift",2017,Luxury property with top-notch features.
+PROP-0771,Apartment,10683809,Preet Vihar,5,4,4571,"Gym, Clubhouse, Swimming Pool",1982,Affordable yet stylish and comfortable.
+PROP-0772,House,179319135,Karol Bagh,6,2,4714,"Parking, Security, Power Backup, Garden, Swimming Pool",2020,Luxury property with top-notch features.
+PROP-0773,Condo,36178541,Connaught Place,3,4,1479,"Security, Parking, Gym",2000,Newly renovated with smart home features.
+PROP-0774,Condo,27101931,Chattarpur,1,3,3654,"Swimming Pool, Power Backup, Parking",2019,Spacious and well-lit with modern amenities.
+PROP-0775,Apartment,180474229,South Extension,5,2,1988,"Security, Parking, Power Backup",2010,Spacious and well-lit with modern amenities.
+PROP-0776,Condo,151844737,Greater Kailash,2,4,4762,"Clubhouse, Parking, Security",1999,A cozy home with a stunning view.
+PROP-0777,Villa,123766104,Karol Bagh,2,1,1652,"Lift, Security, Power Backup, Gym",2001,Luxury property with top-notch features.
+PROP-0778,Villa,6856001,Connaught Place,5,2,4295,"Lift, Gym, Swimming Pool, Parking",2002,Luxury property with top-notch features.
+PROP-0779,Condo,26149097,Rohini,5,3,2328,"Lift, Power Backup",2002,A cozy home with a stunning view.
+PROP-0780,Apartment,152983941,Rohini,6,2,3014,"Swimming Pool, Security",2011,A cozy home with a stunning view.
+PROP-0781,Villa,179834350,Connaught Place,5,4,4385,"Gym, Garden",1993,A cozy home with a stunning view.
+PROP-0782,Condo,111881396,South Extension,6,3,4169,"Swimming Pool, Clubhouse, 24/7 Water Supply, Lift, Gym",1987,A cozy home with a stunning view.
+PROP-0783,Apartment,128726466,Greater Kailash,5,2,2187,"Power Backup, Garden, Parking, Security",1992,Luxury property with top-notch features.
+PROP-0784,Villa,114004170,Preet Vihar,3,1,4236,"Power Backup, Gym",1986,Affordable yet stylish and comfortable.
+PROP-0785,Apartment,62511175,Lajpat Nagar,6,4,4915,"Clubhouse, 24/7 Water Supply, Security, Gym, Swimming Pool",2019,Newly renovated with smart home features.
+PROP-0786,Villa,112895663,Connaught Place,5,3,1784,"Garden, Security",2008,Affordable yet stylish and comfortable.
+PROP-0787,Condo,143365491,Pitampura,4,1,4072,"Clubhouse, Security, Gym, Garden",1988,Luxury property with top-notch features.
+PROP-0788,Apartment,178560212,Pitampura,2,3,786,"Clubhouse, Security, Swimming Pool, Gym, Lift",2002,Spacious and well-lit with modern amenities.
+PROP-0789,House,153401243,Vasant Kunj,3,3,2868,"Gym, 24/7 Water Supply, Security, Swimming Pool, Garden",2004,"Ideal for families, located in a prime area."
+PROP-0790,Villa,179948364,Karol Bagh,5,2,4816,"Gym, Clubhouse, Swimming Pool",2019,Affordable yet stylish and comfortable.
+PROP-0791,Apartment,92301112,Pitampura,5,3,1819,"Lift, Parking, Power Backup, Garden, Clubhouse",1997,Affordable yet stylish and comfortable.
+PROP-0792,Condo,127121402,Pitampura,2,1,900,"Security, Gym, Swimming Pool, Clubhouse",2016,Spacious and well-lit with modern amenities.
+PROP-0793,House,183648585,Vasant Kunj,3,4,1520,"Security, Parking, 24/7 Water Supply",1984,Affordable yet stylish and comfortable.
+PROP-0794,Condo,78744406,Preet Vihar,5,1,3445,"Clubhouse, Power Backup, 24/7 Water Supply, Garden",2018,Newly renovated with smart home features.
+PROP-0795,Apartment,84788395,Dwarka,6,3,4949,"Gym, Security",1995,"Ideal for families, located in a prime area."
+PROP-0796,Apartment,44375704,Preet Vihar,2,2,3611,"Swimming Pool, Power Backup",2002,Spacious and well-lit with modern amenities.
+PROP-0797,Condo,142085694,Karol Bagh,3,4,2929,"Clubhouse, Security, Swimming Pool, Garden",1985,Luxury property with top-notch features.
+PROP-0798,House,139281020,Dwarka,3,2,4586,"24/7 Water Supply, Swimming Pool, Garden, Clubhouse",2001,Affordable yet stylish and comfortable.
+PROP-0799,Apartment,192676933,Karol Bagh,4,1,2694,"Swimming Pool, Gym",2001,Affordable yet stylish and comfortable.
+PROP-0800,House,134870499,Lajpat Nagar,6,2,2063,"Power Backup, Clubhouse",2010,"Ideal for families, located in a prime area."
+PROP-0801,Villa,74163296,Dwarka,6,2,4376,"Lift, Security, Gym",2008,"Ideal for families, located in a prime area."
+PROP-0802,Villa,120754302,Vasant Kunj,2,1,3746,"Swimming Pool, 24/7 Water Supply, Security",2011,"Ideal for families, located in a prime area."
+PROP-0803,House,83019753,Vasant Kunj,2,3,3920,"Clubhouse, Swimming Pool, Security, Garden",2003,"Ideal for families, located in a prime area."
+PROP-0804,Apartment,196084706,Lajpat Nagar,1,4,2068,"Swimming Pool, Garden, Power Backup",2000,Spacious and well-lit with modern amenities.
+PROP-0805,Villa,183485157,Vasant Kunj,2,1,729,"Gym, Swimming Pool",1996,Newly renovated with smart home features.
+PROP-0806,Villa,170188192,Greater Kailash,6,4,2330,"Parking, Security",2009,Luxury property with top-notch features.
+PROP-0807,Condo,81843839,Vasant Kunj,3,3,700,"Security, Parking",1996,Luxury property with top-notch features.
+PROP-0808,Condo,188119644,Greater Kailash,1,4,988,"Gym, Garden, Clubhouse, Swimming Pool, Parking",2010,Newly renovated with smart home features.
+PROP-0809,Villa,147412682,Karol Bagh,3,3,2768,"Swimming Pool, Parking, Security",1983,Newly renovated with smart home features.
+PROP-0810,Apartment,117420324,Karol Bagh,6,2,4194,"Clubhouse, Garden, Power Backup, Lift",1981,Spacious and well-lit with modern amenities.
+PROP-0811,Villa,167229889,Preet Vihar,5,1,836,"Lift, Swimming Pool, Gym, 24/7 Water Supply",2011,Affordable yet stylish and comfortable.
+PROP-0812,Apartment,191866231,Chattarpur,6,1,2573,"24/7 Water Supply, Garden, Gym, Clubhouse, Power Backup",1987,"Ideal for families, located in a prime area."
+PROP-0813,Apartment,115527442,Greater Kailash,6,4,4488,"Gym, Parking, Power Backup",2016,Spacious and well-lit with modern amenities.
+PROP-0814,Villa,71397816,Greater Kailash,2,3,4690,"24/7 Water Supply, Clubhouse, Parking, Lift",1982,Luxury property with top-notch features.
+PROP-0815,House,99080375,South Extension,4,3,1282,"Swimming Pool, Clubhouse, 24/7 Water Supply, Lift, Power Backup",2001,Affordable yet stylish and comfortable.
+PROP-0816,Villa,166574739,Dwarka,4,2,1544,"Security, Lift",1998,Affordable yet stylish and comfortable.
+PROP-0817,Villa,59189899,Saket,4,1,2737,"24/7 Water Supply, Security, Lift, Swimming Pool",2012,Affordable yet stylish and comfortable.
+PROP-0818,House,192277559,Lajpat Nagar,6,4,1375,"Power Backup, Gym, Clubhouse",1990,"Ideal for families, located in a prime area."
+PROP-0819,Condo,37821657,Chattarpur,4,2,3888,"Power Backup, Parking",1991,Spacious and well-lit with modern amenities.
+PROP-0820,Villa,176099416,Lajpat Nagar,5,2,1841,"Lift, Security",2001,Luxury property with top-notch features.
+PROP-0821,House,69580961,Preet Vihar,5,1,825,"Gym, Swimming Pool, Garden",1982,Newly renovated with smart home features.
+PROP-0822,Villa,186792529,Dwarka,2,3,3166,"Parking, Garden, Gym, Power Backup",2022,Luxury property with top-notch features.
+PROP-0823,Villa,137552268,Lajpat Nagar,5,3,1831,"Clubhouse, Power Backup, Swimming Pool",1996,A cozy home with a stunning view.
+PROP-0824,House,179165301,Greater Kailash,6,1,3893,"Swimming Pool, Clubhouse, Garden, Security",2003,"Ideal for families, located in a prime area."
+PROP-0825,Condo,84127486,Pitampura,6,2,1154,"Power Backup, Security, Parking",1993,Affordable yet stylish and comfortable.
+PROP-0826,Condo,14170026,Lajpat Nagar,6,4,2772,"Gym, Garden, Parking",2004,Newly renovated with smart home features.
+PROP-0827,Villa,157053649,Vasant Kunj,4,1,1614,"Power Backup, Swimming Pool",1987,Spacious and well-lit with modern amenities.
+PROP-0828,Villa,21299961,South Extension,4,3,3303,"Parking, Swimming Pool, Clubhouse, Gym, Lift",1991,"Ideal for families, located in a prime area."
+PROP-0829,Villa,4582704,South Extension,4,3,1616,"Power Backup, Gym",2020,Newly renovated with smart home features.
+PROP-0830,Condo,54821042,Saket,6,4,3783,"Swimming Pool, Power Backup, Parking, Garden, 24/7 Water Supply",1997,Luxury property with top-notch features.
+PROP-0831,Condo,11781760,Preet Vihar,1,1,3206,"Gym, Power Backup, Swimming Pool",2023,Affordable yet stylish and comfortable.
+PROP-0832,Condo,193906347,Rohini,4,2,1240,"Lift, Power Backup, 24/7 Water Supply, Security",1992,Luxury property with top-notch features.
+PROP-0833,Villa,135478429,South Extension,2,1,4251,"Lift, Gym, Power Backup",2011,Luxury property with top-notch features.
+PROP-0834,House,75749624,Karol Bagh,3,2,4491,"Lift, Swimming Pool, Power Backup",1992,Spacious and well-lit with modern amenities.
+PROP-0835,Villa,36149671,Karol Bagh,6,3,1464,"24/7 Water Supply, Swimming Pool, Power Backup, Security, Lift",2013,Spacious and well-lit with modern amenities.
+PROP-0836,House,180447718,Saket,3,1,4990,"Parking, Clubhouse",2016,"Ideal for families, located in a prime area."
+PROP-0837,Villa,26289166,Pitampura,2,4,1423,"Lift, Gym",1988,Affordable yet stylish and comfortable.
+PROP-0838,House,32573870,Vasant Kunj,4,3,4434,"Parking, Clubhouse, Power Backup",2011,"Ideal for families, located in a prime area."
+PROP-0839,Apartment,65694622,Connaught Place,2,4,1486,"Power Backup, Security",2004,Affordable yet stylish and comfortable.
+PROP-0840,Condo,61700070,Vasant Kunj,4,1,669,"Swimming Pool, Parking, Power Backup, Gym",2016,A cozy home with a stunning view.
+PROP-0841,Condo,6750237,South Extension,2,4,3641,"24/7 Water Supply, Power Backup, Lift, Garden",2005,Luxury property with top-notch features.
+PROP-0842,House,27341499,Saket,3,4,1122,"Power Backup, Lift",1980,Luxury property with top-notch features.
+PROP-0843,Apartment,97650077,Vasant Kunj,2,4,3840,"Clubhouse, Security, 24/7 Water Supply",2005,Spacious and well-lit with modern amenities.
+PROP-0844,Condo,169836690,Rohini,3,3,2877,"Gym, 24/7 Water Supply, Clubhouse, Swimming Pool, Garden",2012,"Ideal for families, located in a prime area."
+PROP-0845,House,170733585,Vasant Kunj,1,1,2346,"Clubhouse, Gym, Lift, Security",1998,Newly renovated with smart home features.
+PROP-0846,House,192446272,Dwarka,2,4,1711,"Power Backup, Gym, Lift, Parking",2001,Luxury property with top-notch features.
+PROP-0847,Condo,35407840,Pitampura,5,1,1554,"24/7 Water Supply, Swimming Pool, Lift",1987,"Ideal for families, located in a prime area."
+PROP-0848,House,40062376,Saket,4,2,4902,"Swimming Pool, Clubhouse, Security",1980,"Ideal for families, located in a prime area."
+PROP-0849,Villa,121291821,Karol Bagh,4,4,3762,"Parking, Gym",1983,Affordable yet stylish and comfortable.
+PROP-0850,Condo,18119910,Saket,6,3,3342,"Gym, Lift, Swimming Pool, Power Backup",1993,Newly renovated with smart home features.
+PROP-0851,Villa,12106199,Greater Kailash,4,2,3923,"Clubhouse, Power Backup",2010,Luxury property with top-notch features.
+PROP-0852,Condo,48476240,Connaught Place,3,4,4305,"Garden, 24/7 Water Supply, Gym",2002,"Ideal for families, located in a prime area."
+PROP-0853,Villa,36781416,South Extension,3,2,4526,"Lift, Security",1983,Spacious and well-lit with modern amenities.
+PROP-0854,Condo,169725992,Dwarka,2,2,4388,"Garden, Clubhouse",2001,A cozy home with a stunning view.
+PROP-0855,Condo,178039437,Vasant Kunj,2,1,3721,"Security, Clubhouse, Parking, 24/7 Water Supply, Garden",1989,Luxury property with top-notch features.
+PROP-0856,Villa,44570895,Connaught Place,2,4,4870,"Garden, 24/7 Water Supply, Lift",2016,Newly renovated with smart home features.
+PROP-0857,Condo,181417711,Vasant Kunj,5,2,3659,"24/7 Water Supply, Power Backup",1996,Spacious and well-lit with modern amenities.
+PROP-0858,Condo,113596390,Karol Bagh,5,2,4005,"Power Backup, Garden, Parking, Swimming Pool",2015,Luxury property with top-notch features.
+PROP-0859,House,120639264,Connaught Place,2,3,4000,"Gym, Swimming Pool, Parking, Power Backup",1996,"Ideal for families, located in a prime area."
+PROP-0860,Condo,71458328,Karol Bagh,1,2,3465,"Gym, Parking, Power Backup, Garden",2003,A cozy home with a stunning view.
+PROP-0861,Condo,20031785,Karol Bagh,5,3,4371,"Swimming Pool, Security",1997,Spacious and well-lit with modern amenities.
+PROP-0862,Apartment,199241765,Lajpat Nagar,3,4,2415,"Swimming Pool, Security, Power Backup, Gym, 24/7 Water Supply",1990,Newly renovated with smart home features.
+PROP-0863,Villa,167682309,Dwarka,2,4,3947,"Power Backup, Gym, Lift, Parking",2000,"Ideal for families, located in a prime area."
+PROP-0864,Villa,92181085,Chattarpur,5,2,702,"24/7 Water Supply, Swimming Pool",2002,Luxury property with top-notch features.
+PROP-0865,Villa,79509881,Preet Vihar,3,3,1936,"Garden, Power Backup, Parking",2001,"Ideal for families, located in a prime area."
+PROP-0866,Villa,66270982,Dwarka,3,3,1456,"Security, Parking, Power Backup, 24/7 Water Supply, Swimming Pool",2008,A cozy home with a stunning view.
+PROP-0867,House,49845591,Chattarpur,2,4,1104,"Gym, Swimming Pool, Garden",2022,Luxury property with top-notch features.
+PROP-0868,Condo,111521921,Connaught Place,6,4,4745,"Lift, Parking, Swimming Pool, Security, Garden",1982,Luxury property with top-notch features.
+PROP-0869,Condo,125824006,Lajpat Nagar,2,1,655,"24/7 Water Supply, Parking, Power Backup, Clubhouse, Security",2013,Luxury property with top-notch features.
+PROP-0870,Villa,20451041,Vasant Kunj,2,2,3906,"Lift, Gym, Swimming Pool",2007,Affordable yet stylish and comfortable.
+PROP-0871,Apartment,146817732,Dwarka,5,2,3509,"Garden, Clubhouse",1996,Newly renovated with smart home features.
+PROP-0872,Villa,135485149,Connaught Place,4,4,3353,"Security, Power Backup, Gym, Parking, Garden",2017,"Ideal for families, located in a prime area."
+PROP-0873,Condo,97805037,Dwarka,4,2,4413,"Security, 24/7 Water Supply, Garden, Gym, Parking",2007,Luxury property with top-notch features.
+PROP-0874,House,34743312,Dwarka,2,1,3103,"Swimming Pool, Power Backup, Clubhouse, Parking, Gym",1999,A cozy home with a stunning view.
+PROP-0875,House,48952974,Pitampura,2,4,2220,"24/7 Water Supply, Lift, Parking",2022,Luxury property with top-notch features.
+PROP-0876,House,32264830,Saket,3,4,4484,"Power Backup, Gym, Security, Garden, Lift",2020,Spacious and well-lit with modern amenities.
+PROP-0877,Villa,38973519,Connaught Place,6,1,3050,"Parking, Clubhouse, Gym, Swimming Pool, Power Backup",2023,"Ideal for families, located in a prime area."
+PROP-0878,House,138645491,Saket,5,1,2721,"24/7 Water Supply, Clubhouse, Gym",2016,Luxury property with top-notch features.
+PROP-0879,Villa,163419652,South Extension,4,3,3650,"Power Backup, Garden, Security, Swimming Pool, Parking",2003,Affordable yet stylish and comfortable.
+PROP-0880,Apartment,191529201,Vasant Kunj,2,1,931,"Lift, Clubhouse, Garden, Gym, 24/7 Water Supply",2020,A cozy home with a stunning view.
+PROP-0881,Condo,148541283,Greater Kailash,2,2,1033,"Parking, Garden, Swimming Pool",2022,Luxury property with top-notch features.
+PROP-0882,Apartment,184683460,Rohini,5,2,1854,"Garden, Parking, Lift, 24/7 Water Supply, Swimming Pool",2018,"Ideal for families, located in a prime area."
+PROP-0883,Condo,93944308,Rohini,6,1,4656,"Parking, Security",2005,A cozy home with a stunning view.
+PROP-0884,House,80971976,Saket,4,2,4815,"Garden, Gym, Clubhouse, Security, Swimming Pool",2010,A cozy home with a stunning view.
+PROP-0885,Apartment,91513139,Lajpat Nagar,6,3,2675,"24/7 Water Supply, Security",2022,A cozy home with a stunning view.
+PROP-0886,Apartment,17922364,Saket,1,2,1162,"Swimming Pool, Security",1994,"Ideal for families, located in a prime area."
+PROP-0887,Apartment,125370009,Vasant Kunj,4,1,3621,"Power Backup, Gym, 24/7 Water Supply, Garden, Swimming Pool",2022,"Ideal for families, located in a prime area."
+PROP-0888,Villa,140790380,Karol Bagh,4,2,4528,"Security, Power Backup, Clubhouse, Swimming Pool, Garden",2017,Spacious and well-lit with modern amenities.
+PROP-0889,Villa,43548691,Rohini,4,3,2191,"Power Backup, Security, Garden, 24/7 Water Supply, Gym",1992,A cozy home with a stunning view.
+PROP-0890,House,104337077,Preet Vihar,3,3,1320,"Gym, Swimming Pool, Security",1997,Spacious and well-lit with modern amenities.
+PROP-0891,House,22302796,Pitampura,1,4,2144,"Power Backup, Security",2009,Spacious and well-lit with modern amenities.
+PROP-0892,Apartment,111872663,Pitampura,4,1,972,"Garden, Security",2005,"Ideal for families, located in a prime area."
+PROP-0893,Apartment,35928351,Vasant Kunj,4,3,4091,"Gym, Garden, Parking, Lift",2012,Affordable yet stylish and comfortable.
+PROP-0894,Condo,156448838,Karol Bagh,5,2,4684,"24/7 Water Supply, Security",1991,Affordable yet stylish and comfortable.
+PROP-0895,Villa,81226580,Karol Bagh,4,4,1939,"Gym, Security",2007,"Ideal for families, located in a prime area."
+PROP-0896,Apartment,18813315,Pitampura,4,4,4243,"Swimming Pool, Garden, Power Backup, Clubhouse, Gym",1987,A cozy home with a stunning view.
+PROP-0897,Villa,45339977,Connaught Place,5,4,4524,"24/7 Water Supply, Lift, Clubhouse, Garden",1993,"Ideal for families, located in a prime area."
+PROP-0898,Apartment,181038267,Lajpat Nagar,2,1,1773,"24/7 Water Supply, Power Backup, Security",1986,A cozy home with a stunning view.
+PROP-0899,Apartment,100065607,Lajpat Nagar,5,3,4113,"Security, Gym, Clubhouse, Garden, Power Backup",2017,Luxury property with top-notch features.
+PROP-0900,Villa,4468082,Lajpat Nagar,1,2,1770,"Parking, 24/7 Water Supply, Gym, Lift",2018,"Ideal for families, located in a prime area."
+PROP-0901,Apartment,93048238,Rohini,2,4,4997,"Security, Lift, 24/7 Water Supply, Gym, Power Backup",2000,"Ideal for families, located in a prime area."
+PROP-0902,Apartment,75694972,Saket,5,4,3288,"24/7 Water Supply, Garden, Gym, Swimming Pool",2010,Affordable yet stylish and comfortable.
+PROP-0903,Villa,185992044,Chattarpur,5,3,1180,"Gym, Lift, Power Backup, Garden, 24/7 Water Supply",2008,Affordable yet stylish and comfortable.
+PROP-0904,House,12960352,Karol Bagh,2,3,4922,"Power Backup, Swimming Pool, 24/7 Water Supply, Lift, Garden",2021,Newly renovated with smart home features.
+PROP-0905,House,183740689,Karol Bagh,5,4,2524,"Parking, Garden, Power Backup",1995,A cozy home with a stunning view.
+PROP-0906,Villa,27371139,Karol Bagh,1,1,1413,"24/7 Water Supply, Power Backup, Gym",2007,Newly renovated with smart home features.
+PROP-0907,Apartment,122903205,Dwarka,6,3,3466,"Clubhouse, Lift",2014,Luxury property with top-notch features.
+PROP-0908,Condo,31263094,Rohini,5,2,4320,"Swimming Pool, Lift, 24/7 Water Supply, Power Backup, Parking",2012,Spacious and well-lit with modern amenities.
+PROP-0909,Condo,193626672,Lajpat Nagar,1,4,2068,"Parking, Clubhouse",2011,Spacious and well-lit with modern amenities.
+PROP-0910,Villa,107198724,Rohini,1,4,1752,"Gym, Clubhouse",1984,Luxury property with top-notch features.
+PROP-0911,Villa,30042378,Preet Vihar,4,3,4423,"Parking, 24/7 Water Supply",1986,A cozy home with a stunning view.
+PROP-0912,Apartment,173664908,Saket,4,1,1860,"Garden, Clubhouse, Gym, Power Backup",1987,Newly renovated with smart home features.
+PROP-0913,House,5116147,Saket,2,4,2846,"Power Backup, 24/7 Water Supply, Swimming Pool",2011,"Ideal for families, located in a prime area."
+PROP-0914,Condo,37866751,Chattarpur,5,1,1080,"Clubhouse, 24/7 Water Supply",2006,"Ideal for families, located in a prime area."
+PROP-0915,Villa,104108986,Rohini,4,1,4996,"Clubhouse, Security",1996,A cozy home with a stunning view.
+PROP-0916,Condo,120866884,Greater Kailash,6,3,4146,"24/7 Water Supply, Power Backup",2019,Spacious and well-lit with modern amenities.
+PROP-0917,Apartment,81862216,Pitampura,4,2,4867,"Clubhouse, Lift",2001,Newly renovated with smart home features.
+PROP-0918,House,7781197,Vasant Kunj,4,4,4274,"Clubhouse, 24/7 Water Supply, Security, Power Backup, Lift",2012,Newly renovated with smart home features.
+PROP-0919,House,148652988,Rohini,3,1,2668,"Clubhouse, Lift, Security",1988,Newly renovated with smart home features.
+PROP-0920,Condo,12438077,Connaught Place,1,1,2322,"24/7 Water Supply, Swimming Pool, Power Backup, Garden, Security",2003,"Ideal for families, located in a prime area."
+PROP-0921,Condo,91673586,Rohini,3,1,3511,"Gym, Security, Swimming Pool, Garden",2008,Affordable yet stylish and comfortable.
+PROP-0922,Apartment,19543259,Saket,6,2,3721,"Parking, Gym, Garden",1996,Spacious and well-lit with modern amenities.
+PROP-0923,Condo,22867402,Pitampura,5,2,2293,"Gym, Security, Clubhouse",1986,Spacious and well-lit with modern amenities.
+PROP-0924,Apartment,127979080,Chattarpur,4,1,4126,"Parking, Gym, Power Backup, Swimming Pool, Lift",1998,Newly renovated with smart home features.
+PROP-0925,Apartment,103240187,Pitampura,3,4,1227,"Parking, Security, Garden",1998,"Ideal for families, located in a prime area."
+PROP-0926,Condo,15358392,Vasant Kunj,4,2,3106,"Lift, Parking",2022,Spacious and well-lit with modern amenities.
+PROP-0927,Villa,50575796,Chattarpur,4,3,3904,"Lift, Security, 24/7 Water Supply, Swimming Pool, Clubhouse",1991,Spacious and well-lit with modern amenities.
+PROP-0928,Apartment,159327938,Connaught Place,3,4,3460,"24/7 Water Supply, Swimming Pool, Gym, Clubhouse, Lift",1995,A cozy home with a stunning view.
+PROP-0929,Villa,8780878,Pitampura,2,3,864,"Security, Parking, Lift, Clubhouse, 24/7 Water Supply",1986,Affordable yet stylish and comfortable.
+PROP-0930,Condo,109060760,Karol Bagh,2,1,962,"Parking, Lift",2011,Luxury property with top-notch features.
+PROP-0931,House,54634334,Connaught Place,1,4,890,"Swimming Pool, Garden, 24/7 Water Supply, Lift, Gym",1999,A cozy home with a stunning view.
+PROP-0932,Villa,157250975,Chattarpur,4,1,3272,"Power Backup, Swimming Pool, Lift, Gym, 24/7 Water Supply",1998,A cozy home with a stunning view.
+PROP-0933,House,19557608,Saket,4,4,4531,"Swimming Pool, 24/7 Water Supply, Gym, Clubhouse, Lift",2009,A cozy home with a stunning view.
+PROP-0934,Condo,48328745,Vasant Kunj,3,1,4082,"Security, 24/7 Water Supply, Parking, Clubhouse",2011,A cozy home with a stunning view.
+PROP-0935,Apartment,39680170,Karol Bagh,4,1,1051,"Gym, Security, Clubhouse, Parking",2012,Spacious and well-lit with modern amenities.
+PROP-0936,Condo,128700404,Chattarpur,2,1,3066,"24/7 Water Supply, Gym",1989,Affordable yet stylish and comfortable.
+PROP-0937,Apartment,10555835,South Extension,1,3,3814,"Security, Gym, Garden",1990,A cozy home with a stunning view.
+PROP-0938,Apartment,65763679,Lajpat Nagar,2,4,3831,"Lift, 24/7 Water Supply",1999,Spacious and well-lit with modern amenities.
+PROP-0939,Villa,16900632,Dwarka,1,4,4597,"Gym, Clubhouse, Security, Garden",1999,A cozy home with a stunning view.
+PROP-0940,Villa,53644136,Pitampura,5,1,3148,"Parking, Garden",2015,A cozy home with a stunning view.
+PROP-0941,Apartment,156427073,Karol Bagh,5,1,1848,"Security, Power Backup",2003,Spacious and well-lit with modern amenities.
+PROP-0942,House,189594048,Connaught Place,4,4,1620,"Security, Gym",2011,Luxury property with top-notch features.
+PROP-0943,Villa,54822256,Chattarpur,3,4,3623,"Security, Power Backup, Swimming Pool",2012,Luxury property with top-notch features.
+PROP-0944,House,135426862,Preet Vihar,5,4,3325,"Power Backup, Lift, 24/7 Water Supply",2008,"Ideal for families, located in a prime area."
+PROP-0945,Condo,160732987,South Extension,6,4,4553,"Gym, 24/7 Water Supply, Power Backup",2001,A cozy home with a stunning view.
+PROP-0946,Condo,172692403,Vasant Kunj,6,4,3450,"Clubhouse, Swimming Pool, Power Backup, Parking, Lift",2013,"Ideal for families, located in a prime area."
+PROP-0947,Condo,144152700,Pitampura,2,1,4414,"Power Backup, Gym, Lift, Swimming Pool",2002,Newly renovated with smart home features.
+PROP-0948,Condo,65905053,Pitampura,1,4,4029,"Gym, Garden",2022,Spacious and well-lit with modern amenities.
+PROP-0949,Villa,73611702,Connaught Place,6,3,1069,"Lift, Clubhouse, Parking, 24/7 Water Supply, Swimming Pool",1983,Spacious and well-lit with modern amenities.
+PROP-0950,House,136610029,South Extension,5,1,3881,"Gym, Swimming Pool",2023,Newly renovated with smart home features.
+PROP-0951,Apartment,154139661,Rohini,1,4,535,"Parking, Clubhouse",2023,"Ideal for families, located in a prime area."
+PROP-0952,Villa,148653271,Preet Vihar,6,4,717,"Security, Garden, Power Backup, 24/7 Water Supply",1991,Luxury property with top-notch features.
+PROP-0953,Apartment,8549428,Dwarka,4,1,1042,"Gym, Clubhouse, Lift, Garden",2022,Affordable yet stylish and comfortable.
+PROP-0954,Villa,86540955,Chattarpur,3,3,4850,"Gym, Garden, 24/7 Water Supply, Swimming Pool",1982,Affordable yet stylish and comfortable.
+PROP-0955,Villa,181394391,Vasant Kunj,2,1,4472,"Security, Lift, Clubhouse, Parking",2022,Luxury property with top-notch features.
+PROP-0956,House,148581179,Dwarka,5,1,635,"Lift, Gym, Swimming Pool, Parking",1996,A cozy home with a stunning view.
+PROP-0957,Condo,105579734,Greater Kailash,2,1,1221,"Parking, Clubhouse, 24/7 Water Supply, Lift, Gym",2010,Affordable yet stylish and comfortable.
+PROP-0958,House,131412383,Connaught Place,4,4,3066,"Security, Clubhouse, Gym, Lift",1987,Affordable yet stylish and comfortable.
+PROP-0959,Villa,192927421,Connaught Place,6,1,3015,"Lift, Parking, Swimming Pool, Clubhouse",2016,A cozy home with a stunning view.
+PROP-0960,Condo,24327646,Preet Vihar,3,4,1427,"Garden, Swimming Pool",2001,A cozy home with a stunning view.
+PROP-0961,House,176580921,Rohini,5,3,1362,"Lift, 24/7 Water Supply, Gym, Security",2012,"Ideal for families, located in a prime area."
+PROP-0962,Villa,158534701,Greater Kailash,1,2,3124,"Lift, Gym",2015,"Ideal for families, located in a prime area."
+PROP-0963,House,58056210,Saket,3,2,4851,"Gym, Power Backup, 24/7 Water Supply",2001,Affordable yet stylish and comfortable.
+PROP-0964,Apartment,192421503,Karol Bagh,2,1,2044,"Power Backup, Gym",2021,Luxury property with top-notch features.
+PROP-0965,Villa,96317670,Karol Bagh,5,1,1184,"Swimming Pool, Security, Garden",2003,"Ideal for families, located in a prime area."
+PROP-0966,Villa,55832053,Vasant Kunj,6,1,3237,"24/7 Water Supply, Clubhouse",2014,Luxury property with top-notch features.
+PROP-0967,House,89367325,South Extension,5,2,4945,"Gym, Clubhouse, Garden, Power Backup",1994,Newly renovated with smart home features.
+PROP-0968,House,158212654,South Extension,3,3,3230,"Lift, Parking",2006,"Ideal for families, located in a prime area."
+PROP-0969,Apartment,184320900,Greater Kailash,1,3,1814,"24/7 Water Supply, Parking, Security, Garden, Clubhouse",2020,Luxury property with top-notch features.
+PROP-0970,Apartment,88687281,Karol Bagh,2,4,837,"Clubhouse, Lift, 24/7 Water Supply",2013,Luxury property with top-notch features.
+PROP-0971,Condo,25407265,Rohini,5,4,761,"Garden, Lift, Parking, Swimming Pool",1983,Luxury property with top-notch features.
+PROP-0972,Condo,108058094,Chattarpur,3,2,613,"24/7 Water Supply, Security, Swimming Pool, Clubhouse, Gym",2009,Spacious and well-lit with modern amenities.
+PROP-0973,Villa,15990754,Chattarpur,6,4,1041,"Parking, Swimming Pool, Power Backup, Security, Gym",2008,"Ideal for families, located in a prime area."
+PROP-0974,Apartment,18454259,Chattarpur,5,3,910,"Security, Gym",1993,"Ideal for families, located in a prime area."
+PROP-0975,Condo,16684297,Pitampura,1,4,650,"Clubhouse, Gym",1987,"Ideal for families, located in a prime area."
+PROP-0976,House,58757744,Chattarpur,6,4,3850,"Parking, 24/7 Water Supply, Lift",1985,"Ideal for families, located in a prime area."
+PROP-0977,Apartment,16903272,Saket,2,1,4252,"Parking, Lift, Garden, Security",2013,A cozy home with a stunning view.
+PROP-0978,Villa,15738349,Greater Kailash,6,2,2758,"Parking, 24/7 Water Supply, Security",2005,Newly renovated with smart home features.
+PROP-0979,Condo,195852240,Pitampura,2,4,3138,"24/7 Water Supply, Swimming Pool, Lift, Power Backup, Gym",2011,A cozy home with a stunning view.
+PROP-0980,Apartment,121560805,Greater Kailash,5,2,2318,"Parking, Power Backup, Security",2012,Luxury property with top-notch features.
+PROP-0981,House,131341580,Pitampura,5,3,686,"Garden, Parking, Power Backup",2018,"Ideal for families, located in a prime area."
+PROP-0982,Condo,61828632,Lajpat Nagar,5,4,4146,"Swimming Pool, Clubhouse, Gym, Power Backup, Security",2017,Newly renovated with smart home features.
+PROP-0983,Villa,131907290,Dwarka,1,3,3276,"Lift, Power Backup, Clubhouse, Gym, Garden",2006,Spacious and well-lit with modern amenities.
+PROP-0984,Villa,198350764,Connaught Place,6,4,3889,"Parking, Security, Lift, Power Backup",2014,Spacious and well-lit with modern amenities.
+PROP-0985,Apartment,61266549,Lajpat Nagar,6,3,1817,"Power Backup, Lift, 24/7 Water Supply",1986,Newly renovated with smart home features.
+PROP-0986,Villa,122766065,Chattarpur,6,1,3989,"Garden, Power Backup, Swimming Pool, Gym, Security",2004,Spacious and well-lit with modern amenities.
+PROP-0987,Apartment,95418250,South Extension,6,4,4826,"Security, Lift, 24/7 Water Supply",2023,A cozy home with a stunning view.
+PROP-0988,Condo,59048230,Pitampura,6,2,1449,"Swimming Pool, Security, Clubhouse",2021,A cozy home with a stunning view.
+PROP-0989,House,154478792,Chattarpur,3,1,727,"Parking, Lift, Garden, Clubhouse, 24/7 Water Supply",1989,Spacious and well-lit with modern amenities.
+PROP-0990,Apartment,86973456,Rohini,2,2,4356,"Power Backup, Clubhouse, Garden, Lift, 24/7 Water Supply",2006,A cozy home with a stunning view.
+PROP-0991,Villa,71773285,Saket,4,2,1569,"Parking, Security, Clubhouse, Gym, Lift",1982,Luxury property with top-notch features.
+PROP-0992,Condo,178570526,Saket,6,1,503,"Clubhouse, Lift",1999,Spacious and well-lit with modern amenities.
+PROP-0993,House,175546461,Dwarka,6,4,1933,"Lift, Power Backup, Gym, Clubhouse, Security",1984,Luxury property with top-notch features.
+PROP-0994,House,114393531,Karol Bagh,6,2,1279,"Gym, Parking",2010,A cozy home with a stunning view.
+PROP-0995,Apartment,171685887,Connaught Place,5,3,4491,"Gym, 24/7 Water Supply, Parking, Lift, Swimming Pool",1985,"Ideal for families, located in a prime area."
+PROP-0996,Apartment,51708777,Karol Bagh,1,3,4042,"Garden, Power Backup",1983,Luxury property with top-notch features.
+PROP-0997,Condo,95995804,Dwarka,5,2,1580,"Garden, Power Backup, 24/7 Water Supply",2015,A cozy home with a stunning view.
+PROP-0998,Villa,77898742,South Extension,2,4,4632,"Lift, Gym",1994,Luxury property with top-notch features.
+PROP-0999,Villa,56424725,Rohini,3,1,4123,"Power Backup, Lift, Garden, Security, Swimming Pool",1989,Luxury property with top-notch features.
+PROP-1000,Condo,105111864,Rohini,4,3,1193,"Power Backup, Lift",2001,Newly renovated with smart home features.

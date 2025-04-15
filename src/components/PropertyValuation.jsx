@@ -60,9 +60,12 @@ const PropertyValuation = () => {
         property_features: propertyDetails.amenities.join(', ')
       };
 
+      console.log("Sending property details:", formattedDetails);
       const response = await getPropertyValuation(formattedDetails);
+      console.log("Received response:", response);
       
-      if (response.success) {
+      // The backend returns { predicted_price, status } directly, not wrapped in a success property
+      if (response && response.predicted_price) {
         setValuation({
           predictedValue: response.predicted_price,
           lowerBound: response.predicted_price * 0.9,

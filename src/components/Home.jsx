@@ -1,110 +1,93 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { getHomePageStats, getFeaturedProperties, getNearbyProperties } from '../api';
 
 const Home = () => {
-  // Add state for animated numbers
+  // State for data
   const [propertiesCount, setPropertiesCount] = useState(0);
-  
-  // Add animation effect for numbers
+  const [avgPrice, setAvgPrice] = useState(0);
+  const [priceGrowth, setPriceGrowth] = useState(0);
+  const [priceTrendChart, setPriceTrendChart] = useState('');
+  const [popularLocations, setPopularLocations] = useState([]);
+  const [featuredProperties, setFeaturedProperties] = useState([]);
+  const [userLocation, setUserLocation] = useState(null);
+  const [nearbyProperties, setNearbyProperties] = useState([]);
+  const [loading, setLoading] = useState({
+    stats: true,
+    featured: true,
+    nearby: false
+  });
+  const [error, setError] = useState({
+    stats: null,
+    featured: null,
+    nearby: null
+  });
+
+  // Load stats and featured properties on component mount
   useEffect(() => {
-    const timer = setInterval(() => {
-      setPropertiesCount(prev => prev < 10000 ? prev + 100 : prev);
-    }, 20);
-    return () => clearInterval(timer);
+    const loadInitialData = async () => {
+      try {
+        // Get home page stats
+        setLoading(prev => ({ ...prev, stats: true }));
+        const statsData = await getHomePageStats();
+        setPropertiesCount(statsData.total_properties);
+        setAvgPrice(statsData.avg_price);
+        setPriceGrowth(statsData.price_growth);
+        setPopularLocations(statsData.popular_locations);
+        setPriceTrendChart(statsData.price_trend_chart);
+        setLoading(prev => ({ ...prev, stats: false }));
+      } catch (err) {
+        console.error('Error loading stats:', err);
+        setError(prev => ({ ...prev, stats: 'Failed to load market statistics' }));
+        setLoading(prev => ({ ...prev, stats: false }));
+      }
+
+      try {
+        // Get featured properties
+        setLoading(prev => ({ ...prev, featured: true }));
+        const featuredData = await getFeaturedProperties();
+        setFeaturedProperties(featuredData);
+        setLoading(prev => ({ ...prev, featured: false }));
+      } catch (err) {
+        console.error('Error loading featured properties:', err);
+        setError(prev => ({ ...prev, featured: 'Failed to load featured properties' }));
+        setLoading(prev => ({ ...prev, featured: false }));
+      }
+    };
+
+    loadInitialData();
   }, []);
 
-  // Add featured properties data
-  const featuredProperties = [
-    {
-      id: 1,
-      title: "Luxury Villa in Vasant Kunj",
-      price: "2.5 Cr",
-      image: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      beds: 4,
-      baths: 3,
-      area: 3500,
-      tag: "Premium"
-    },
-    {
-      id: 2,
-      title: "Modern Apartment in Saket",
-      price: "1.8 Cr",
-      image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      beds: 3,
-      baths: 2,
-      area: 2200,
-      tag: "New Launch"
-    },
-    {
-      id: 3,
-      title: "Penthouse in Greater Kailash",
-      price: "3.2 Cr",
-      image: "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      beds: 5,
-      baths: 4,
-      area: 4100,
-      tag: "Featured"
-    }
-  ];
-
-  // Add these new states
-  const [userLocation, setUserLocation] = useState(null);
-  // Update the nearbyProperties array with more properties
-  const [nearbyProperties, setNearbyProperties] = useState([
-    {
-      id: 1,
-      title: "3 BHK Apartment",
-      location: "Sector 45, Noida",
-      distance: "1.2 km away",
-      price: "85 Lac",
-      image: "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      type: "Apartment",
-      possession: "Ready to Move"
-    },
-    {
-      id: 2,
-      title: "4 BHK Villa",
-      location: "Vasant Kunj, Delhi",
-      distance: "2.5 km away",
-      price: "1.9 Cr",
-      image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      type: "Villa",
-      possession: "Ready to Move"
-    },
-    {
-      id: 3,
-      title: "2 BHK Apartment",
-      location: "Sector 62, Noida",
-      distance: "3.1 km away",
-      price: "65 Lac",
-      image: "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
-      type: "Apartment",
-      possession: "Under Construction"
-    }
-  ]);
-
-  // Add popular locations
-  const popularLocations = ['Saket', 'Vasant Kunj', 'Greater Kailash', 'Dwarka'];
-
-  // Add this function to handle location permission
+  // Function to handle location permission and fetch nearby properties
   const requestLocationPermission = () => {
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
-          setUserLocation({
+        async (position) => {
+          const coords = {
             lat: position.coords.latitude,
             lng: position.coords.longitude
-          });
-          // Here you would typically fetch nearby properties from an API
-          console.log("Location obtained, would fetch properties from API");
+          };
+          setUserLocation(coords);
+          
+          // Fetch nearby properties
+          try {
+            setLoading(prev => ({ ...prev, nearby: true }));
+            const nearbyData = await getNearbyProperties(coords.lat, coords.lng);
+            setNearbyProperties(nearbyData);
+            setLoading(prev => ({ ...prev, nearby: false }));
+          } catch (err) {
+            console.error('Error loading nearby properties:', err);
+            setError(prev => ({ ...prev, nearby: 'Failed to load nearby properties' }));
+            setLoading(prev => ({ ...prev, nearby: false }));
+          }
         },
         (error) => {
           console.log("Error obtaining location:", error);
-          alert("Please enable location services to see properties around you");
+          setError(prev => ({ ...prev, nearby: 'Please enable location services to see properties around you' }));
         }
       );
     } else {
-      alert("Geolocation is not supported by this browser");
+      setError(prev => ({ ...prev, nearby: 'Geolocation is not supported by this browser' }));
     }
   };
 
@@ -166,27 +149,168 @@ const Home = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-gray-50 rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-4">Price Trends</h3>
-              <div className="h-64 bg-gray-200 rounded-lg">
-                {/* Add your price trend chart component here */}
+              {loading.stats ? (
+                <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <div className="animate-pulse text-gray-400">Loading chart...</div>
+                </div>
+              ) : priceTrendChart ? (
+                <div className="h-64 rounded-lg overflow-hidden">
+                  <img 
+                    src={`data:image/png;base64,${priceTrendChart}`} 
+                    alt="Price Trend Chart" 
+                    className="w-full h-full object-contain"
+                  />
+                </div>
+              ) : (
+                <div className="h-64 bg-gray-200 rounded-lg flex items-center justify-center">
+                  <div className="text-gray-500">Chart data unavailable</div>
+                </div>
+              )}
+              
+              {/* Market stats */}
+              <div className="mt-4 grid grid-cols-3 gap-4">
+                <div className="bg-white p-3 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-indigo-600">
+                    {loading.stats ? (
+                      <span className="animate-pulse">...</span>
+                    ) : (
+                      new Intl.NumberFormat('en-IN').format(propertiesCount)
+                    )}
+                  </div>
+                  <div className="text-sm text-gray-500">Properties</div>
+                </div>
+                <div className="bg-white p-3 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-indigo-600">
+                    {loading.stats ? (
+                      <span className="animate-pulse">...</span>
+                    ) : (
+                      `₹${(avgPrice / 10000000).toFixed(1)} Cr`
+                    )}
+                  </div>
+                  <div className="text-sm text-gray-500">Avg. Price</div>
+                </div>
+                <div className="bg-white p-3 rounded-lg text-center">
+                  <div className="text-2xl font-bold text-green-600">
+                    {loading.stats ? (
+                      <span className="animate-pulse">...</span>
+                    ) : (
+                      `+${priceGrowth}%`
+                    )}
+                  </div>
+                  <div className="text-sm text-gray-500">Annual Growth</div>
+                </div>
               </div>
             </div>
+            
             <div className="bg-gray-50 rounded-xl p-6">
               <h3 className="text-lg font-semibold mb-4">Popular Localities</h3>
-              <div className="space-y-4">
-                {['Dwarka', 'Noida Sector 62', 'Vasant Kunj'].map(locality => (
-                  <div key={locality} className="flex justify-between items-center p-3 bg-white rounded-lg">
-                    <span className="text-gray-700">{locality}</span>
-                    <span className="text-green-600">↑ 12%</span>
-                  </div>
-                ))}
-              </div>
+              {loading.stats ? (
+                <div className="space-y-4">
+                  {[1, 2, 3, 4, 5].map(i => (
+                    <div key={i} className="animate-pulse flex justify-between items-center p-3 bg-white rounded-lg">
+                      <div className="h-4 bg-gray-200 rounded w-1/3"></div>
+                      <div className="h-4 bg-gray-200 rounded w-16"></div>
+                    </div>
+                  ))}
+                </div>
+              ) : popularLocations.length > 0 ? (
+                <div className="space-y-4">
+                  {popularLocations.map(locality => (
+                    <div key={locality.name} className="flex justify-between items-center p-3 bg-white rounded-lg">
+                      <span className="text-gray-700">{locality.name}</span>
+                      <span className="text-green-600">↑ {locality.growth}</span>
+                    </div>
+                  ))}
+                </div>
+              ) : (
+                <div className="p-4 bg-white rounded-lg text-center text-gray-500">
+                  No locality data available
+                </div>
+              )}
             </div>
           </div>
         </div>
       </div>
 
-      {/* Properties Around You Section */}
+      {/* Featured Properties Section */}
       <div className="py-16 bg-gray-50">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex justify-between items-center mb-8">
+            <h2 className="text-2xl font-bold text-gray-900">Featured Properties</h2>
+            <Link to="/search" className="text-indigo-600 hover:text-indigo-700 font-medium">
+              View All
+            </Link>
+          </div>
+          
+          {loading.featured ? (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {[1, 2, 3].map(i => (
+                <div key={i} className="animate-pulse bg-white rounded-xl shadow-sm">
+                  <div className="h-48 bg-gray-200 rounded-t-xl"></div>
+                  <div className="p-4">
+                    <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+                    <div className="h-4 bg-gray-200 rounded w-1/2 mb-4"></div>
+                    <div className="flex justify-between">
+                      <div className="h-6 bg-gray-200 rounded w-1/4"></div>
+                      <div className="h-6 bg-gray-200 rounded w-1/4"></div>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : featuredProperties.length > 0 ? (
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              {featuredProperties.map(property => (
+                <div key={property.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                  <div className="relative">
+                    <img 
+                      src={property.image} 
+                      alt={property.title} 
+                      className="w-full h-48 object-cover rounded-t-xl" 
+                    />
+                    <div className="absolute top-3 right-3 bg-indigo-600 px-2 py-1 rounded-lg text-xs font-medium text-white">
+                      {property.tag}
+                    </div>
+                  </div>
+                  <div className="p-4">
+                    <h3 className="text-lg font-semibold text-gray-900 mb-2">{property.title}</h3>
+                    <div className="flex items-center text-sm text-gray-600 mb-3">
+                      <span className="mr-3">{property.beds} Beds</span>
+                      <span className="mr-3">{property.baths} Baths</span>
+                      <span>{property.area} sq.ft</span>
+                    </div>
+                    {property.amenities && (
+                      <div className="flex flex-wrap gap-2 mb-3">
+                        {property.amenities.map(amenity => (
+                          <span key={amenity} className="text-xs bg-gray-100 text-gray-600 px-2 py-1 rounded">
+                            {amenity}
+                          </span>
+                        ))}
+                      </div>
+                    )}
+                    <div className="flex justify-between items-center">
+                      <span className="text-lg font-bold text-indigo-600">₹{property.price}</span>
+                      <Link 
+                        to={`/property/${property.id}`}
+                        className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-lg hover:bg-indigo-100 transition-colors text-sm"
+                      >
+                        View Details
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className="bg-white rounded-xl p-8 text-center">
+              <p className="text-gray-500">No featured properties available at the moment.</p>
+            </div>
+          )}
+        </div>
+      </div>
+
+      {/* Properties Around You Section */}
+      <div className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-8">
             <div>
@@ -216,41 +340,63 @@ const Home = () => {
           </div>
           
           {userLocation ? (
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              {nearbyProperties.map(property => (
-                <div key={property.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow group">
-                  <div className="relative">
-                    <img 
-                      src={property.image} 
-                      alt={property.title} 
-                      className="w-full h-48 object-cover rounded-t-xl group-hover:opacity-95 transition-opacity" 
-                    />
-                    <div className="absolute top-3 right-3 bg-white px-2 py-1 rounded-lg text-xs font-medium text-indigo-600">
-                      {property.type}
+            loading.nearby ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {[1, 2, 3].map(i => (
+                  <div key={i} className="animate-pulse bg-white rounded-xl shadow-sm">
+                    <div className="h-48 bg-gray-200 rounded-t-xl"></div>
+                    <div className="p-4">
+                      <div className="h-4 bg-gray-200 rounded w-3/4 mb-2"></div>
+                      <div className="h-4 bg-gray-200 rounded w-1/2 mb-4"></div>
+                      <div className="flex justify-between">
+                        <div className="h-6 bg-gray-200 rounded w-1/4"></div>
+                        <div className="h-6 bg-gray-200 rounded w-1/4"></div>
+                      </div>
                     </div>
                   </div>
-                  <div className="p-4">
-                    <div className="flex items-center text-sm text-green-600 mb-2">
-                      <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
-                        <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
-                      </svg>
-                      {property.distance}
+                ))}
+              </div>
+            ) : nearbyProperties.length > 0 ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                {nearbyProperties.map(property => (
+                  <div key={property.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                    <div className="relative">
+                      <img 
+                        src={property.image} 
+                        alt={property.title} 
+                        className="w-full h-48 object-cover rounded-t-xl" 
+                      />
+                      <div className="absolute top-3 right-3 bg-green-600 px-2 py-1 rounded-lg text-xs font-medium text-white">
+                        {property.type}
+                      </div>
                     </div>
-                    <h3 className="text-lg font-semibold text-gray-900 mb-1">{property.title}</h3>
-                    <p className="text-gray-600 text-sm mb-3">{property.location}</p>
-                    <div className="flex justify-between items-center">
-                      <span className="text-lg font-bold text-indigo-600">₹{property.price}</span>
-                      <Link 
-                        to={`/property/${property.id}`}
-                        className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-lg hover:bg-indigo-100 transition-colors text-sm"
-                      >
-                        View Details
-                      </Link>
+                    <div className="p-4">
+                      <div className="flex items-center text-sm text-green-600 mb-2">
+                        <svg className="w-4 h-4 mr-1" fill="currentColor" viewBox="0 0 20 20">
+                          <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                        </svg>
+                        {property.distance}
+                      </div>
+                      <h3 className="text-lg font-semibold text-gray-900 mb-1">{property.title}</h3>
+                      <p className="text-gray-600 text-sm mb-3">{property.location}</p>
+                      <div className="flex justify-between items-center">
+                        <span className="text-lg font-bold text-indigo-600">₹{property.price}</span>
+                        <Link 
+                          to={`/property/${property.id}`}
+                          className="px-3 py-1 bg-indigo-50 text-indigo-600 rounded-lg hover:bg-indigo-100 transition-colors text-sm"
+                        >
+                          View Details
+                        </Link>
+                      </div>
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            ) : (
+              <div className="bg-white rounded-xl p-8 text-center">
+                <p className="text-gray-500">No properties found near your location.</p>
+              </div>
+            )
           ) : (
             <div className="bg-white rounded-xl p-8 text-center">
               <div className="w-16 h-16 bg-indigo-100 rounded-full flex items-center justify-center mx-auto mb-4">

@@ -4,7 +4,8 @@ import Navigation from './components/Navigation';
 import Home from './components/Home';
 import PropertySearch from './components/PropertySearch';
 import PropertyValuation from './components/PropertyValuation';
-import MarketAnalysis from './components/MarketAnalysis';
+// Update the import to use any type
+import MarketAnalysisPage from './components/MarketAnalysisPage.jsx';
 
 const App: React.FC = () => {
   return (
@@ -16,7 +17,7 @@ const App: React.FC = () => {
             <Route path="/" element={<Home />} />
             <Route path="/property-search" element={<PropertySearch />} />
             <Route path="/property-valuation" element={<PropertyValuation />} />
-            <Route path="/market-analysis" element={<MarketAnalysis />} />
+            <Route path="/market-analysis" element={<MarketAnalysisPage />} />
           </Routes>
         </main>
         <footer className="bg-white border-t border-gray-200 py-8 mt-12">
