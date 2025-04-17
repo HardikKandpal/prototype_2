@@ -1,0 +1,21 @@
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package.json and package-lock.json
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the rest of the application
+COPY . .
+
+# Update the API URL in the environment
+ENV VITE_API_URL=http://backend:7860
+
+# Expose port 5173 (Vite default)
+EXPOSE 5173
+
+# Start the application
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]

@@ -9,6 +9,9 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 # Copy the rest of the application
 COPY . /code/
 
+# Make sure data directories exist
+RUN mkdir -p /code/data /code/models /code/trained_models
+
 # Make port 7860 available (Hugging Face Spaces uses port 7860)
 EXPOSE 7860
 
