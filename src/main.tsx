@@ -13,9 +13,9 @@ declare global {
 }
 
 // Configure API URL for different environments
-// This ensures the frontend knows where to find the backend
+// This ensures the frontend knows where to find the backend  https://hardik8588-real_estate.hf.space
 window.ENV = {
-  API_URL: import.meta.env.VITE_API_URL || 'https://huggingface.co/spaces/hardik8588/real_estate'
+  API_URL: import.meta.env.VITE_API_URL || 'https://hardik8588-real_estate.hf.space'
 };
 
 console.log('Using API URL:', window.ENV.API_URL);
