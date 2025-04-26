@@ -213,7 +213,7 @@ const HomePage = () => {
                     </div>
                   ))}
                 </div>
-              ) : popularLocations.length > 0 ? (
+              ) : Array.isArray(popularLocations) && popularLocations.length > 0 ? (
                 <div className="space-y-4">
                   {popularLocations.map(locality => (
                     <div key={locality.name} className="flex justify-between items-center p-3 bg-white rounded-lg">
