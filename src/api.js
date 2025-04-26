@@ -1,7 +1,7 @@
 // API integration for the application
 
 // API configuration for connecting to the backend
-const API_BASE_URL = 'http://localhost:8000';
+const API_BASE_URL = 'https://hardik8588-real_estate.hf.space';
 
 // Property Valuation API
 export const getPropertyValuation = async (propertyData) => {
