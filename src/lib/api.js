@@ -1,7 +1,7 @@
 // JavaScript version of the API functions
 
 // Create base URL that changes based on environment
-const API_BASE_URL = window.ENV?.API_URL || import.meta.env.VITE_API_URL || 'https://hardik8588-real_estate.hf.space';
+const API_BASE_URL = 'https://hardik8588-real_estate.hf.space';
 
 // Create axios instance with base URL
 const api = {
