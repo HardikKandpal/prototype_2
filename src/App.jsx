@@ -4,8 +4,12 @@ import HomePage from './components/HomePage';
 import PropertyValuation from './components/PropertyValuation'; // Updated import path
 import PropertySearchPage from './components/PropertySearch'; // Updated path
 import MarketAnalysisPage from './components/MarketAnalysisPage';
+import React, { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    console.log("[App.jsx] App component mounted");
+  }, []);
   return (
     <Router>
       <div className="min-h-screen bg-gray-100">
