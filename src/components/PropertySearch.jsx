@@ -151,7 +151,7 @@ const PropertySearch = () => {
       return `₹${price.toLocaleString()}`;
     }
   };
-
+  console.log("Recommendations:", recommendations);
   return (
     <div className="max-w-7xl mx-auto p-6 md:p-8">
       <div className="glass-morphism rounded-3xl shadow-2xl p-8 relative overflow-hidden">
