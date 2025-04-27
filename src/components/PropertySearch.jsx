@@ -120,13 +120,17 @@ const PropertySearch = () => {
 
       const response = await getPropertyRecommendations(preferencesPayload);
 
-      if (response.success) {
-        setRecommendations(response.data || response.recommendations);
+      // Fix: Check for recommendations array instead of response.success
+      if (response && Array.isArray(response.recommendations)) {
+        setRecommendations(response.recommendations);
+      } else if (response && response.recommendations) {
+        setRecommendations(response.recommendations);
+      } else if (response && response.detail) {
+        setError(response.detail);
       } else {
-        setError(response.error || 'Failed to get recommendations');
+        setError('Failed to get recommendations');
       }
     } catch (error) {
-      console.error('Error getting recommendations:', error);
       setError('Failed to connect to recommendation service. Please try again later.');
     } finally {
       setLoading(false);
