@@ -14,11 +14,11 @@ const MarketAnalysisPage = () => {
     const fetchLocations = async () => {
       try {
         const response = await getLocations();
-        if (response && response.locations) {
-          setLocations(response.locations);
-          if (response.locations.length > 0) {
-            setSelectedLocation(response.locations[0]);
-          }
+        // Support both { locations: [...] } and { data: [...] }
+        const locationsList = response?.locations || response?.data || [];
+        if (locationsList.length > 0) {
+          setLocations(locationsList);
+          setSelectedLocation(locationsList[0]);
         } else {
           // Fallback locations if API fails
           const fallbackLocations = [
