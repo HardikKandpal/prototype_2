@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { getPropertyRecommendations, getLocations, getPropertyTypes, getAmenities } from '../lib/api';
+import { getPropertyRecommendations, getLocations, getPropertyTypes, getAmenities } from '../api';
 
 // Update the preferences interface to match the CSV structure
 interface PropertyPreferences {
