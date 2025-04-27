@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getMarketAnalysis, getLocations } from './lib/api';
+import { getMarketAnalysis, getLocations } from '../api';
 
 const MarketAnalysisPage = () => {
   const [locations, setLocations] = useState([]);
