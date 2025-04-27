@@ -51,16 +51,20 @@ const PropertySearch = () => {
             getAmenities()
           ]);
           
-          if (locationsRes.success && locationsRes.data.length > 0) {
-            setLocations(['Any', ...locationsRes.data]);
+          // Fix: Use correct keys and fallback to empty array if undefined
+          const locationsData = locationsRes.locations || locationsRes.data || [];
+          if (locationsRes.success && locationsData.length > 0) {
+            setLocations(['Any', ...locationsData]);
           }
           
-          if (propertyTypesRes.success && propertyTypesRes.data.length > 0) {
-            setPropertyTypes(['Any', ...propertyTypesRes.data]);
+          const propertyTypesData = propertyTypesRes.propertyTypes || propertyTypesRes.data || [];
+          if (propertyTypesRes.success && propertyTypesData.length > 0) {
+            setPropertyTypes(['Any', ...propertyTypesData]);
           }
           
-          if (amenitiesRes.success && amenitiesRes.data.length > 0) {
-            setAmenitiesList(amenitiesRes.data);
+          const amenitiesData = amenitiesRes.amenities || amenitiesRes.data || [];
+          if (amenitiesRes.success && amenitiesData.length > 0) {
+            setAmenitiesList(amenitiesData);
           }
         } catch (apiError) {
           console.error('API error:', apiError);
