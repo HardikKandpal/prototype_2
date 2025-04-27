@@ -205,47 +205,65 @@ export const getHomePageStats = async () => {
   try {
     console.log('API call: getHomePageStats');
     
-    // Try to fetch from the backend first
-    try {
-      const response = await fetch(`${API_BASE_URL}/api/home-stats`);
+    const response = await fetch(`${API_BASE_URL}/api/home-stats`);
+    
+    if (response.ok) {
+      const data = await response.json();
+      console.log('Home stats response:', data);
       
-      if (response.ok) {
-        const data = await response.json();
-        console.log('Home stats response:', data);
-        return data;
-      }
-    } catch (fetchError) {
-      console.warn('Could not fetch home stats from API, using fallback data', fetchError);
+      // Normalize the structure so frontend can use it safely
+      return {
+        total_properties: data.total_properties ?? (data.stats?.totalProperties ?? 1000),
+        avg_price: data.avg_price ?? parsePriceString(data.stats?.averagePrice) ?? 10000000,
+        price_growth: data.price_growth ?? parseGrowthString(data.stats?.marketTrend) ?? 5.0,
+        popular_locations: data.popular_locations ?? data.featuredLocations?.map(loc => ({
+          name: loc.name,
+          growth: loc.growth
+        })) ?? [],
+        price_trend_chart: data.price_trend_chart ?? ""
+      };
     }
     
-    // Fallback data if API call fails
-    return {
-      success: true,
-      stats: {
-        totalProperties: 1250,
-        newListings: 48,
-        averagePrice: "₹1.2 Cr",
-        marketTrend: "+5.2%"
-      },
-      featuredLocations: [
-        { name: "South Delhi", growth: "+7.2%", avgPrice: "₹2.5 Cr" },
-        { name: "Gurgaon", growth: "+4.8%", avgPrice: "₹1.8 Cr" },
-        { name: "Noida", growth: "+3.5%", avgPrice: "₹1.1 Cr" }
-      ]
-    };
+    throw new Error('Failed to fetch');
   } catch (error) {
-    console.error('Error getting home page stats:', error);
+    console.error('Home stats API error:', error);
+    
+    // Fallback to hardcoded default if API fails
     return {
-      success: false,
-      error: error.message || 'Unknown error occurred',
-      stats: {
-        totalProperties: 1000,
-        newListings: 30,
-        averagePrice: "₹1.0 Cr",
-        marketTrend: "+3.0%"
-      }
+      total_properties: 1000,
+      avg_price: 12500000,
+      price_growth: 5.2,
+      popular_locations: [
+        { name: "Vasant Kunj", growth: "8.5%" },
+        { name: "Greater Kailash", growth: "7.2%" },
+        { name: "Dwarka", growth: "6.8%" },
+        { name: "Connaught Place", growth: "5.9%" },
+        { name: "Saket", growth: "5.5%" }
+      ],
+      price_trend_chart: ""
     };
   }
+};
+
+// Helper functions
+const parsePriceString = (priceStr) => {
+  if (!priceStr) return null;
+  // Example input: "₹1.2 Cr"
+  const match = priceStr.match(/([\d.]+)\s*Cr/i);
+  if (match) {
+    return parseFloat(match[1]) * 10000000; // Convert Cr to ₹
+  }
+  return null;
+};
+
+const parseGrowthString = (growthStr) => {
+  if (!growthStr) return null;
+  // Example input: "+5.2%"
+  const match = growthStr.match(/([-+]?\d+(\.\d+)?)%/);
+  if (match) {
+    return parseFloat(match[1]);
+  }
+  return null;
 };
 
 // Add these functions if they're not already defined
