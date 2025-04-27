@@ -168,7 +168,7 @@ export const getHomePageStats = async () => {
 export const getFeaturedProperties = async () => {
   try {
     // Backend endpoint is /featured-properties (not /api/featured-properties)
-    const response = await fetch(`${API_BASE_URL}/featured-properties`);
+    const response = await fetch(`${API_BASE_URL}/api/featured-properties`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     return await response.json();
   } catch (error) {
