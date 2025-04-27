@@ -108,37 +108,28 @@ const PropertySearch = () => {
     setError(null);
     
     try {
-      // Format data to match the API's expected input
-      const apiPayload = {
-        budget: preferences.budget === 'Any' ? 0 : parseInt(preferences.budget.split('-')[1] || 5000000),
-        location_preference: preferences.location === 'Any' ? '' : preferences.location,
-        property_type: preferences.propertyType === 'Any' ? '' : preferences.propertyType,
-        min_bedrooms: preferences.bedrooms === 'Any' ? 1 : parseInt(preferences.bedrooms),
-        min_bathrooms: preferences.bathrooms === 'Any' ? 1 : parseInt(preferences.bathrooms),
-        desired_amenities: preferences.amenities
+      // Format data to match the recommender model's expected input format
+      const formattedPreferences = {
+        propertyType: preferences.propertyType === 'Any' ? '' : preferences.propertyType,
+        budget: preferences.budget === 'Any' ? '0-999999999' : preferences.budget,
+        location: preferences.location === 'Any' ? '' : preferences.location,
+        bedrooms: preferences.bedrooms === 'Any' ? '' : preferences.bedrooms,
+        bathrooms: preferences.bathrooms === 'Any' ? '' : preferences.bathrooms,
+        squareFootage: preferences.squareFootage === 'Any' ? '' : preferences.squareFootage,
+        yearBuilt: preferences.yearBuilt === 'Any' ? '' : preferences.yearBuilt,
+        amenities: preferences.amenities
       };
-  
-      // Remove empty values
-      Object.keys(apiPayload).forEach(key => {
-        if (apiPayload[key] === '' || apiPayload[key] === null) {
-          delete apiPayload[key];
-        }
-      });
-  
-      const response = await getPropertyRecommendations(apiPayload);
       
-      // Handle the API response
-      if (response && (response.data || response.recommendations)) {
-        const results = response.data || response.recommendations || [];
-        setRecommendations(Array.isArray(results) ? results : [results]);
+      const response = await getPropertyRecommendations(formattedPreferences);
+      
+      if (response.success) {
+        setRecommendations(response.data || response.recommendations);
       } else {
-        setError(response?.error || 'No matching properties found');
-        setRecommendations([]);
+        setError(response.error || 'Failed to get recommendations');
       }
     } catch (error) {
       console.error('Error getting recommendations:', error);
       setError('Failed to connect to recommendation service. Please try again later.');
-      setRecommendations([]);
     } finally {
       setLoading(false);
     }
@@ -354,28 +345,24 @@ const PropertySearch = () => {
           </h3>
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {recommendations.map(property => (
-              <div key={property.id || property.property_id} className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden hover-scale">
+            {recommendations.map(property => (
+              <div key={property.id} className="bg-white/80 backdrop-blur-sm rounded-2xl shadow-lg overflow-hidden hover-scale">
                 <div className="p-6">
-                  <h4 className="text-xl font-semibold mb-2 text-gray-800">
-                    {property.property_type || 'Property'} in {property.location || property.neighborhood}
-                  </h4>
-                  <p className="text-2xl font-bold text-indigo-600 mb-4">
-                    {formatIndianPrice(property.price || property.price_inr)}
-                  </p>
+                  <h4 className="text-xl font-semibold mb-2 text-gray-800">{property.title}</h4>
+                  <p className="text-2xl font-bold text-indigo-600 mb-4">{formatIndianPrice(property.price)}</p>
                   
                   <div className="flex justify-between mb-4">
                     <span className="text-gray-600 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z" />
                       </svg>
-                      {property.bedrooms || property.bedroom_count} BHK
+                      {property.bedrooms} BHK
                     </span>
                     <span className="text-gray-600 flex items-center">
                       <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                         <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v2H7a1 1 0 100 2h2v2a1 1 0 102 0v-2h2a1 1 0 100-2h-2V7z" clipRule="evenodd" />
                       </svg>
-                      {property.square_footage || property.area} sq.ft
+                      {property.squareFeet} sq.ft
                     </span>
                   </div>
                   
