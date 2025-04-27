@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { getPropertyValuation } from '../lib/api';
+import { getPropertyValuation } from '../api';
 
 interface PropertyDetails {
   propertyType: string;
