@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { getPropertyRecommendations, getLocations, getPropertyTypes, getAmenities } from '../lib/api';
+import { getPropertyRecommendations, getLocations, getPropertyTypes, getAmenities } from '../api';
 
 const PropertySearch = () => {
   // Initialize with default values
