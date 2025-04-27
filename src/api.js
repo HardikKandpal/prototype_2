@@ -1,7 +1,10 @@
 // Unified API utility for AI RealEstate frontend
 
 // Use Vite env or fallback to production URL
-const API_BASE_URL = "https://hardik8588-real-estate.hf.space";
+const API_BASE_URL =
+  (typeof window !== "undefined" && window.ENV && window.ENV.API_URL) ||
+  import.meta?.env?.VITE_API_URL ||
+  "https://hardik8588-real_estate.hf.space";
 
 console.log("[API] Using API_BASE_URL:", API_BASE_URL);
 
@@ -93,22 +96,24 @@ export const getMarketAnalysis = async (location, months = 12) => {
 };
 
 // --- Property Recommendations ---
-export const getPropertyRecommendations = async (criteria) => {
-  console.log("[API] getPropertyRecommendations called with:", criteria);
+export const getPropertyRecommendations = async (preferences) => {
   try {
-    const response = await fetch(`${API_BASE_URL}/api/property-recommendations`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(criteria),
-    });
-    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
-    const data = await response.json();
-    return { recommendations: data.recommendations ?? data.data ?? [], ...data };
+    const response = await axios.post(
+      'https://hardik8588-real-estate.hf.space/api/property-recommendations',
+      preferences,
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      }
+    );
+    return response.data;
   } catch (error) {
-    return {
-      recommendations: [],
-      error: error.message,
-      status: "error"
+    console.error('API Error:', error);
+    return { 
+      success: false, 
+      error: error.response?.data?.error || 'Failed to fetch recommendations' 
     };
   }
 };
@@ -165,7 +170,7 @@ export const getHomePageStats = async () => {
 export const getFeaturedProperties = async () => {
   try {
     // Backend endpoint is /featured-properties (not /api/featured-properties)
-    const response = await fetch(`${API_BASE_URL}/api/featured-properties`);
+    const response = await fetch(`${API_BASE_URL}/featured-properties`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
     return await response.json();
   } catch (error) {
