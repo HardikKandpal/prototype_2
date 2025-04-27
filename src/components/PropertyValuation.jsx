@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { getPropertyValuation } from '../api';
-
+useEffect(() => {
+  console.log("[PropertyValuation.jsx] Component mounted");
+}, []);
 const PropertyValuation = () => {
   const [propertyDetails, setPropertyDetails] = useState({
     propertyType: '',
