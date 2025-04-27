@@ -1,7 +1,12 @@
 // Unified API utility for AI RealEstate frontend
 
 // Use Vite env or fallback to production URL
-const API_BASE_URL = import.meta?.env?.VITE_API_URL || "https://hardik8588-real_estate.hf.space";
+const API_BASE_URL =
+  (typeof window !== "undefined" && window.ENV && window.ENV.API_URL) ||
+  import.meta?.env?.VITE_API_URL ||
+  "https://hardik8588-real_estate.hf.space";
+
+console.log("[API] Using API_BASE_URL:", API_BASE_URL);
 
 // Helper: Normalize API responses for frontend
 const normalize = (res, keys = []) => {
@@ -17,6 +22,7 @@ const normalize = (res, keys = []) => {
 
 // --- Property Valuation ---
 export const getPropertyValuation = async (property) => {
+  console.log("[API] getPropertyValuation called with:", property);
   try {
     const response = await fetch(`${API_BASE_URL}/api/valuation`, {
       method: "POST",
@@ -44,6 +50,7 @@ export const getPropertyValuation = async (property) => {
 
 // --- Market Analysis ---
 export const getMarketAnalysis = async (location, months = 12) => {
+  console.log("[API] getMarketAnalysis called with:", location, months);
   try {
     const response = await fetch(`${API_BASE_URL}/api/market-analysis`, {
       method: "POST",
@@ -90,6 +97,7 @@ export const getMarketAnalysis = async (location, months = 12) => {
 
 // --- Property Recommendations ---
 export const getPropertyRecommendations = async (criteria) => {
+  console.log("[API] getPropertyRecommendations called with:", criteria);
   try {
     const response = await fetch(`${API_BASE_URL}/api/property-recommendations`, {
       method: "POST",
@@ -110,6 +118,7 @@ export const getPropertyRecommendations = async (criteria) => {
 
 // --- Get Available Locations ---
 export const getLocations = async () => {
+  console.log("[API] getLocations called");
   try {
     const response = await fetch(`${API_BASE_URL}/api/locations`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
@@ -133,6 +142,7 @@ export const getLocations = async () => {
 
 // --- Home Stats ---
 export const getHomePageStats = async () => {
+  console.log("[API] getHomePageStats called");
   try {
     const response = await fetch(`${API_BASE_URL}/api/home-stats`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
@@ -203,6 +213,7 @@ export const getFeaturedProperties = async () => {
 
 // --- Nearby Properties ---
 export const getNearbyProperties = async (coordinates) => {
+  console.log("[API] getNearbyProperties called with:", coordinates);
   try {
     const response = await fetch(`${API_BASE_URL}/api/nearby-properties`, {
       method: "POST",
@@ -250,6 +261,7 @@ export const getNearbyProperties = async (coordinates) => {
 
 // --- Property Types (frontend fallback only) ---
 export const getPropertyTypes = async () => {
+  console.log("[API] getPropertyTypes called");
   return {
     success: true,
     propertyTypes: [
@@ -260,6 +272,7 @@ export const getPropertyTypes = async () => {
 
 // --- Amenities (frontend fallback only) ---
 export const getAmenities = async () => {
+  console.log("[API] getAmenities called");
   return {
     success: true,
     amenities: [
@@ -271,6 +284,7 @@ export const getAmenities = async () => {
 
 // --- Test endpoint ---
 export const testAPI = async () => {
+  console.log("[API] testAPI called");
   try {
     const response = await fetch(`${API_BASE_URL}/api/test`);
     if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
@@ -282,6 +296,7 @@ export const testAPI = async () => {
 
 // --- Ping/health endpoint ---
 export const pingAPI = async () => {
+  console.log("[API] pingAPI called");
   try {
     // Backend ping endpoint is //ping (double slash, as in backend)
     const response = await fetch(`${API_BASE_URL}//ping`);
