@@ -1,5 +1,6 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { getPropertyValuation } from '../api';
+
 useEffect(() => {
   console.log("[PropertyValuation.jsx] Component mounted");
 }, []);
