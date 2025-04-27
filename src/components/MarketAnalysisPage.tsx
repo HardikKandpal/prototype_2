@@ -1,5 +1,5 @@
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
-import { getMarketAnalysis, getLocations } from '../lib/api';
+import { getMarketAnalysis, getLocations } from '../api';
 
 interface MarketTrend {
   metric: string;
