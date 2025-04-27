@@ -96,24 +96,22 @@ export const getMarketAnalysis = async (location, months = 12) => {
 };
 
 // --- Property Recommendations ---
-export const getPropertyRecommendations = async (preferences) => {
+export const getPropertyRecommendations = async (criteria) => {
+  console.log("[API] getPropertyRecommendations called with:", criteria);
   try {
-    const response = await axios.post(
-      'https://hardik8588-real-estate.hf.space/api/property-recommendations',
-      preferences,
-      {
-        headers: {
-          'Content-Type': 'application/json',
-          'Accept': 'application/json'
-        }
-      }
-    );
-    return response.data;
+    const response = await fetch(`${API_BASE_URL}/api/property-recommendations`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(criteria),
+    });
+    if (!response.ok) throw new Error(`HTTP error! Status: ${response.status}`);
+    const data = await response.json();
+    return { recommendations: data.recommendations ?? data.data ?? [], ...data };
   } catch (error) {
-    console.error('API Error:', error);
-    return { 
-      success: false, 
-      error: error.response?.data?.error || 'Failed to fetch recommendations' 
+    return {
+      recommendations: [],
+      error: error.message,
+      status: "error"
     };
   }
 };
