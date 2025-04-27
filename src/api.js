@@ -1,10 +1,7 @@
 // Unified API utility for AI RealEstate frontend
 
 // Use Vite env or fallback to production URL
-const API_BASE_URL =
-  (typeof window !== "undefined" && window.ENV && window.ENV.API_URL) ||
-  import.meta?.env?.VITE_API_URL ||
-  "https://hardik8588-real_estate.hf.space";
+const API_BASE_URL = "https://hardik8588-real-estate.hf.space";
 
 console.log("[API] Using API_BASE_URL:", API_BASE_URL);
 
