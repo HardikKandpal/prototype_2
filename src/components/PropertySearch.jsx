@@ -106,22 +106,28 @@ const PropertySearch = () => {
     e.preventDefault();
     setLoading(true);
     setError(null);
-    
+
     try {
-      // Format data to match the recommender model's expected input format
+      // Map frontend fields to backend schema and types
+      let minBudget = 0;
+      let maxBudget = 999999999;
+      if (preferences.budget !== 'Any') {
+        const [min, max] = preferences.budget.split('-').map(Number);
+        minBudget = min;
+        maxBudget = max;
+      }
+
       const formattedPreferences = {
-        propertyType: preferences.propertyType === 'Any' ? '' : preferences.propertyType,
-        budget: preferences.budget === 'Any' ? '0-999999999' : preferences.budget,
-        location: preferences.location === 'Any' ? '' : preferences.location,
-        bedrooms: preferences.bedrooms === 'Any' ? '' : preferences.bedrooms,
-        bathrooms: preferences.bathrooms === 'Any' ? '' : preferences.bathrooms,
-        squareFootage: preferences.squareFootage === 'Any' ? '' : preferences.squareFootage,
-        yearBuilt: preferences.yearBuilt === 'Any' ? '' : preferences.yearBuilt,
-        amenities: preferences.amenities
+        budget: maxBudget, // backend expects a float (max budget)
+        location_preference: preferences.location === 'Any' ? undefined : preferences.location,
+        property_type: preferences.propertyType === 'Any' ? undefined : preferences.propertyType,
+        min_bedrooms: preferences.bedrooms === 'Any' ? undefined : Number(preferences.bedrooms),
+        min_bathrooms: preferences.bathrooms === 'Any' ? undefined : Number(preferences.bathrooms),
+        desired_amenities: preferences.amenities.length > 0 ? preferences.amenities : undefined,
       };
-      
+
       const response = await getPropertyRecommendations(formattedPreferences);
-      
+
       if (response.success) {
         setRecommendations(response.data || response.recommendations);
       } else {
