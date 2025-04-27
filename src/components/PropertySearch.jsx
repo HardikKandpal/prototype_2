@@ -108,25 +108,17 @@ const PropertySearch = () => {
     setError(null);
 
     try {
-      // Map frontend fields to backend schema and types
-      let minBudget = 0;
-      let maxBudget = 999999999;
-      if (preferences.budget !== 'Any') {
-        const [min, max] = preferences.budget.split('-').map(Number);
-        minBudget = min;
-        maxBudget = max;
-      }
-
-      const formattedPreferences = {
-        budget: maxBudget, // backend expects a float (max budget)
-        location_preference: preferences.location === 'Any' ? undefined : preferences.location,
-        property_type: preferences.propertyType === 'Any' ? undefined : preferences.propertyType,
-        min_bedrooms: preferences.bedrooms === 'Any' ? undefined : Number(preferences.bedrooms),
-        min_bathrooms: preferences.bathrooms === 'Any' ? undefined : Number(preferences.bathrooms),
-        desired_amenities: preferences.amenities.length > 0 ? preferences.amenities : undefined,
+      // Build preferences object with unified keys
+      const preferencesPayload = {
+        propertyType: preferences.propertyType,
+        budget: preferences.budget,
+        location: preferences.location,
+        bedrooms: preferences.bedrooms,
+        bathrooms: preferences.bathrooms,
+        amenities: preferences.amenities,
       };
 
-      const response = await getPropertyRecommendations(formattedPreferences);
+      const response = await getPropertyRecommendations(preferencesPayload);
 
       if (response.success) {
         setRecommendations(response.data || response.recommendations);
